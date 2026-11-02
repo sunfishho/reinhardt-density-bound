@@ -1,6 +1,8 @@
 # Reinhardt improved packing-density bound
 
-**The requested lower-bound formalization is complete.** The final theorem is
+**We formalize an improved lower-bound for Reinhardt's conjecture** 
+
+The final theorem is
 `Certificate.Packing.reinhardt_density_lower_bound` in
 `Certificate/ReinhardtDensityBound.lean`:
 
@@ -11,22 +13,19 @@ theorem reinhardt_density_lower_bound (K : Set E) (hK : IsSymmetricConvexDisc K)
 
 Here `E` is the Euclidean plane. The hypothesis says that K is compact, convex,
 has nonempty interior, and is symmetric about the origin. `packingDensity` is
-the original benchmark definition: the supremum of ball-limsup densities of
-packings by congruent copies. The final theorem has no assumed minimizing body,
-trajectory, boundary presentation, regularity, or published geometric lemma.
-The corresponding universal `hexagonRatio` lower bound is also proved.
+the original definition: the supremum of ball-limsup densities of
+packings by congruent copies.
 
-This verifies the improved universal lower bound 0.8950112. It is not the
-Reinhardt conjecture identifying the optimal shape. The certificate is the
-fixed supplied certificate; the optimization that discovered it is not rerun.
+This repository verifies the improved universal lower bound 0.8950112.
 
-The combined audit covers **527 named targets**. Only `propext`,
-`Classical.choice`, and `Quot.sound` are accepted. The numerical checks use
+The only accepted assumptions are `propext`,
+`Classical.choice`, and `Quot.sound`; in particular, the numerical checks use
 kernel-checked exact arithmetic, with no `native_decide`, custom axioms, or
-unfinished proofs in the production sources. See `logs/final/verification.json`
+unfinished proofs. See `logs/final/verification.json`
 for the source/artifact manifest and exact axiom dependencies. Development
-history and intermediate assumption boundaries remain in `WORK_LOG.md`.
+history and intermediate assumption boundaries are in `WORK_LOG.md`.
 
+As described by GPT Astra:
 ## Proof chain
 
 1. The supplied certificate is checked exactly: 248 Gram matrices, 248 Gram
