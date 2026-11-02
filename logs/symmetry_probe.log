@@ -1,0 +1,17 @@
+Nat.decidableForallFin fun i => ∀ (j : Fin 2), 0 = 0
+Certificate/SymmetryProbe.lean:5:20: warning: Variable name `i` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _i
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+Certificate/SymmetryProbe.lean:5:22: warning: Variable name `j` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _j
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+Certificate/SymmetryProbe.lean:6:0: error: failed to synthesize
+  Decidable (∀ (i j : Fin 104), A j i = A i j)
+
+Hint: Additional diagnostic information may be available using the `set_option diagnostics true` command.

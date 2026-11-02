@@ -1,0 +1,22 @@
+Certificate/HVCornerCoordinates.lean:10:25: warning: Variable name `u` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _u
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+Certificate/HVCornerCoordinates.lean:12:27: warning: Variable name `v` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _v
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+Certificate/HVCornerCoordinates.lean:14:29: warning: Variable name `w` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _w
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+'Certificate.Packing.HVGeometry.cornerMap_det' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.HVGeometry.cornerMap_vertex' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.HVGeometry.cornerMap_area_normalization' depends on axioms: [propext, Classical.choice, Quot.sound]
+LEAN_BUILD {"argv": ["-M", "8192", "-o", "Certificate/HVCornerCoordinates.olean", "Certificate/HVCornerCoordinates.lean"], "cache_argv": ["-o", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/HVCornerCoordinates.olean", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/HVCornerCoordinates.lean"], "cache_hit": false, "cache_validation_seconds": 0.5100251659750938, "compile_seconds": 31.920477374980692, "dedup_wait_seconds": 0.00010462501086294651, "exit_code": 0, "output": "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/HVCornerCoordinates.olean", "overhead_seconds": 0.5133590000332333, "pid": 97773, "priority": "interactive", "profile_requested": false, "provenance_incomplete": ["/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/GeometricCoordinates.lean", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/Problem.lean"], "queue_seconds": 0.0006937089492566884, "schema": 1, "source": "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/HVCornerCoordinates.lean", "timed_out": false, "wall_seconds": 32.434634708974045}

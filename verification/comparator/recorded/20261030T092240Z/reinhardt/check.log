@@ -1,0 +1,26 @@
+Building Challenge
+WARNING: THIS IS NOT REAL LANDRUN! UNSAFELY RUNNING exec lake build Challenge
+✖ [1/1] Running ReinhardtComparator/Challenge
+error: Entry compilation failed: Challenge (exit 1)
+Some required targets logged failures:
+- ReinhardtComparator/Challenge
+error: build failed
+uncaught exception: Child exited with 1
+        5.35 real         0.52 user         2.32 sys
+           694157312  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+               81223  page reclaims
+                8154  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+               24519  voluntary context switches
+                6642  involuntary context switches
+           240137628  instructions retired
+            81405969  cycles elapsed
+             7422504  peak memory footprint

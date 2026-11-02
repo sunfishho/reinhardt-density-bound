@@ -1,0 +1,65 @@
+Certificate/TrajectoryCost.lean: exit 0
+Certificate/RegionSanity.lean: exit 0
+Certificate/Potential/ControlCoordinates.lean: exit 0
+Certificate/NewCertificateDefinitions.lean: exit 0
+Certificate/NewCertificateVertex0.lean: exit 0
+Certificate/NewCertificateVertex1.lean: exit 0
+Certificate/NewCertificateVertex2.lean: exit 0
+Certificate/NewCertificateBoundary.lean: exit 0
+Certificate/NewCertificate.lean: exit 0
+Certificate/ControlTheorem.lean: exit 0
+Certificate/Final.lean: exit 0
+Certificate.lean: exit 0
+{
+  "certificate_on_region_verified": true,
+  "original_matrix_ode_cost_theorem_verified": true,
+  "conditional_density_theorem_verified": true,
+  "unconditional_packing_density_theorem_verified": false,
+  "conclusion": "8950112/10000000 < density",
+  "remaining_geometric_inputs": [
+    "Existence of a determinant-one control trajectory for the relevant packing/minimizer.",
+    "Confinement of that trajectory in all 19 explicitly listed primitive region inequalities.",
+    "Absolute continuity, simplex controls, the original matrix ODE, and normalized endpoints.",
+    "The packing reduction: trajectory cost/(2*sqrt(3)) <= packing density."
+  ],
+  "verified_theorems": {
+    "Certificate.NewCertificate.differential": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Certificate.NewCertificate.boundary": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Certificate.certified_control_cost": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Certificate.AdmissibleTrajectory.cost_lower_bound": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Certificate.density_bound_of_admissible_trajectory": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Certificate.certificate_region_nonempty": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ]
+  },
+  "original_inputs_sha256": "813f5bf7abcb6a1bcd175e2de7d26ee2fcbfd243f62a5e74482e6d64c9ea2991",
+  "exact_certificates_sha256": "8691863414e5dacb713ebae1cc8a638433e6fd6594d8a9a801414afd5d01e42c",
+  "original_input_hashes_verified": true,
+  "exact_certificate_hashes_verified": true,
+  "lean_toolchain": "leanprover/lean4:v4.33.0",
+  "lean_binary_sha256": "1b370cfcbf44e80d1b004ab1b1ab9a4c73951f9f7c242140bcff9bc577576554",
+  "lakefile_sha256": "c0aac6e8d4afcb4f1873937aadbbcc5f96693b82c7165c797c0a00e3a0b0b648",
+  "dependency_replay_requested": false
+}

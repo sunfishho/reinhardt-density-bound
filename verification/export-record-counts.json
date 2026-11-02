@@ -1,0 +1,21 @@
+{
+  "source": "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/verification/comparator/recorded/20261030T092754Z/reinhardt/Solution.ndjson",
+  "bytes": 1124174737,
+  "top_level_record_counts": {
+    "meta": 1,
+    "in": 1021177,
+    "il": 3044,
+    "ie": 2174369,
+    "const": 231507,
+    "forallE": 528387,
+    "bvar": 838,
+    "app": 16946322,
+    "inductive": 997,
+    "def": 57909,
+    "thm": 76330,
+    "quot": 4,
+    "axiom": 3,
+    "opaque": 54
+  },
+  "scan_seconds": 8.245773791000829
+}

@@ -1,0 +1,17 @@
+import Certificate.CriticalMidpointDynamics
+
+/-! The continuous successor on the critical midpoint locus is a homeomorphism
+with the six-point balance identities and fixed positive determinant. -/
+namespace Certificate.Packing
+open Set MeasureTheory HexParameters Topology
+set_option maxHeartbeats 0
+
+lemma Hex.sideRelabel_det (H : Hex) (i : Fin 6) :
+    det2 (H.sideRelabel i).v (H.sideRelabel i).w=det2 H.v H.w := by
+  fin_cases i <;> simp [sideRelabel,rotate_det]
+
+lemma Hex.sideRelabel_next_midpoint (H : Hex) (i : Fin 6) :
+    (H.sideRelabel i).midpoint 1=H.midpoint (i+1) := by
+  fin_cases i <;> norm_num [sideRelabel,rotate,midpoint,Fin.reduceAdd] <;> trace_state <;> module
+
+end Certificate.Packing

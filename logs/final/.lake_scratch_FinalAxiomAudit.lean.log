@@ -1,0 +1,732 @@
+'Certificate.NewCertificate.differential' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.NewCertificate.boundary' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.certified_control_cost' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.AdmissibleTrajectory.cost_lower_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.density_bound_of_admissible_trajectory' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.certificate_region_nonempty' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Confinement.height_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Confinement.state_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Confinement.energy_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Confinement.row_polar_representation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Confinement.row_sector' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Confinement.RegularPath.group_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Confinement.hasDerivAt_of_ac_continuous_rhs' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Confinement.cuspAndWall_chart_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Confinement.hvCompact_iff_rotated' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.CompactTrajectory.certificate_region' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.CompactTrajectory.cost_lower_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.density_bound_of_compact_trajectory' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.packingDensity_ge_lattice' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.Hex.disjoint_of_subset' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.packingDensity_ge_hexagon' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.Hex.det_of_midpoints' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.packingDensity_ge_normalized_area' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Confinement.compact_of_areaScore' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Confinement.certified_density_lt_exclusion_threshold' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Certificate.NormalizedTrajectory.cost_lower_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Curvature.controls_of_nonnegative_curvature' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.CurvatureTrajectory.determinant_tangent_ae' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.CurvatureTrajectory.matrix_ode' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.CurvatureTrajectory.cost_lower_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.packing_density_bound_of_geometric_data' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.packing_density_bound_of_curvature_data' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.volume_Tri' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.volume_triangle' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.hales_vajjha_parallel_cut_area' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.cutHex_covolume' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.volume_cutHex' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.exists_cornerDistance_eq_of_area_minimal' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Certificate.Packing.hales_vajjha_corner_contribution' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.HVGeometry.midpoints' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.HVGeometry.exterior_edge_incidence' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.HVGeometry.interior_triangle_areas' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.HVGeometry.exterior_triangle_areas' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.HVGeometry.interior_area_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.HVGeometry.geometric_areaScore_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.HVGeometry.volume_inscribedHexagon' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.HVGeometry.baseline_area_lower_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.HVGeometry.cornerRegion_inter_null' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.HVGeometry.inscribedHexagon_cornerRegion_inter_null' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Certificate.Packing.HVGeometry.vertex_mem_cornerRegion' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.HVGeometry.corner_pieces_area_lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Certificate.Packing.HVGeometry.six_corner_area_lower_bound_of_triangle_contacts' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Certificate.Packing.HexAreaLowerBound.linear_image' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.triangleArea_linearMap' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.HVGeometry.cornerMap_det' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.HVGeometry.cornerMap_area_normalization' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.HVGeometry.first_corner_contact' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.HVGeometry.rotate_midpoints' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.HVGeometry.rotate_vertex' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.HVGeometry.rotate_sides' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.HVGeometry.second_corner_contact' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.HVGeometry.third_corner_contact' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.HVGeometry.hales_vajjha_area_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.HVGeometry.normalizedHex_covolume' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.HVGeometry.volume_normalizedHex' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.HVGeometry.hexAreaLowerBound_of_normalized_minimum' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Certificate.Packing.HVGeometry.hales_vajjha_area_bound_of_minimal_hexagon' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Certificate.Packing.HVGeometry.packingDensity_ge_area_of_normalized_frame' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Certificate.Packing.CriticalHexagonFamily.hasAreaEstimate' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.packing_density_bound_of_critical_hexagon_family' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Certificate.Packing.packing_density_bound_of_curvature_critical_hexagon_family' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Certificate.Packing.radialMap_hasFDerivAt' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.det_radialDerivative' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.radialMap_injOn' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.radialSector_area' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.area_eq_sum_boundary_integrals' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.stateAction_hasDerivAt' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.root_area_integrands_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.frame_area_integrand_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.normalized_group_derivative' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.symmetricConvexDisc_zero_interior' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.FrameBoundary.cost_eq_area' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.packing_density_bound_of_boundary_critical_hexagons' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Certificate.Packing.packing_density_bound_of_curvature_boundary_critical_hexagons' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Certificate.Packing.convex_boundary_tangent_support' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.stateFrame_det' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.inverse_stateFrame_det' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.inverse_stateFrame_contact' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.root_area_integrands_pos_of_normalized' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.stateTangent_det' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.adjacent_tangent_contacts' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.tangent_side_identities' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.inHexagon_of_tangent_support' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.FrameBoundary.duration_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.FrameBoundary.tangent_support' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.FrameBoundary.normalized_enclosure' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.FrameBoundary.strict_tangent_contact' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.FrameBoundary.star_pos_interior' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.FrameBoundary.criticalHexagons' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.packing_density_bound_of_frame_boundary' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.packing_density_bound_of_curvature_frame_boundary' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Certificate.Packing.FrameBoundary.area_estimate_interior' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.FrameBoundary.hasAreaEstimate_of_minimum' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Certificate.Packing.packing_density_bound_of_normalized_convex_boundary' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Certificate.Packing.packing_density_bound_of_curvature_convex_boundary' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Certificate.Packing.second_derivative_nonneg_of_local_min' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.convex_boundary_curvature_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.FrameTrajectory.derivatives_ae' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.FrameTrajectory.group_derivative' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.frame_velocity_hasDerivAt' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.frame_signed_curvature' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.FrameTrace.curvature_nonneg_ae' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.FrameTrace.toFrameBoundary' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.packing_density_bound_of_convex_frame' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.exists_affine_normalized_disc' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.isCompact_normalizedDiscs' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.closedBall_half_subset_diamond' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.normalized_near_dilation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.lowerSemicontinuousOn_normalized_area' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.criticalHexArea_linear_image' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.criticalHexArea_finite' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.criticalHexArea_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.hexagonRatio_linear_image' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.criticalHexArea_smul' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.lowerSemicontinuousOn_hexagonRatio' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.exists_minimizing_disc' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.exists_normalized_minimizing_disc' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.normalized_minimizer_area_minimal' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.exists_reinhardt_normalized_minimizer' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.discRadialHomeomorph_sphere' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.exists_radial_boundary' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.discRadialHomeomorph_lipschitz_sphere' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.ratioMinimizingBody_properties' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.ratioMinimizingBoundary_properties' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.all_discs_ratio_bound_of_minimizer_frame' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Certificate.Packing.Hex.middle_coordinates' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.Hex.fan_determinants_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.volume_hexagon_fan' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.Hex.volume_ge_covolume' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.Hex.isSymmetricConvexDisc' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.Hex.volume_eq_covolume' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.hexagonRatio_le_packingDensity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.HexParameters.valid_det_ne_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.HexParameters.isClosed_valid' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.HexParameters.isCompact_boundedEnclosers' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Certificate.Packing.exists_minimum_enclosing_hexagon' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.criticalHexArea_attained' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.disc_area_strict_mono' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.ratioMinimizingBody_irreducible' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.ratioMinimizingHexagon_properties' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.HexParameters.isCompact_criticalFamily' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.isCompact_criticalContactSet' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.criticalContactSet_subset_frontier' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.Hex.midpointFrame_all' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.Hex.midpointFrame_abs_det' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.initiallyNormalizedMinimizer_properties' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.all_discs_packing_bound_of_minimizer_frame' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Certificate.Packing.Hex.moved_det_difference' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.Hex.exists_smaller_of_separated_midpoint' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Certificate.Packing.Hex.first_midpoint_mem_of_strict_minimum' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Certificate.Packing.Hex.midpoint_frontier_of_strict_critical' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Certificate.Packing.hexagonRatio_lt_one_of_strictConvex' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.ratioMinimizingBody_ratio_lt_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.ratioMinimizingBody_ne_hexagon' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.Hex.exists_square_image_of_not_strict' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.criticalHexArea_lt_four_of_proper_square' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Certificate.Packing.Hex.strict_of_minimum_of_proper' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.criticalHexagon_of_minimizer_strict' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.criticalHexagon_of_minimizer_midpoint_frontier' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Certificate.Packing.ratioMinimizingHexagon_strict' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.ratioMinimizingHexagon_all_midpoints_on_boundary' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Certificate.Packing.initiallyNormalizedMinimizer_root_frontier' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Certificate.Packing.initiallyNormalizedMinimizer_contains_regular_hexagon' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Certificate.Packing.Hex.slide_pair_det_neg' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.Hex.moved_det_difference_of_midpoint_fixed' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Certificate.Packing.Hex.eventually_sideVariationValid' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.Hex.vary_encloses_of_support' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.Hex.first_support_unique' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.supporting_form_eq_pos_smul_of_unique' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.unique_normalized_support_linear_image' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.Hex.unique_normalized_support_at_midpoint' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Certificate.Packing.criticalHexagon_of_minimizer_unique_support' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Certificate.Packing.criticalHexagon_of_minimizer_supporting_form' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Certificate.Packing.initiallyNormalizedMinimizer_root_unique_support' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Certificate.Packing.isCompact_criticalMidpointSet' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.criticalMidpointSet_subset_frontier' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.critical_hexagon_midpoint_mem_set' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.continuous_criticalMidpointNormal' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.criticalMidpointNormal_support' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.Hex.second_midpoint_eq_of_first' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.Hex.set_eq_of_critical_first_midpoint' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.criticalHexagon_of_minimizer_unique_at_midpoint' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Certificate.Packing.exists_unique_critical_hexagon_region' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.supportCut_isDisc' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.smul_mem_supportCut' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.encloses_of_limit_scaled' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.critical_of_bounded_encloses' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.cut_witness' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.support_face_meets_criticalContactSet' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.minimizer_support_face_contact' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.minimizer_exposed_point_contact' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.minimizer_support_maximum_at_critical_contact' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Certificate.Packing.closure_convexHull_criticalContactSet_eq_minimizer' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Certificate.Packing.support_of_supportCut_at_strict_point' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.Hex.encloses_of_supportCut_midpoints' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.minimizer_support_faces_midpoint_abs' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.minimizer_support_face_midpoint' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.exists_normalized_support_at_frontier' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.minimizer_normalized_support_unique' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.minimizer_frontier_unique_normalized_support' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Certificate.Packing.criticalContactSet_eq_frontier_minimizer' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Certificate.Packing.isCompact_positiveCriticalFamily' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.positiveCriticalFamily_same_midpoints' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.positiveCriticalProjection_surjective' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.continuous_criticalMidpointNext' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.criticalMidpointNext_of_hexagon' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.criticalMidpointNext_side' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.criticalMidpointNext_balance' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.criticalMidpointNext_third' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.criticalMidpointNext_sixth' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.criticalMidpointHomeomorph' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.criticalMidpointNext_fixed_det' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.criticalMidpointNext_ne' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.continuous_criticalMidpointConfiguration' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Certificate.Packing.criticalMidpointConfiguration_of_hexagon' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Certificate.Packing.criticalMidpointConfiguration_mem' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.criticalFirstSupportProjection_surjective' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Certificate.Packing.minimizerBoundaryNormal_support' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.continuous_minimizerBoundaryNormal' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.minimizerBoundaryNormal_eq_midpointNormal' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Certificate.Packing.continuous_minimizerBoundaryTangent' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.minimizerBoundaryTangent_det' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.minimizerBoundaryTangent_ne_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.minimizerBoundaryTangent_support' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.hasFDerivAt_of_continuous_support' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.hasFDerivAt_minimizerGauge' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.contDiffOn_minimizerGauge' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.contDiffOn_minimizerRadialFoot' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.minimizerRadialFoot_eq_boundary' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.hasDerivAt_minimizerRadialFoot_comp' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.minimizerRadialVelocity_det' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.minimizerRadialVelocity_ne_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.minimizerGaugeGradient_eq_sideNormal' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.criticalMidpointNext_transverse' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.criticalMidpointPartial_det_ne_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.hasFDerivAt_criticalMidpointConstraints' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.criticalMidpointPartial_isInvertible' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.criticalMidpointConstraints_next' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.contDiffAt_criticalMidpointConstraints' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.criticalMidpointConstraints_partial' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.criticalMidpointLocalNext_self' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.contDiffAt_criticalMidpointLocalNext' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.criticalMidpointLocalNext_constraints' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.criticalMidpointLocalNext_unique' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.criticalMidpointLocalNext_agrees' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.contDiffAt_criticalMidpointNext_comp' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.contDiffAt_criticalMidpointConfiguration_comp' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Certificate.Packing.det_criticalMidpointTangent' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.criticalMidpointNext_forward_transverse' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.hasStrictFDerivAt_criticalMidpointLocalNext' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Certificate.Packing.criticalMidpointNextDerivative_equation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.criticalMidpointTangentScale_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.criticalMidpointNextDerivative_tangent' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.criticalMidpointNextDerivative_tangent_ne_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Certificate.Packing.hasDerivAt_criticalMidpointNext_comp' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.continuous_criticalMidpointTangentScale' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.criticalMidpointTangentScale_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.criticalMidpointNext_transverse_lt_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.criticalMidpointNext_forward_transverse_lt_one' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Certificate.Packing.criticalMidpoint_adjacent_tangents_det_pos' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Certificate.Packing.criticalMidpoint_adjacent_velocities_det_pos' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Certificate.Packing.criticalMidpoint_vector_decomposition' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.criticalMidpointNextDerivative_ne_zero_on_tangent' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Certificate.Packing.criticalMidpointCurve_velocity_tangent' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.criticalMidpointNext_regular_curve' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.minimizer_support_maximum_at_critical_midpoint' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Certificate.Packing.minimizer_support_maximum_at_midpoint' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.criticalMidpoint_support_face_max' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.criticalMidpoint_support_face_decomposition' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Certificate.Packing.minimizer_support_face_segment' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.minimizer_support_face_subset_frontier' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.minimizer_frontier_critical_segment' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.missing_criticalMidpoint_in_flat_segment' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Certificate.Packing.minimizer_extremePoints_subset_criticalMidpointSet' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Certificate.Packing.minimizer_frontier_subset_convexHull_criticalMidpointSet' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Certificate.Packing.convexHull_criticalMidpointSet_eq_minimizer' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Certificate.Packing.missing_criticalMidpoint_has_flat_gap' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.critical_hex_sectors_step' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.minimizer_boundary_cone_triangle' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.minimizer_boundary_cone_strict_triangle' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.minimizer_boundary_in_critical_hex_sectors' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Certificate.Packing.det2_two_combinations' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.criticalMidpointNext_det_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.inCriticalMidpointSector_iff_det_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.criticalMidpointNext_triangle_order' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.criticalMidpointNext_preserves_sector' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.criticalMidpointNext_iterate_preserves_sector' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Certificate.Packing.criticalMidpoint_eq_of_pos_smul' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.criticalMidpointNext_preserves_det_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.criticalMidpointNext_det_pos_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.criticalMidpoint_flat_segment_support' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.minimizer_boundary_angular_mem_openSegment' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Certificate.Packing.criticalMidpoint_flat_gap_arc_empty' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.criticalMidpoint_empty_arc_support' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.criticalMidpointNext_preserves_empty_arc' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Certificate.Packing.criticalMidpoint_empty_arc_gradient_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.Hex.first_midpoint_eq_of_normals' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.criticalMidpoint_eq_of_three_normals' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.criticalMidpoint_no_empty_positive_arc' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.criticalMidpoint_flat_gap_impossible' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.criticalMidpointSet_eq_frontier_minimizer' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Certificate.Packing.exists_unique_critical_hexagon_at_frontier' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Certificate.Packing.minimizerBoundarySuccessor' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.minimizerBoundarySuccessor_balance' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.minimizerBoundarySuccessor_sixth' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.minimizerBoundarySuccessor_fixed_det' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.minimizerBoundarySuccessor_det_pos_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.contDiffAt_minimizerBoundarySuccessor_comp' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Certificate.Packing.minimizerBoundarySuccessor_regular_curve' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Certificate.Packing.minimizerRadialFoot_mem_criticalMidpointSet' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Certificate.Packing.Hex.side_quadratic_polarization' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.Hex.support_variation_det_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.Hex.support_deficit_coercivity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.Hex.support_deficit_square_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.Hex.eventually_small_normal_variation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.Hex.exists_normal_evaluation_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.Hex.eventually_support_norm_square_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Certificate.Packing.Hex.eventually_support_contact_lipschitz' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Certificate.Packing.criticalMidpoint_gradient_pointwise_lipschitz' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Certificate.Packing.minimizerBoundary_gradient_pointwise_lipschitz' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Certificate.Packing.criticalMidpointTangent_eq_supportTangent' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Certificate.Packing.criticalMidpoint_tangent_pointwise_lipschitz' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Certificate.Packing.minimizerBoundary_tangent_pointwise_lipschitz' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Certificate.Packing.continuous_det2_comp' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.positiveCriticalHex_strict' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.positiveCriticalHex_det_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.continuous_positiveCritical_vertex' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.continuous_positiveCritical_form' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.continuous_positiveCritical_slideA' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.continuous_positiveCritical_slideB' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.criticalSupportCoefficient_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.continuous_criticalSupportCoefficient' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.criticalSupportCoefficient_uniform_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Certificate.Packing.critical_normal_evaluation_uniform_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Certificate.Packing.eventually_positiveCritical_variation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.eventually_uniform_critical_variation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.uniform_critical_support_contact_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.uniform_critical_gradient_small_difference' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Certificate.Packing.locallyLipschitz_criticalMidpoint_gradient' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Certificate.Packing.criticalMidpoint_gradient_lipschitz' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.minimizerBoundary_gradient_lipschitz' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.criticalMidpoint_tangent_lipschitz' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.minimizerBoundary_tangent_lipschitz' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.minimizerBoundary_tangent_ac_of_lipschitz' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Certificate.Packing.minimizerBoundary_gradient_ac_of_lipschitz' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Certificate.Packing.unitCirclePoint_norm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.unitCirclePoint_mem_sphere' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.unitCirclePoint_ne_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.unitCirclePoint_velocity_det' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.hasDerivAt_unitCirclePoint' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.contDiff_unitCirclePoint' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.unitCirclePoint_lipschitz' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.hasDerivAt_minimizerAngularBoundary' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.minimizerAngularVelocity_det_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.minimizerAngularVelocity_ne_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.contDiff_minimizerAngularBoundary' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.minimizerAngularBoundary_lipschitz' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.minimizerAngularBoundary_tangent_ac' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.minimizerAngularBoundary_gradient_ac' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.contDiff_minimizerAngularSpeed' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.minimizerAngularVelocity_eq_speed_tangent' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Certificate.Packing.minimizerAngularVelocity_ac' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.contDiff_minimizerAngularSuccessor' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.minimizerAngularSuccessor_regular' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.ac_comp_lipschitzOn' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.ac_comp_lipschitz' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.ac_reciprocal_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.ac_plane_coordinate' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.ac_plane_det' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.ac_linear_form_eval_const' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.ac_linear_form_eval' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.criticalMidpointCurve_lipschitzOn' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.criticalMidpointCurve_gradient_ac' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.criticalMidpointCurve_tangent_ac' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.criticalMidpointCurve_tangentScale_ac' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.criticalMidpointCurve_successor_velocity_formula' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Certificate.Packing.criticalMidpointCurve_successor_velocity_ac' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Certificate.Packing.hasDerivAt_minimizerAngularSuccessor' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.minimizerAngularSuccessorVelocity_ac' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.minimizerAngularSuccessorVelocity_ne_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Certificate.Packing.hasDerivAt_minimizerAngularBalancedCurve' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Certificate.Packing.minimizerAngularBalancedVelocity_ac' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.contDiff_minimizerAngularBalancedCurve' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.minimizerAngularBalancedCurve_frontier' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.ac_sqrt_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.minimizerAngular_adjacent_velocity_det_pos' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Certificate.Packing.continuous_minimizerAngularVelocity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.continuous_minimizerAngularSuccessorVelocity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Certificate.Packing.minimizerDeterminantSpeed_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.continuous_minimizerDeterminantSpeed' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.minimizerDeterminantSpeed_ac' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.minimizerNormalizedAngularVelocity_ac' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.minimizerNormalizedAngularVelocity_det' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.hasDerivAt_minimizerDeterminantClock' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.contDiff_minimizerDeterminantClock' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.strictMono_minimizerDeterminantClock' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.minimizerDeterminantClock_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.minimizerDeterminantClock_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.minimizerAngularBoundary_periodic' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.minimizerAngularVelocity_periodic' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.minimizerDeterminantSpeed_periodic' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.minimizerDeterminantSpeed_uniform_positive' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Certificate.Packing.minimizerDeterminantClock_surjective' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.minimizerDeterminantClock_angularTime' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.minimizerAngularTime_clock' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.continuous_minimizerAngularTime' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.strictMono_minimizerAngularTime' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.minimizerAngularTime_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.hasDerivAt_minimizerAngularTime' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.contDiff_minimizerAngularTime' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.hasDerivAt_minimizerBalancedBoundary' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.contDiff_minimizerBalancedBoundary' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.minimizerBalancedBoundary_frontier' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.minimizerBalancedVelocity_det' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.ac_comp_orderIso' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.minimizerBalancedVelocity_ac' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.minimizerBalancedBoundary_ac' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.minimizerBalancedVelocity_continuous' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.minimizerBalancedBoundary_fixed_det' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.minimizerBalancedBoundary_balance' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.minimizerBalancedBoundary_opposite' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.hasDerivAt_plane_coordinate' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.hasDerivAt_plane_det' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.hasDerivAt_minimizerFrameColumn' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.minimizerFrameColumn_ac' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.minimizerFrameColumnVelocity_ac' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.det2_normalized_second_column' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.minimizerFrame_position_det' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.minimizerFrame_velocity_det' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.minimizerFrame_mixed_det' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.minimizerBalancedState_determinants' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.minimizerBalancedState_coordinates_ac' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.det_one_basis_decomposition' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.minimizerBalancedState_group_derivative' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.minimizerBalancedState_root' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.minimizerBalancedState_roots_frontier' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.minimizerBalancedState_root_velocity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.criticalMidpointCurve_next_orientation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.criticalMidpointCurve_next_contact' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.minimizerAngular_first_three_contacts' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.minimizerBalanced_first_three_contacts' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.minimizerBalancedState_star_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.minimizerBalancedState_star_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.unitCirclePoint_det' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.upper_point_polar' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.minimizerRadialFoot_normalized_boundary' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.minimizerAngularBoundary_upper_surjective' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Certificate.Packing.minimizerAngularBoundary_injOn_half' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.minimizerAngularBoundary_det_sign' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.minimizerAngularSuccessor_zero_upper' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.exists_minimizerFundamentalAngle' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.minimizerFundamentalAngle_mem' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.minimizerFundamentalAngle_endpoint' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.minimizerFundamentalDuration_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.minimizerFundamentalDuration_endpoint' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.minimizerBalanced_orientation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.criticalMidpoint_normalized_tangent_unique' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Certificate.Packing.hasDerivAt_minimizerTimedMidpoint' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.hasDerivAt_minimizerTimedNext' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.minimizerTimedNext_velocity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.hasDerivAt_minimizerTimedSecond' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.minimizerTimedSecond_velocity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.minimizerBalancedVelocity_balance' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.minimizerBalancedVelocity_second_det' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.minimizerTimedMidpoint_endpoint' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.minimizerFundamentalVelocity_endpoint' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.minimizerFundamentalNextVelocity_endpoint' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Certificate.Packing.minimizerFundamentalNextPosition_endpoint' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Certificate.Packing.normalizeStateAt_initial' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.normalizeStateAt_determinants' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.normalizeStateAt_group_derivative' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.normalizeStateAt_coordinates_ac' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.normalizeStateAt_action' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.minimizerFrameBody_disc' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.minimizerInitialInverseFrame_det' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.minimizerInitialNormalizedState_initial' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.minimizerInitialNormalizedState_determinants' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Certificate.Packing.minimizerInitialNormalizedState_coordinates_ac' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Certificate.Packing.minimizerInitialNormalizedState_group_derivative' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Certificate.Packing.minimizerInitialNormalizedState_star_pos' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Certificate.Packing.minimizerInitialNormalizedState_root' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.minimizerInitialNormalizedState_roots_frontier' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Certificate.Packing.stateAction_initialState' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.minimizerInitialInverseFrame_start' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.minimizerInitialNormalizedState_root_velocity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Certificate.Packing.minimizerInitialNormalizedState_terminal_roots' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Certificate.Packing.minimizerInitialNormalizedState_terminal_frame' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Certificate.Packing.rotateState_tangent_roots' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.state_eq_of_frame_and_root_tangents' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.minimizerInitialNormalizedState_terminal' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Certificate.Packing.minimizerFrameTrajectory_boundary' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.minimizerAngularStart_det_pos_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.minimizerAngular_in_fundamental_sector' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.minimizerFundamentalSector_angular_range' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Certificate.Packing.minimizerAngularTime_duration' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.minimizerAngularTime_mem_fundamental_iff' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Certificate.Packing.minimizerAngularTime_mem_closed_fundamental_iff' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Certificate.Packing.minimizerTimedMidpoint_in_fundamental_sector' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Certificate.Packing.minimizerFundamentalSector_timed_range' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.minimizerTimedMidpoint_injOn_fundamental' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Certificate.Packing.criticalMidpointStep_val' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.criticalMidpointStep_next' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.criticalMidpointStep_surjective' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.criticalMidpointStep_injective' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.criticalMidpointStep_sector_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.criticalMidpoint_partition' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.criticalSectorTests_disjoint' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.criticalMidpointSector_coordinate_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.criticalMidpoint_sectors_disjoint' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.minimizerBalancedBoundary_eq_step' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.minimizerBalancedBoundary_covers' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.minimizerBalancedBoundary_in_sector' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.minimizerBalancedBoundary_simple' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.minimizerFrameTrace' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.reinhardt_density_lower_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.reinhardt_hexagon_ratio_lower_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.minimizerFrameTrajectory' depends on axioms: [propext, Classical.choice, Quot.sound]
+LEAN_BUILD {"argv": ["-M", "8192", "-o", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/.lake/scratch/FinalAxiomAudit.olean", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/.lake/scratch/FinalAxiomAudit.lean"], "cache_argv": ["-o", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/.lake/scratch/FinalAxiomAudit.olean", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/.lake/scratch/FinalAxiomAudit.lean"], "cache_hit": false, "cache_validation_seconds": 17.05355462400621, "compile_seconds": 51.33893379199435, "dedup_wait_seconds": 0.0001218329998664558, "exit_code": 0, "output": "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/.lake/scratch/FinalAxiomAudit.olean", "overhead_seconds": 17.089210751008068, "pid": 27964, "priority": "interactive", "profile_requested": false, "provenance_incomplete": ["/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/Assembly/H2B000.lean", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/ControlCost.lean", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/DirectionalLinearity.lean", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/DirectionalPolynomial.lean", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/Generated/H1_0B000Proof.lean", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/Generated/H1_0B001Proof.lean", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/Generated/H1_0B002Proof.lean", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/Generated/H1_0B003Proof.lean", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/Generated/H1_0B004Proof.lean", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/Generated/H1_0B005Proof.lean", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/Generated/H1_0B006Proof.lean", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/Generated/H1_0B007Proof.lean", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/Generated/H1_0B008Proof.lean", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/Generated/H1_0B009Proof.lean", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/Generated/H1_0B010Proof.lean", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/Generated/H1_0B011Proof.lean", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/Generated/H1_0B012Proof.lean", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/Generated/H1_0B013Proof.lean", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/Generated/H1_0B014Proof.lean", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/Generated/H1_0B015Proof.lean", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/Generated/H1_0B016Proof.lean", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/Generated/H1_0B017Proof.lean", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/Generated/H1_0B018Proof.lean", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/Generated/H1_0B019Proof.lean", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/Generated/H1_0B020Proof.lean", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/Generated/H1_0B021Proof.lean", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/Generated/H1_0B022Proof.lean", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/Generated/H1_0B023Proof.lean", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/Generated/H1_0B024Proof.lean", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/Generated/H1_0B025Proof.lean", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/Generated/H1_0B026Proof.lean", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/Generated/H1_0B027Proof.lean", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/Generated/H1_0B028Proof.lean", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/Generated/H1_0B029Proof.lean", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/Generated/H1_0B030Proof.lean", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/Generated/H1_0B031Proof.lean", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/Generated/H1_0B032Proof.lean", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/Generated/H1_0B033Proof.lean", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/Generated/H1_0B034Proof.lean", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/Generated/H1_0B035Proof.lean", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/Generated/H1_0B036Proof.lean", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/Generated/H1_0B037Proof.lean", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/Generated/H1_0B038Proof.lean", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/Generated/H1_0B039Proof.lean", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/Generated/H1_0B040Proof.lean", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/Generated/H1_0B041Proof.lean", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/Generated/H1_0B042Proof.lean", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/Generated/H1_0B043Proof.lean", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/Generated/H1_0B044Proof.lean", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/Generated/H1_0B045Proof.lean", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/Generated/H1_0B046Proof.lean", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/Generated/H1_0B047Proof.lean", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/Generated/H1_0B048Proof.lean", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/Generated/H1_0B049Proof.lean", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/Generated/H1_0B050Proof.lean", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/Generated/H1_0B051Proof.lean", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/Generated/H1_0B052Proof.lean", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/Generated/H1_0B053Proof.lean", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/Generated/H1_0B054Proof.lean", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/Generated/H1_0B055Proof.lean", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/Generated/H1_0B056Proof.lean", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/Generated/H1_0B057Proof.lean", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/Generated/H1_0B058Proof.lean", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/Generated/H1_0B059Proof.lean", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/Generated/H1_0B060Proof.lean", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/Generated/H1_0B061Proof.lean", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/Generated/H1_0B062Proof.lean", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/Generated/H1_0B063Proof.lean", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/Generated/H1_0B064Proof.lean", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/Generated/H1_0B065Proof.lean", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/Generated/H1_0B066Proof.lean", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/Generated/H1_0B067Proof.lean", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/Generated/H1_0B068Proof.lean", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/Generated/H1_0B069Proof.lean", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/Generated/H1_0B070Proof.lean", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/Generated/H1_2B000Proof.lean", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/Generated/H1_2B001Proof.lean", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/Generated/H1_2B002Proof.lean", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/Generated/H1_2B003Proof.lean", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/Generated/H1_2B004Proof.lean", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/Generated/H1_2B005Proof.lean", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/Generated/H1_2B006Proof.lean", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/Generated/H1_2B007Proof.lean", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/Generated/H1_2B008Proof.lean", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/Generated/H1_2B009Proof.lean", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/Generated/H1_2B010Proof.lean", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/Generated/H1_2B011Proof.lean", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/Generated/H1_2B012Proof.lean", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/Generated/H1_2B013Proof.lean", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/Generated/H1_2B014Proof.lean", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/Generated/H1_2B015Proof.lean", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/Generated/H1_2B016Proof.lean", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/Generated/H1_2B017Proof.lean", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/Generated/H1_2B018Proof.lean", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/Generated/H1_2B019Proof.lean", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/Generated/H1_2B020Proof.lean", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/Generated/H1_2B021Proof.lean", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/Generated/H1_2B022Proof.lean", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/Generated/H1_2B023Proof.lean", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/Generated/H1_2B024Proof.lean", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/Generated/H1_2B025Proof.lean", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/Generated/H1_2B026Proof.lean", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/Generated/H1_2B027Proof.lean", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/Generated/H1_2B028Proof.lean", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/Generated/H1_2B029Proof.lean", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/Generated/H1_2B030Proof.lean", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/Generated/H1_2B031Proof.lean", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/Generated/H1_2B032Proof.lean", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/Generated/H1_2B033Proof.lean", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/Generated/H1_2B034Proof.lean", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/Generated/H1_2B035Proof.lean", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/Generated/H1_2B036Proof.lean", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/Generated/H1_2B037Proof.lean", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/Generated/H1_2B038Proof.lean", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/Generated/H1_2B039Proof.lean", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/Generated/H1_2B040Proof.lean", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/Generated/H1_2B041Proof.lean", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/Generated/H1_2B042Proof.lean", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/Generated/H1_2B043Proof.lean", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/Generated/H1_2B044Proof.lean", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/Generated/H1_2B045Proof.lean", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/Generated/H1_2B046Proof.lean", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/Generated/H1_2B047Proof.lean", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/Generated/H1_2B048Proof.lean", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/Generated/H2B000Proof.lean", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/Generated/H2B001Proof.lean", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/Generated/H2B002Proof.lean", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/Generated/H2B003Proof.lean", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/Generated/H2B004Proof.lean", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/Generated/H2B005Proof.lean", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/Generated/H2B006Proof.lean", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/Generated/H2B007Proof.lean", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/Generated/H2B008Proof.lean", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/GeometricCoordinates.lean", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/Identities/H1_0Data.lean", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/Identities/H1_0Proof.lean", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/Identities/H1_1Data.lean", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/Identities/H1_1Proof.lean", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/Identities/H1_2Data.lean", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/Identities/H1_2Proof.lean", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/Identities/H2Data.lean", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/Identities/H2Proof.lean", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/MultiplierCertificates.lean", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/MultiplierSoundness.lean", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/Multipliers.lean", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/NumericBound.lean", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/PolynomialDerivative.lean", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/PolynomialRegularity.lean", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/PolynomialSubstitution.lean", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/Potential/Data.lean", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/Potential/H1_1.lean", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/Potential/H1_2.lean", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/PrimitiveData.lean", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/Problem.lean"], "queue_seconds": 0.0008887910007615574, "schema": 1, "source": "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/.lake/scratch/FinalAxiomAudit.lean", "timed_out": false, "wall_seconds": 68.42915516700305}

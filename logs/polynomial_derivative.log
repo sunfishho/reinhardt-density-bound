@@ -1,0 +1,25 @@
+Certificate/PolynomialDerivative.lean:52:52: warning: This simp argument is unused:
+  zero_mul
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [directionalValue, partialPoly, List.map_cons, eval, Int.cast_mul, Finset.sum_add_distrib,
+    Finset.mul_sum, add_mul, add_zero, Finset.sum_const_zero, mul_add]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+Certificate/PolynomialDerivative.lean:53:6: warning: This simp argument is unused:
+  Finset.sum_const_zero
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [directionalValue, partialPoly, List.map_cons, eval, Int.cast_mul, Finset.sum_add_distrib,
+    Finset.mul_sum, add_mul, zero_mul, add_zero, mul_add]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+Certificate/PolynomialDerivative.lean:53:28: warning: This simp argument is unused:
+  mul_add
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [directionalValue, partialPoly, List.map_cons, eval, Int.cast_mul, Finset.sum_add_distrib,
+    Finset.mul_sum, add_mul, zero_mul, add_zero, Finset.sum_const_zero]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+'Certificate.Sparse.hasDerivAt_eval' depends on axioms: [propext, Classical.choice, Quot.sound]

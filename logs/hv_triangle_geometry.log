@@ -1,0 +1,56 @@
+Certificate/HVTriangleGeometry.lean:27:55: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+Certificate/HVTriangleGeometry.lean:43:44: warning: This simp argument is unused:
+  s0
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [p0, p1, p2, q0, q1, q2, s1, s2, pt]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+Certificate/HVTriangleGeometry.lean:55:21: warning: This simp argument is unused:
+  s0
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [det2, p0, p1, s1, s2, pt]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+Certificate/HVTriangleGeometry.lean:71:27: warning: This simp argument is unused:
+  s0
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [det2, p0, p1, p2, q0, s1, s2, pt]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+Certificate/HVTriangleGeometry.lean:74:27: warning: This simp argument is unused:
+  s0
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [det2, p0, p1, p2, q1, s1, s2, pt]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+Certificate/HVTriangleGeometry.lean:77:21: warning: This simp argument is unused:
+  p2
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [det2, p0, p1, q2, s0, s1, s2, pt]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+Certificate/HVTriangleGeometry.lean:77:27: warning: This simp argument is unused:
+  s0
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [det2, p0, p1, p2, q2, s1, s2, pt]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+Certificate/HVTriangleGeometry.lean:77:33: warning: This simp argument is unused:
+  s2
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [det2, p0, p1, p2, q2, s0, s1, pt]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+'Certificate.Packing.HVGeometry.interior_triangle_areas' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.HVGeometry.exterior_triangle_areas' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.HVGeometry.interior_area_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+LEAN_BUILD {"argv": ["-M", "8192", "-o", "Certificate/HVTriangleGeometry.olean", "Certificate/HVTriangleGeometry.lean"], "cache_argv": ["-o", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/HVTriangleGeometry.olean", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/HVTriangleGeometry.lean"], "cache_hit": false, "cache_validation_seconds": 0.4463824590202421, "compile_seconds": 44.01503262500046, "dedup_wait_seconds": 0.0001682909787632525, "exit_code": 0, "output": "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/HVTriangleGeometry.olean", "overhead_seconds": 0.4558977920678444, "pid": 96449, "priority": "interactive", "profile_requested": false, "provenance_incomplete": ["/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/GeometricCoordinates.lean", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/Problem.lean"], "queue_seconds": 0.0005920419935137033, "schema": 1, "source": "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/HVTriangleGeometry.lean", "timed_out": false, "wall_seconds": 44.47169075004058}

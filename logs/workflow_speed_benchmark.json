@@ -1,0 +1,55 @@
+{
+  "module": "Certificate/CriticalMidpointCycle.lean",
+  "before": {
+    "exit_code": 0,
+    "cache_hit": false,
+    "wall_seconds": 273.68615933399997,
+    "cache_validation_seconds": 248.1704129999962,
+    "compile_seconds": 24.575784541997564,
+    "overhead_seconds": 249.10638079199998
+  },
+  "after": {
+    "exit_code": 0,
+    "cache_hit": false,
+    "wall_seconds": 34.72112570800164,
+    "cache_validation_seconds": 12.022457748997113,
+    "compile_seconds": 22.670967665999342,
+    "overhead_seconds": 12.04920262500309
+  },
+  "elapsed_speedup": 7.8824103122591955,
+  "validation_speedup": 20.642236236654526,
+  "same_argv": true,
+  "same_incomplete_provenance_list": true,
+  "incomplete_provenance_count": 154,
+  "note": "Single before/after measurement, not a statistical benchmark. Both runs freshly compiled: unchanged legacy imports without provenance still prevent cache hits. The interrupted intermediate attempt is excluded. Exact DAG comparison and legacy-record compaction were both applied.",
+  "compaction": {
+    "records": 111,
+    "before_bytes": 29687986237,
+    "after_bytes": 93031639,
+    "conversion_seconds": 480.05069787597677,
+    "exact_event_roundtrip": true
+  },
+  "combined_audit": {
+    "before": [
+      {
+        "source": "Certificate.lean",
+        "seconds": 355.93080158299927
+      },
+      {
+        "source": ".lake/scratch/FinalAxiomAudit.lean",
+        "seconds": 370.52122937499917
+      }
+    ],
+    "after": [
+      {
+        "source": "Certificate.lean",
+        "seconds": 33.12476783300008
+      },
+      {
+        "source": ".lake/scratch/FinalAxiomAudit.lean",
+        "seconds": 29.574508958998194
+      }
+    ],
+    "note": "Prior audit had 242 targets; new audit has 247. Both use audit-built, with root build plus fresh importing axiom audit."
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "baseline": "verification_before_implicit_successor.json",
+  "checked_prior_nonroot_modules": 1232,
+  "mismatches": [],
+  "verified_results": 275,
+  "new_results": 28,
+  "removed_results": [],
+  "unexpected_axioms": {},
+  "local_modules": 1236,
+  "production_sources": 1510,
+  "passed": true
+}

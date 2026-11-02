@@ -1,0 +1,6 @@
+{"variant": "OriginalGram", "verified": false, "compile_seconds": 7.0664546670159325, "queue_seconds": 1.3639112079981714, "timed_out": false, "exit_code": 250}
+{"variant": "RowMergeGram", "verified": false, "compile_seconds": 6.07137583300937, "queue_seconds": 0.0003572909627109766, "timed_out": false, "exit_code": 250}
+{"variant": "DirectMergeGram", "verified": false, "compile_seconds": 5.676895709009841, "queue_seconds": 0.00034370901994407177, "timed_out": false, "exit_code": 250}
+{"variant": "SparseDirectGram", "verified": true, "compile_seconds": 4.883345249982085, "queue_seconds": 0.0003458749852143228, "timed_out": false, "exit_code": 0}
+{"variant": "OriginalWeighted", "verified": true, "compile_seconds": 2.072813125036191, "queue_seconds": 0.0003296250361017883, "timed_out": false, "exit_code": 0}
+{"variant": "DirectMergeWeighted", "verified": true, "compile_seconds": 1.7316292080213316, "queue_seconds": 0.00032341701444238424, "timed_out": false, "exit_code": 0}

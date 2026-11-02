@@ -1,0 +1,24 @@
+Certificate/BenchmarkMatrixLite.lean:8:65: error: Type mismatch
+  gramA[↑i]
+has type
+  List ℤ
+but is expected to have type
+  ℤ
+Certificate/BenchmarkMatrixLite.lean:8:77: error: unexpected token '!['; expected command
+Certificate/BenchmarkMatrixLite.lean:9:65: error: Type mismatch
+  gramB[↑i]
+has type
+  List ℤ
+but is expected to have type
+  ℤ
+Certificate/BenchmarkMatrixLite.lean:9:77: error: unexpected token '!['; expected command
+Certificate/BenchmarkMatrixLite.lean:10:65: error: Type mismatch
+  factor[↑i]
+has type
+  List ℤ
+but is expected to have type
+  ℤ
+Certificate/BenchmarkMatrixLite.lean:10:78: error: unexpected token '!['; expected command
+real 102.74
+user 2.31
+sys 28.04

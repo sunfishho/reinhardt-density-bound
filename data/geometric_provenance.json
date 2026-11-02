@@ -1,0 +1,22 @@
+{
+  "packing_definitions_match_original_verbatim_ignoring_outer_namespace": true,
+  "original_problem_sha256": "9ae519ce52df5015570541c5ed234b4d408f2649cedd573369fbafd0624bb73b",
+  "definition_body_sha256": "4d3b128710a93646d1974084fdffd28cde4ae45d36e7f3aa0e8822f934e4c805",
+  "original_problem_relative_path": "../../028_reinhardt.lean",
+  "recovered_fable_source_relative_path": "../fable_5_1_review/solution_paths/recovered_runs/reinhardt__nCLJ5NK/artifacts/app/scratch/lattice/ReinhardtReduction.lean",
+  "recovered_fable_source_sha256": "a4d0eeed2d785b20a39b2359b61f7c38d10f881d9ddd5da4f63973237551ad6d",
+  "adapted_sections": "Lattice packing and hexagon separation, before the Disc section; no original reinhardt conjecture/proof imported.",
+  "new_adaptations": [
+    "Pinned-version proof fixes.",
+    "Ball-volume scaling replaces the explicit pi formula.",
+    "Midpoint determinant normalization."
+  ],
+  "new_local_proofs": [
+    "CompactExclusion",
+    "AreaControlledTrajectory",
+    "PackingGeometry",
+    "CurvatureControl",
+    "CurvatureTrajectory",
+    "PackingFinal"
+  ]
+}

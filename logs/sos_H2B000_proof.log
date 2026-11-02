@@ -1,0 +1,4 @@
+'Certificate.SOS.H2B000.weighted_nonnegative' depends on axioms: [propext, Classical.choice, Quot.sound]
+real 15.75
+user 2.60
+sys 1.77

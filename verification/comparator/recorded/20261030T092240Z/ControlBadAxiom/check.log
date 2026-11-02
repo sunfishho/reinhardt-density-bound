@@ -1,0 +1,38 @@
+Building ControlChallenge
+WARNING: THIS IS NOT REAL LANDRUN! UNSAFELY RUNNING exec lake build ControlChallenge
+ℹ [1/1] Ran ReinhardtComparator/ControlChallenge
+info: stdout/stderr:
+Fresh entry compilation: ControlChallenge
+/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/verification/comparator/ControlChallenge.lean:1:8: warning: declaration uses `sorry`
+Build completed successfully (1 job).
+WARNING: THIS IS NOT REAL LANDRUN! UNSAFELY RUNNING exec /Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/verification/comparator/capture_export.py ControlChallenge -- Nat String String.mk Char Quot Quot.mk Quot.lift Quot.ind comparatorControl propext Quot.sound Classical.choice Nat.add Nat.sub Nat.mul Nat.pow Nat.gcd Nat.div Nat.mod Nat.beq Nat.ble Nat.land Nat.lor Nat.xor Nat.shiftLeft Nat.shiftRight String.ofList Char.ofNat List eagerReduce
+Recorded export: {"module": "ControlChallenge", "arguments": ["ControlChallenge", "--", "Nat", "String", "String.mk", "Char", "Quot", "Quot.mk", "Quot.lift", "Quot.ind", "comparatorControl", "propext", "Quot.sound", "Classical.choice", "Nat.add", "Nat.sub", "Nat.mul", "Nat.pow", "Nat.gcd", "Nat.div", "Nat.mod", "Nat.beq", "Nat.ble", "Nat.land", "Nat.lor", "Nat.xor", "Nat.shiftLeft", "Nat.shiftRight", "String.ofList", "Char.ofNat", "List", "eagerReduce"], "started_at": "2026-10-30T09:23:06.576882+00:00", "seconds": 0.5763834579993272, "bytes": 949276, "sha256": "bb5cd62589b22536f164259646476035b931b67b8629c830789bbe5d61143a95", "exit_code": 0, "complete": true}
+Exporting #[Nat, String, String.mk, Char, Quot, Quot.mk, Quot.lift, Quot.ind, comparatorControl, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce] from ControlChallenge
+Building ControlBadAxiom
+WARNING: THIS IS NOT REAL LANDRUN! UNSAFELY RUNNING exec lake build ControlBadAxiom
+ℹ [1/1] Ran ReinhardtComparator/ControlBadAxiom
+info: stdout/stderr:
+Fresh entry compilation: ControlBadAxiom
+Build completed successfully (1 job).
+WARNING: THIS IS NOT REAL LANDRUN! UNSAFELY RUNNING exec /Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/verification/comparator/capture_export.py ControlBadAxiom -- Nat String String.mk Char Quot Quot.mk Quot.lift Quot.ind comparatorControl propext Quot.sound Classical.choice Nat.add Nat.sub Nat.mul Nat.pow Nat.gcd Nat.div Nat.mod Nat.beq Nat.ble Nat.land Nat.lor Nat.xor Nat.shiftLeft Nat.shiftRight String.ofList Char.ofNat List eagerReduce
+Recorded export: {"module": "ControlBadAxiom", "arguments": ["ControlBadAxiom", "--", "Nat", "String", "String.mk", "Char", "Quot", "Quot.mk", "Quot.lift", "Quot.ind", "comparatorControl", "propext", "Quot.sound", "Classical.choice", "Nat.add", "Nat.sub", "Nat.mul", "Nat.pow", "Nat.gcd", "Nat.div", "Nat.mod", "Nat.beq", "Nat.ble", "Nat.land", "Nat.lor", "Nat.xor", "Nat.shiftLeft", "Nat.shiftRight", "String.ofList", "Char.ofNat", "List", "eagerReduce"], "started_at": "2026-10-30T09:23:08.157043+00:00", "seconds": 0.6082135409960756, "bytes": 942070, "sha256": "8c339efd1b2281ff2816ab4191ef56625bb6b0eff5f89b524966ecabfb8b279c", "exit_code": 0, "complete": true}
+Exporting #[Nat, String, String.mk, Char, Quot, Quot.mk, Quot.lift, Quot.ind, comparatorControl, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce] from ControlBadAxiom
+uncaught exception: Illegal axiom detected: 'forbiddenControl'
+        3.29 real         1.58 user         1.53 sys
+           917962752  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+              277626  page reclaims
+                 740  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                 277  voluntary context switches
+                3792  involuntary context switches
+           980287751  instructions retired
+           261142949  cycles elapsed
+            15499816  peak memory footprint

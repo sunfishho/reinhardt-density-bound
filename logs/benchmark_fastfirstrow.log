@@ -1,0 +1,4 @@
+'Certificate.BenchmarkLite.actual_first_row' depends on axioms: [propext, Classical.choice, Quot.sound]
+real 6.27
+user 3.29
+sys 2.08

@@ -1,0 +1,3 @@
+'Certificate.cleared_vertex_inequalities' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.control_cost_lower_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.density_bound_from_control' depends on axioms: [propext, Classical.choice, Quot.sound]

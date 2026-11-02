@@ -1,0 +1,5 @@
+'Certificate.Sparse.eval_merge' depends on axioms: [propext]
+'Certificate.Sparse.eval_mul' depends on axioms: [propext, Quot.sound]
+'Certificate.Sparse.eval_eq_zero_of_check' depends on axioms: [propext]
+'Certificate.Sparse.eval_normalize' depends on axioms: [propext, Quot.sound]
+'Certificate.Sparse.eq_of_check' depends on axioms: [propext, Quot.sound]

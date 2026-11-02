@@ -1,0 +1,26 @@
+Certificate/CriticalMidpointBoundaryGaps.lean:157:23: error: Application type mismatch: The argument
+  openSegment_subset_segment ?m.964 ?m.970 ?m.971
+has type
+  openSegment ?m.964 ?m.970 ?m.971 ⊆ segment ?m.964 ?m.970 ?m.971
+but is expected to have type
+  ?m.963 ∈ segment ℝ a b
+in the application
+  hface (openSegment_subset_segment ?m.964 ?m.970 ?m.971)
+'Certificate.Packing.minimizer_support_face_subset_frontier' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.minimizer_frontier_critical_segment' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.missing_criticalMidpoint_in_flat_segment' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Certificate.Packing.minimizer_extremePoints_subset_criticalMidpointSet' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Certificate.Packing.minimizer_frontier_subset_convexHull_criticalMidpointSet' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Certificate.Packing.convexHull_criticalMidpointSet_eq_minimizer' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Certificate.Packing.missing_criticalMidpoint_has_flat_gap' depends on axioms: [propext,
+ sorryAx,
+ Classical.choice,
+ Quot.sound]

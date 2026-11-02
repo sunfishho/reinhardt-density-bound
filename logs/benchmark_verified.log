@@ -1,0 +1,4 @@
+'Certificate.BenchmarkLite.block0_posSemidef' depends on axioms: [propext, Classical.choice, Quot.sound]
+real 3.68
+user 1.39
+sys 1.70

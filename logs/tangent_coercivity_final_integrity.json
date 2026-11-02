@@ -1,0 +1,77 @@
+{
+  "named_targets": 333,
+  "added_targets": [
+    "Certificate.Packing.Hex.eventually_small_normal_variation",
+    "Certificate.Packing.Hex.eventually_support_contact_lipschitz",
+    "Certificate.Packing.Hex.eventually_support_norm_square_bound",
+    "Certificate.Packing.Hex.exists_normal_evaluation_bound",
+    "Certificate.Packing.Hex.side_quadratic_polarization",
+    "Certificate.Packing.Hex.support_deficit_coercivity",
+    "Certificate.Packing.Hex.support_deficit_square_bound",
+    "Certificate.Packing.Hex.support_variation_det_nonneg",
+    "Certificate.Packing.criticalMidpointTangent_eq_supportTangent",
+    "Certificate.Packing.criticalMidpoint_gradient_pointwise_lipschitz",
+    "Certificate.Packing.criticalMidpoint_tangent_pointwise_lipschitz",
+    "Certificate.Packing.minimizerBoundary_gradient_pointwise_lipschitz",
+    "Certificate.Packing.minimizerBoundary_tangent_pointwise_lipschitz"
+  ],
+  "removed_targets": [],
+  "disallowed_axioms": {},
+  "prior_nonroot_records_preserved": 1242,
+  "changed_prior_records": [],
+  "local_module_records": 1246,
+  "source_files_scanned": 1520,
+  "source_scan_current": true,
+  "published_provenance_hash_current": true,
+  "full_density_theorem_verified": false,
+  "balanced_frame_boundary_constructed": false,
+  "uniform_tangent_lipschitz_verified": false,
+  "new_flags": {
+    "support_deficit_coercivity_verified": true,
+    "boundary_pointwise_gradient_bound_verified": true,
+    "boundary_pointwise_tangent_bound_verified": true
+  },
+  "new_modules": [
+    {
+      "source": "Certificate/HexagonSupportCoercivity.lean",
+      "source_sha256": "d43044e0db1b6ada505ec8763b882985e5b40faae4b1208530681134ccac6a2b",
+      "artifact": "Certificate/HexagonSupportCoercivity.olean",
+      "artifact_sha256": "387fbed85024b4fe0e56745dc37abe52fc57064a5769435d31888ad8d1322288",
+      "artifact_companions": {}
+    },
+    {
+      "source": "Certificate/HexagonSupportRegularity.lean",
+      "source_sha256": "3687e74081730ba773baddbe614ea8de859883561a157b94ddbab6480312f01c",
+      "artifact": "Certificate/HexagonSupportRegularity.olean",
+      "artifact_sha256": "2af8e9e9a8ad1896b25d3f9944b816cbc37c7721da64e7ab709ad8bc536232c3",
+      "artifact_companions": {}
+    },
+    {
+      "source": "Certificate/MinimizerPointwiseRegularity.lean",
+      "source_sha256": "16b0af97b07e4563dde77af925d6f7ed2bdb69dd80f81d5fe223ae3201503b3b",
+      "artifact": "Certificate/MinimizerPointwiseRegularity.olean",
+      "artifact_sha256": "7a23217267e710907fe6c3942ca588c31c289d6c2ff163b5680461fbc28721d5",
+      "artifact_companions": {}
+    }
+  ],
+  "status_summary": {
+    "generated_matrix_proofs_passed": 248,
+    "gram_expansions_passed": 248,
+    "multipliers_passed": 75,
+    "polynomial_reductions_passed": 4,
+    "assembled_blocks_passed": 248,
+    "assembled_identities": [
+      "H1_0",
+      "H1_1",
+      "H1_2",
+      "H2"
+    ],
+    "stale_reports": [],
+    "support_deficit_coercivity_verified": true,
+    "boundary_pointwise_gradient_bound_verified": true,
+    "boundary_pointwise_tangent_bound_verified": true,
+    "boundary_uniform_tangent_lipschitz_verified": false,
+    "balanced_frame_boundary_constructed": false,
+    "full_density_theorem_verified": false
+  }
+}

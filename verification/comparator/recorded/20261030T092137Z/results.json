@@ -1,0 +1,16 @@
+[
+  {
+    "name": "ControlGood",
+    "command": [
+      "/Users/matthewho/.codex/.chatgpt-projects/g-p-6a5ad858ad18819189c51db74c9c12e9/courtade-kumar-publish/.lake/verification-433/comparator/.lake/build/bin/comparator",
+      "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/verification/comparator/ControlGood.json"
+    ],
+    "exit_code": 1,
+    "expected_exit_code": 0,
+    "seconds": 12.034963166006492,
+    "log_sha256": "6ee5f86bbafdf3e1ac5a663c1a5943df7b22cf23e65b805fc09a9e8d32960cfb",
+    "stopped": null,
+    "maximum_resident_bytes": null,
+    "passed": false
+  }
+]

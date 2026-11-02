@@ -1,0 +1,4 @@
+'Certificate.Identities.H1_1.quotient_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+real 595.46
+user 51.70
+sys 221.50

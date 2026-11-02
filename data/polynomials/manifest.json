@@ -1,0 +1,58 @@
+[
+  {
+    "identity": "H1_0",
+    "target_terms": 966,
+    "sos_terms": 2908,
+    "difference_terms": 2808,
+    "quotient_terms": {
+      "g": 579,
+      "h": 591,
+      "t": 0
+    },
+    "scale_bits": 120,
+    "sha256": "4032b61b9a82b47e2179c43bd28bf9acaa3aa1bf42136b94f2afdda1c004184c",
+    "seconds": 5.483557709027082
+  },
+  {
+    "identity": "H1_1",
+    "target_terms": 1631,
+    "sos_terms": 2983,
+    "difference_terms": 2808,
+    "quotient_terms": {
+      "g": 579,
+      "h": 591,
+      "t": 0
+    },
+    "scale_bits": 120,
+    "sha256": "be250b91d49a8498e11a3939422cfc0271848b1759e8b8cc6e82231efc9ce147",
+    "seconds": 7.773758292023558
+  },
+  {
+    "identity": "H1_2",
+    "target_terms": 1631,
+    "sos_terms": 2983,
+    "difference_terms": 2808,
+    "quotient_terms": {
+      "g": 579,
+      "h": 591,
+      "t": 0
+    },
+    "scale_bits": 120,
+    "sha256": "76909e13672eb015451cbdf694dc09ebf1c9f63cdfcdc66ab514c8dc5817336d",
+    "seconds": 7.413686333980877
+  },
+  {
+    "identity": "H2",
+    "target_terms": 99,
+    "sos_terms": 61,
+    "difference_terms": 120,
+    "quotient_terms": {
+      "g": 0,
+      "h": 17,
+      "t": 56
+    },
+    "scale_bits": 120,
+    "sha256": "7a025f9b83c85d0f98439a30d3ceff13a9d5dd18f7bf3ac013ba80deaaba2ade",
+    "seconds": 0.21749808301683515
+  }
+]

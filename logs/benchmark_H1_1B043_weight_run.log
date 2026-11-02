@@ -1,0 +1,2 @@
+{"variant": "DirectMergeWeighted", "verified": true, "compile_seconds": 10.850690458959434, "queue_seconds": 2.476332124962937, "timed_out": false, "exit_code": 0}
+{"variant": "ShortWeighted", "verified": true, "compile_seconds": 6.562817792000715, "queue_seconds": 4.243002125003841, "timed_out": false, "exit_code": 0}

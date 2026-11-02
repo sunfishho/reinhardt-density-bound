@@ -1,0 +1,18 @@
+test_companion_changes_invalidate_output_and_dependencies (test_lean_build_cache.BuildCacheTests.test_companion_changes_invalidate_output_and_dependencies) ... ok
+test_concurrent_duplicate_compiles_once (test_lean_build_cache.BuildCacheTests.test_concurrent_duplicate_compiles_once) ... ok
+test_failure_is_not_cached (test_lean_build_cache.BuildCacheTests.test_failure_is_not_cached) ... ok
+test_interactive_duplicate_promotes_paused_bulk_owner (test_lean_build_cache.BuildCacheTests.test_interactive_duplicate_promotes_paused_bulk_owner) ... ok
+test_local_dependency_requires_provenance_and_detects_stale_content (test_lean_build_cache.BuildCacheTests.test_local_dependency_requires_provenance_and_detects_stale_content) ... ok
+test_memory_cap_is_nonsemantic_but_other_flags_remain_significant (test_lean_build_cache.BuildCacheTests.test_memory_cap_is_nonsemantic_but_other_flags_remain_significant) ... ok
+test_pause_gate_rechecked_and_interactive_bypasses (test_lean_build_cache.BuildCacheTests.test_pause_gate_rechecked_and_interactive_bypasses) ... ok
+test_priority_and_queue_time_are_separate (test_lean_build_cache.BuildCacheTests.test_priority_and_queue_time_are_separate) ... ok
+test_profile_always_fresh_but_profiled_artifact_reusable (test_lean_build_cache.BuildCacheTests.test_profile_always_fresh_but_profiled_artifact_reusable) ... ok
+test_relative_arguments_share_cache_and_header_parser_is_reused (test_lean_build_cache.BuildCacheTests.test_relative_arguments_share_cache_and_header_parser_is_reused) ... ok
+test_replays_output_and_invalidates_source_even_with_same_timestamp (test_lean_build_cache.BuildCacheTests.test_replays_output_and_invalidates_source_even_with_same_timestamp) ... ok
+test_timeout_only_stops_own_compiler_and_never_caches (test_lean_build_cache.BuildCacheTests.test_timeout_only_stops_own_compiler_and_never_caches) ... ok
+test_transitive_change_and_output_corruption_are_detected (test_lean_build_cache.BuildCacheTests.test_transitive_change_and_output_corruption_are_detected) ... ok
+
+----------------------------------------------------------------------
+Ran 13 tests in 5.315s
+
+OK

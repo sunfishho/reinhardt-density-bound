@@ -1,0 +1,18 @@
+[
+  {
+    "record": "logs/lean_build_cache/records/4bf40b5f4b35923d2de1a31b8b8d39a5c23d0d912f0e218e952f68bf1aeb3a6e.json",
+    "original_bytes": 9225392435,
+    "compressed_bytes": 662834625,
+    "sha256": "4d1f437752b5662a7f0314275c3ec8eda12759d6664fb70a1349a7540c374514",
+    "lossless_roundtrip_verified": true,
+    "seconds": 33.88
+  },
+  {
+    "record": "logs/lean_build_cache/records/31a7acf0ffbbba9899ef3833142351d9d9962a55b1437f4a4c443d7e032b89cb.json",
+    "original_bytes": 8955396111,
+    "compressed_bytes": 655541638,
+    "sha256": "f3e5e59f70ff2413f6c631ccdb2072afc02ca364959a5d02ebdb0372e8cb28f4",
+    "lossless_roundtrip_verified": true,
+    "seconds": 22.38
+  }
+]

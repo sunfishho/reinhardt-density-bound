@@ -1,0 +1,29 @@
+Building ControlChallenge
+WARNING: THIS IS NOT REAL LANDRUN! UNSAFELY RUNNING exec lake build ControlChallenge
+ℹ [1/1] Ran ReinhardtComparator/ControlChallenge
+info: stdout/stderr:
+Fresh entry compilation: ControlChallenge
+/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/verification/comparator/ControlChallenge.lean:1:8: warning: declaration uses `sorry`
+Build completed successfully (1 job).
+WARNING: THIS IS NOT REAL LANDRUN! UNSAFELY RUNNING exec /Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/verification/comparator/capture_export.py ControlChallenge -- Nat String String.mk Char Quot Quot.mk Quot.lift Quot.ind comparatorControl propext Quot.sound Classical.choice Nat.add Nat.sub Nat.mul Nat.pow Nat.gcd Nat.div Nat.mod Nat.beq Nat.ble Nat.land Nat.lor Nat.xor Nat.shiftLeft Nat.shiftRight String.ofList Char.ofNat List eagerReduce
+Recorded export: {"module": "ControlChallenge", "arguments": ["ControlChallenge", "--", "Nat", "String", "String.mk", "Char", "Quot", "Quot.mk", "Quot.lift", "Quot.ind", "comparatorControl", "propext", "Quot.sound", "Classical.choice", "Nat.add", "Nat.sub", "Nat.mul", "Nat.pow", "Nat.gcd", "Nat.div", "Nat.mod", "Nat.beq", "Nat.ble", "Nat.land", "Nat.lor", "Nat.xor", "Nat.shiftLeft", "Nat.shiftRight", "String.ofList", "Char.ofNat", "List", "eagerReduce"], "started_at": "2026-10-30T09:21:56.808380+00:00", "seconds": 2.2029197919910075, "bytes": 949276, "sha256": "bb5cd62589b22536f164259646476035b931b67b8629c830789bbe5d61143a95", "exit_code": 0, "complete": true}
+Exporting #[Nat, String, String.mk, Char, Quot, Quot.mk, Quot.lift, Quot.ind, comparatorControl, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce] from ControlChallenge
+Building ControlGood
+WARNING: THIS IS NOT REAL LANDRUN! UNSAFELY RUNNING exec lake build ControlGood
+ℹ [1/1] Ran ReinhardtComparator/ControlGood
+info: stdout/stderr:
+Fresh entry compilation: ControlGood
+Build completed successfully (1 job).
+WARNING: THIS IS NOT REAL LANDRUN! UNSAFELY RUNNING exec /Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/verification/comparator/capture_export.py ControlGood -- Nat String String.mk Char Quot Quot.mk Quot.lift Quot.ind comparatorControl propext Quot.sound Classical.choice Nat.add Nat.sub Nat.mul Nat.pow Nat.gcd Nat.div Nat.mod Nat.beq Nat.ble Nat.land Nat.lor Nat.xor Nat.shiftLeft Nat.shiftRight String.ofList Char.ofNat List eagerReduce
+Recorded export: {"module": "ControlGood", "arguments": ["ControlGood", "--", "Nat", "String", "String.mk", "Char", "Quot", "Quot.mk", "Quot.lift", "Quot.ind", "comparatorControl", "propext", "Quot.sound", "Classical.choice", "Nat.add", "Nat.sub", "Nat.mul", "Nat.pow", "Nat.gcd", "Nat.div", "Nat.mod", "Nat.beq", "Nat.ble", "Nat.land", "Nat.lor", "Nat.xor", "Nat.shiftLeft", "Nat.shiftRight", "String.ofList", "Char.ofNat", "List", "eagerReduce"], "started_at": "2026-10-30T09:22:00.030581+00:00", "seconds": 0.5502437079994706, "bytes": 941901, "sha256": "64f68a263e57d8a213086b926823284e860032a5cfa3e2dd44ba38e903c5e510", "exit_code": 0, "complete": true}
+WARNING: THIS IS NOT REAL LANDRUN! UNSAFELY RUNNING exec /Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/verification/comparator/nanoda_launch.py /var/folders/q7/yh0dxljj68vbt237k4s7f3600000gq/T/tmp.7R42uA4A
+Checked 552 declarations with no errors
+Nanoda receipt: {"seconds": 0.06050916700041853, "exit_code": 0, "input_sha256": "64f68a263e57d8a213086b926823284e860032a5cfa3e2dd44ba38e903c5e510", "input_bytes": 941901, "broken_pipe": false}
+Exporting #[Nat, String, String.mk, Char, Quot, Quot.mk, Quot.lift, Quot.ind, comparatorControl, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce] from ControlGood
+Running nanoda kernel on solution
+Nanoda kernel accepts the solution
+Running Lean default kernel on solution.
+Lean default kernel accepts the solution
+Your solution is okay!
+       10.21 real         1.77 user         2.28 sys
+time: sysctl kern.clockrate: Operation not permitted

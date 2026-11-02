@@ -1,0 +1,19 @@
+[
+  {
+    "name": "reinhardt",
+    "command": [
+      "/Users/matthewho/.codex/.chatgpt-projects/g-p-6a5ad858ad18819189c51db74c9c12e9/courtade-kumar-publish/.lake/verification-433/comparator/.lake/build/bin/comparator",
+      "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/verification/comparator/config.json"
+    ],
+    "exit_code": 0,
+    "expected_exit_code": 0,
+    "seconds": 11028.728728082991,
+    "log_sha256": "29b4e0bc0eb3dec5c18175d3f21dd7bb9cd008d936faeb02ba81fb26f2089c28",
+    "stopped": null,
+    "maximum_resident_bytes": 6855213056,
+    "passed": true,
+    "same_export_for_both_kernels": true,
+    "export_sha256": "243d0e7a6e13a3c6f6c96c223321d91331c7e649e4f4d42a114a1a26f4de45dd",
+    "export_bytes": 1124174737
+  }
+]

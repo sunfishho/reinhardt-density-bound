@@ -1,0 +1,72 @@
+{
+  "identity": "H2",
+  "block": 1,
+  "size": 4,
+  "generator": "scripts/emit_chunked_sos.py",
+  "root_node": "Node002",
+  "matrix_sha256": "221f744fca6b9430b233cc92e979143645b3ccd8df035cd798d9b83dcc6fab25",
+  "polynomial_sha256": "7a025f9b83c85d0f98439a30d3ceff13a9d5dd18f7bf3ac013ba80deaaba2ade",
+  "checks_per_module": 8,
+  "sources": [
+    {
+      "module": "Certificate.Chunked.H2B001.Chunk000",
+      "dependencies": [
+        "Certificate.ChunkedExpansion",
+        "Certificate.SOS.H2B001Data"
+      ],
+      "checks": [
+        {
+          "name": "Leaf000",
+          "kind": "row",
+          "terms": 8
+        },
+        {
+          "name": "Leaf001",
+          "kind": "row",
+          "terms": 8
+        },
+        {
+          "name": "Leaf002",
+          "kind": "row",
+          "terms": 8
+        },
+        {
+          "name": "Leaf003",
+          "kind": "row",
+          "terms": 8
+        },
+        {
+          "name": "Node000",
+          "kind": "merge",
+          "terms": 14
+        },
+        {
+          "name": "Node001",
+          "kind": "merge",
+          "terms": 14
+        },
+        {
+          "name": "Node002",
+          "kind": "merge",
+          "terms": 20
+        }
+      ],
+      "source_sha256": "d1a869f353563324bb217d86e88a7d6eed0b6c7d07b80e798ed911afee79d28a"
+    },
+    {
+      "module": "Certificate.Chunked.H2B001.Proof",
+      "dependencies": [
+        "Certificate.Chunked.H2B001.Chunk000",
+        "Certificate.MergeArithmetic"
+      ],
+      "checks": [
+        {
+          "name": "Proof",
+          "kind": "final",
+          "terms": 20
+        }
+      ],
+      "source_sha256": "092cb3d8ecffdea144254f766bf9b9c4687d0d7c19ac6cc5e8e2d0ad27654313"
+    }
+  ]
+}

@@ -1,0 +1,3 @@
+{"variant": "OriginalGram", "verified": false, "compile_seconds": 180.4674208330107, "queue_seconds": 24.37576058297418, "timed_out": true, "exit_code": 124}
+{"variant": "SparseDirectGram", "verified": false, "compile_seconds": 180.45481945900247, "queue_seconds": 121.03431391698541, "timed_out": true, "exit_code": 124}
+{"variant": "DirectMergeWeighted", "verified": true, "compile_seconds": 8.642871666001156, "queue_seconds": 113.74276466702577, "timed_out": false, "exit_code": 0}

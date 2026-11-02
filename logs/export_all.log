@@ -1,0 +1,35 @@
+[H1_0] den=2^-40 eps=1.000e-07 blocks=75 sizes=[34, 104] target terms=790
+[H1_0] exact total built (2.4s); residual terms 1092, max|residual| = 1.050e-09
+[H1_0] projected 1092 residual coefficients into block '1' (max |delta| 1.050e-09)
+[H1_0] EXACT IDENTITY target - sum sigma_b q_b == 0 : True
+H1_0: proposed and exactly checked witnesses 1/75
+H1_0: proposed and exactly checked witnesses 21/75
+H1_0: proposed and exactly checked witnesses 41/75
+H1_0: proposed and exactly checked witnesses 61/75
+{'identity': 'H1_0', 'blocks': 75, 'shapes': {'34': 74, '104': 1}, 'gamma': None, 'sha256': '4d6a2ac48ecf3a0a4744f54ee119a54c2461b558ef142b8c1ff0eeffe8260d89', 'seconds': 4.741114749980625}
+[H1_1] den=2^-40 eps=6.000e-07 blocks=75 sizes=[34, 104] target terms=754
+[H1_1] exact total built (1.5s); residual terms 1092, max|residual| = 5.062e-09
+[H1_1] projected 1092 residual coefficients into block '1' (max |delta| 5.062e-09)
+[H1_1] EXACT IDENTITY target - sum sigma_b q_b == 0 : True
+H1_1: proposed and exactly checked witnesses 1/75
+H1_1: proposed and exactly checked witnesses 21/75
+H1_1: proposed and exactly checked witnesses 41/75
+H1_1: proposed and exactly checked witnesses 61/75
+{'identity': 'H1_1', 'blocks': 75, 'shapes': {'34': 74, '104': 1}, 'gamma': None, 'sha256': '69a8b4ee2fd6708540f2be4cc7d3b3f057fbda05f9b8e7dd86a62fd58c43de94', 'seconds': 3.8341279169544578}
+[H1_2] den=2^-40 eps=6.000e-07 blocks=75 sizes=[34, 104] target terms=754
+[H1_2] exact total built (1.7s); residual terms 1092, max|residual| = 4.883e-09
+[H1_2] projected 1092 residual coefficients into block '1' (max |delta| 4.883e-09)
+[H1_2] EXACT IDENTITY target - sum sigma_b q_b == 0 : True
+H1_2: proposed and exactly checked witnesses 1/75
+H1_2: proposed and exactly checked witnesses 21/75
+H1_2: proposed and exactly checked witnesses 41/75
+H1_2: proposed and exactly checked witnesses 61/75
+{'identity': 'H1_2', 'blocks': 75, 'shapes': {'34': 74, '104': 1}, 'gamma': None, 'sha256': 'dd472faf60f232e4a8c53b5d5875039867a2a9cff6ea5f8acbf6958ac49fd05c', 'seconds': 4.132231542025693}
+[H2] den=2^-40 eps=5.000e-08 blocks=23 sizes=[4, 9] target terms=24
+[H2] exact total built (0.0s); residual terms 25, max|residual| = 3.100e+00
+[H2] projected 24 residual coefficients into block '1' (max |delta| 1.537e-08)
+[H2] EXACT IDENTITY target - sum sigma_b q_b - gamma == 0 : True
+[H2] gamma_exact = -11322938895932849560433/1484340697497600000000 + (108969540019475/17592186044416)*sqrt3  = 3.100409768931834
+H2: proposed and exactly checked witnesses 1/23
+H2: proposed and exactly checked witnesses 21/23
+{'identity': 'H2', 'blocks': 23, 'shapes': {'4': 22, '9': 1}, 'gamma': ['-11322938895932849560433/1484340697497600000000', '108969540019475/17592186044416'], 'sha256': '221f744fca6b9430b233cc92e979143645b3ccd8df035cd798d9b83dcc6fab25', 'seconds': 0.034915999975055456}

@@ -1,0 +1,106 @@
+{
+  "named_targets": 374,
+  "added_targets": [
+    "Certificate.Packing.contDiff_minimizerAngularBoundary",
+    "Certificate.Packing.contDiff_minimizerAngularSpeed",
+    "Certificate.Packing.contDiff_minimizerAngularSuccessor",
+    "Certificate.Packing.contDiff_unitCirclePoint",
+    "Certificate.Packing.continuous_criticalSupportCoefficient",
+    "Certificate.Packing.continuous_det2_comp",
+    "Certificate.Packing.continuous_positiveCritical_form",
+    "Certificate.Packing.continuous_positiveCritical_slideA",
+    "Certificate.Packing.continuous_positiveCritical_slideB",
+    "Certificate.Packing.continuous_positiveCritical_vertex",
+    "Certificate.Packing.criticalMidpoint_gradient_lipschitz",
+    "Certificate.Packing.criticalMidpoint_tangent_lipschitz",
+    "Certificate.Packing.criticalSupportCoefficient_pos",
+    "Certificate.Packing.criticalSupportCoefficient_uniform_bound",
+    "Certificate.Packing.critical_normal_evaluation_uniform_bound",
+    "Certificate.Packing.eventually_positiveCritical_variation",
+    "Certificate.Packing.eventually_uniform_critical_variation",
+    "Certificate.Packing.hasDerivAt_minimizerAngularBoundary",
+    "Certificate.Packing.hasDerivAt_unitCirclePoint",
+    "Certificate.Packing.locallyLipschitz_criticalMidpoint_gradient",
+    "Certificate.Packing.minimizerAngularBoundary_gradient_ac",
+    "Certificate.Packing.minimizerAngularBoundary_lipschitz",
+    "Certificate.Packing.minimizerAngularBoundary_tangent_ac",
+    "Certificate.Packing.minimizerAngularSuccessor_regular",
+    "Certificate.Packing.minimizerAngularVelocity_ac",
+    "Certificate.Packing.minimizerAngularVelocity_det_pos",
+    "Certificate.Packing.minimizerAngularVelocity_eq_speed_tangent",
+    "Certificate.Packing.minimizerAngularVelocity_ne_zero",
+    "Certificate.Packing.minimizerBoundary_gradient_ac_of_lipschitz",
+    "Certificate.Packing.minimizerBoundary_gradient_lipschitz",
+    "Certificate.Packing.minimizerBoundary_tangent_ac_of_lipschitz",
+    "Certificate.Packing.minimizerBoundary_tangent_lipschitz",
+    "Certificate.Packing.positiveCriticalHex_det_pos",
+    "Certificate.Packing.positiveCriticalHex_strict",
+    "Certificate.Packing.uniform_critical_gradient_small_difference",
+    "Certificate.Packing.uniform_critical_support_contact_bound",
+    "Certificate.Packing.unitCirclePoint_lipschitz",
+    "Certificate.Packing.unitCirclePoint_mem_sphere",
+    "Certificate.Packing.unitCirclePoint_ne_zero",
+    "Certificate.Packing.unitCirclePoint_norm",
+    "Certificate.Packing.unitCirclePoint_velocity_det"
+  ],
+  "removed_targets": [],
+  "disallowed_axioms": {},
+  "prior_nonroot_records_preserved": 1245,
+  "changed_prior_records": [],
+  "local_module_records": 1250,
+  "source_files_scanned": 1524,
+  "source_scan_current": true,
+  "published_provenance_hash_current": true,
+  "full_density_theorem_verified": false,
+  "balanced_frame_boundary_constructed": false,
+  "new_flags": {
+    "boundary_uniform_tangent_lipschitz_verified": true,
+    "boundary_uniform_gradient_lipschitz_verified": true,
+    "angular_boundary_regular_verified": true,
+    "angular_boundary_velocity_ac_verified": true
+  },
+  "new_modules": [
+    {
+      "source": "Certificate/CriticalFamilyRegularity.lean",
+      "source_sha256": "ca6f3ae66162949b3c1f008eb62be52184a6ad53935dd13b9fd896d2e41e319a",
+      "artifact": "Certificate/CriticalFamilyRegularity.olean",
+      "artifact_sha256": "844c6ff393ff9bbef2d88fd72b5779744f0942753800b4851a1aa3f3ed0d4175",
+      "artifact_companions": {}
+    },
+    {
+      "source": "Certificate/CriticalFamilyUniformVariation.lean",
+      "source_sha256": "1496a9dd1be90e16af9d6ac91b9c7ac811ae90b3c420ac3415679446019540fd",
+      "artifact": "Certificate/CriticalFamilyUniformVariation.olean",
+      "artifact_sha256": "a207e920752a010983e5e231b8020c807e0dc6c971ee5b703ee50f52680c7a8f",
+      "artifact_companions": {}
+    },
+    {
+      "source": "Certificate/MinimizerUniformRegularity.lean",
+      "source_sha256": "5752fd34fb22287db9ca4755a196a1e8e4543887f660813ed9783092261f23ce",
+      "artifact": "Certificate/MinimizerUniformRegularity.olean",
+      "artifact_sha256": "86d0f5b0a1a75f016f2588e320b98e0fe3e8482060ce1d4ac0557186f70365cd",
+      "artifact_companions": {}
+    },
+    {
+      "source": "Certificate/MinimizerAngularBoundary.lean",
+      "source_sha256": "ae8f2307af18ec077d017c4de0d2ad19fa6ba2a1e5193a36b21d4cce4f10ad82",
+      "artifact": "Certificate/MinimizerAngularBoundary.olean",
+      "artifact_sha256": "6517bcadb0f70c65069bcea70b7629a58bc865402ba2838db9e7bc63514464ae",
+      "artifact_companions": {}
+    }
+  ],
+  "numerical_counts": {
+    "generated_matrix_proofs_passed": 248,
+    "gram_expansions_passed": 248,
+    "multipliers_passed": 75,
+    "polynomial_reductions_passed": 4,
+    "assembled_blocks_passed": 248,
+    "assembled_identities": [
+      "H1_0",
+      "H1_1",
+      "H1_2",
+      "H2"
+    ]
+  },
+  "stale_reports": []
+}

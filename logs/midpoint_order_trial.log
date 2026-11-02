@@ -1,0 +1,8 @@
+'Certificate.Packing.det2_two_combinations' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.criticalMidpointNext_det_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.inCriticalMidpointSector_iff_det_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.criticalMidpointNext_triangle_order' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.criticalMidpointNext_preserves_sector' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.criticalMidpointNext_iterate_preserves_sector' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

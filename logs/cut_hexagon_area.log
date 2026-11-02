@@ -1,0 +1,33 @@
+Certificate/CutHexagonArea.lean:23:10: warning: Unused tactic linter: `field_simp` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+Certificate/CutHexagonArea.lean:23:25: warning: Unused tactic linter: `ring` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+Certificate/CutHexagonArea.lean:23:10: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+Certificate/CutHexagonArea.lean:23:25: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+Certificate/CutHexagonArea.lean:52:21: warning: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+Certificate/CutHexagonArea.lean:62:46: warning: Unused tactic linter: `field_simp` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+Certificate/CutHexagonArea.lean:62:61: warning: Unused tactic linter: `ring` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+Certificate/CutHexagonArea.lean:62:46: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+Certificate/CutHexagonArea.lean:62:61: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+Certificate/CutHexagonArea.lean:88:59: warning: Unused tactic linter: `ring` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+Certificate/CutHexagonArea.lean:88:59: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+Certificate/CutHexagonArea.lean:119:23: warning: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+LEAN_BUILD {"argv": ["-M", "8192", "-o", "Certificate/CutHexagonArea.olean", "Certificate/CutHexagonArea.lean"], "cache_argv": ["-o", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/CutHexagonArea.olean", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/CutHexagonArea.lean"], "cache_hit": false, "cache_validation_seconds": 0.2875412910361774, "compile_seconds": 19.478885125019588, "dedup_wait_seconds": 0.00010895798914134502, "exit_code": 0, "output": "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/CutHexagonArea.olean", "overhead_seconds": 0.2911285419831984, "pid": 96312, "priority": "interactive", "profile_requested": false, "queue_seconds": 0.0005806669942103326, "schema": 1, "source": "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/CutHexagonArea.lean", "timed_out": false, "wall_seconds": 19.770703291986138}

@@ -1,0 +1,16 @@
+'Certificate.posSemidef_of_row_dominance' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.sqrt_three_enclosure' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.gram_plus_residual_posSemidef' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.gram_certificate_sound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.certified_density_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.weighted_denominator_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.cleared_vertex_inequalities' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.control_cost_lower_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.density_bound_from_control' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.multiplier_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.multipliers_H1_0_count' does not depend on any axioms
+'Certificate.multipliers_H1_1_count' does not depend on any axioms
+'Certificate.multipliers_H1_2_count' does not depend on any axioms
+'Certificate.multipliers_H2_count' does not depend on any axioms
+'Certificate.g_monomial_rewrite' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.X_monomial_rewrite' depends on axioms: [propext, Classical.choice, Quot.sound]

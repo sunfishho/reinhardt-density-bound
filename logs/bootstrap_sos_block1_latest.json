@@ -1,0 +1,16 @@
+{
+  "schema": 1,
+  "pid": 73086,
+  "source": "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/SOS/H1_0B001Data.lean",
+  "output": "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/SOS/H1_0B001Data.olean",
+  "cache_hit": false,
+  "priority": "interactive",
+  "dedup_wait_seconds": 0.00020091701298952103,
+  "queue_seconds": 0.0002591250231489539,
+  "compile_seconds": 1.6159927920089103,
+  "cache_validation_seconds": 0.03299795795464888,
+  "exit_code": 0,
+  "timed_out": false,
+  "wall_seconds": 1.650533458974678,
+  "overhead_seconds": 0.034080624929629266
+}

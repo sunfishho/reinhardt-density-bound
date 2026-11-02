@@ -1,0 +1,45 @@
+logs/MidpointRelabelDiagnostic.lean:15:91: error: ring failed, ring expressions not equal
+H : Hex
+⊢ 1 / 2 = 0
+logs/MidpointRelabelDiagnostic.lean:15:91: error: ring failed, ring expressions not equal
+H : Hex
+⊢ -1 / 2 = 0
+logs/MidpointRelabelDiagnostic.lean:15:91: error: ring failed, ring expressions not equal
+H : Hex
+⊢ -1 / 2 = 0
+logs/MidpointRelabelDiagnostic.lean:15:91: error: ring failed, ring expressions not equal
+H : Hex
+⊢ -1 / 2 = 0
+logs/MidpointRelabelDiagnostic.lean:15:91: error: ring failed, ring expressions not equal
+H : Hex
+⊢ 1 / 2 = 0
+case «1»
+H : Hex
+⊢ (1 / 2) • H.c + -((1 / 2) • H.a) =
+    ![(1 / 2) • H.a + (1 / 2) • H.b, (1 / 2) • H.b + (1 / 2) • H.c, (1 / 2) • (H.c - H.a),
+        -((1 / 2) • H.a) + -((1 / 2) • H.b), -((1 / 2) • H.b) + -((1 / 2) • H.c), -((1 / 2) • (H.c - H.a))]
+      (1 + 1)
+case «2»
+H : Hex
+⊢ -((1 / 2) • H.a) + -((1 / 2) • H.b) =
+    ![(1 / 2) • H.a + (1 / 2) • H.b, (1 / 2) • H.b + (1 / 2) • H.c, (1 / 2) • (H.c - H.a),
+        -((1 / 2) • H.a) + -((1 / 2) • H.b), -((1 / 2) • H.b) + -((1 / 2) • H.c), -((1 / 2) • (H.c - H.a))]
+      (⟨2, ⋯⟩ + 1)
+case «3»
+H : Hex
+⊢ -((1 / 2) • H.b) + -((1 / 2) • H.c) =
+    ![(1 / 2) • H.a + (1 / 2) • H.b, (1 / 2) • H.b + (1 / 2) • H.c, (1 / 2) • (H.c - H.a),
+        -((1 / 2) • H.a) + -((1 / 2) • H.b), -((1 / 2) • H.b) + -((1 / 2) • H.c), -((1 / 2) • (H.c - H.a))]
+      (⟨3, ⋯⟩ + 1)
+case «4»
+H : Hex
+⊢ -((1 / 2) • H.c) + (1 / 2) • H.a =
+    ![(1 / 2) • H.a + (1 / 2) • H.b, (1 / 2) • H.b + (1 / 2) • H.c, (1 / 2) • (H.c - H.a),
+        -((1 / 2) • H.a) + -((1 / 2) • H.b), -((1 / 2) • H.b) + -((1 / 2) • H.c), -((1 / 2) • (H.c - H.a))]
+      (⟨4, ⋯⟩ + 1)
+case «5»
+H : Hex
+⊢ (1 / 2) • H.a + (1 / 2) • H.b =
+    ![(1 / 2) • H.a + (1 / 2) • H.b, (1 / 2) • H.b + (1 / 2) • H.c, (1 / 2) • (H.c - H.a),
+        -((1 / 2) • H.a) + -((1 / 2) • H.b), -((1 / 2) • H.b) + -((1 / 2) • H.c), -((1 / 2) • (H.c - H.a))]
+      (⟨5, ⋯⟩ + 1)

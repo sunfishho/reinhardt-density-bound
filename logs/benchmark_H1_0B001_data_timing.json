@@ -1,0 +1,26 @@
+{
+  "schema": 1,
+  "pid": 72538,
+  "source": "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/SOS/H1_0B001Data.lean",
+  "output": "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/SOS/H1_0B001Data.olean",
+  "cache_hit": false,
+  "priority": "interactive",
+  "dedup_wait_seconds": 6.0624966863542795e-05,
+  "queue_seconds": 0.0003195420140400529,
+  "compile_seconds": 2.268659207969904,
+  "cache_validation_seconds": 0.034922042046673596,
+  "exit_code": 0,
+  "timed_out": false,
+  "provenance_incomplete": [
+    "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/FastGram.lean",
+    "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/Generated/H1_0B001Data.lean",
+    "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/GramSoundness.lean",
+    "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/IntervalSoundness.lean",
+    "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/ListDotSoundness.lean",
+    "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/MatrixPositivity.lean",
+    "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/SOSPolynomial.lean",
+    "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/SparsePolynomial.lean"
+  ],
+  "wall_seconds": 2.3052325409953482,
+  "overhead_seconds": 0.0361931660445407
+}

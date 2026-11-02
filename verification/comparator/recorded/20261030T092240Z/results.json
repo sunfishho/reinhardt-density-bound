@@ -1,0 +1,61 @@
+[
+  {
+    "name": "ControlGood",
+    "command": [
+      "/Users/matthewho/.codex/.chatgpt-projects/g-p-6a5ad858ad18819189c51db74c9c12e9/courtade-kumar-publish/.lake/verification-433/comparator/.lake/build/bin/comparator",
+      "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/verification/comparator/ControlGood.json"
+    ],
+    "exit_code": 0,
+    "expected_exit_code": 0,
+    "seconds": 8.027593207996688,
+    "log_sha256": "b8dbfe39242aa7eb9277b6704d70521e951e814f18afd197884d31e11aaed103",
+    "stopped": null,
+    "maximum_resident_bytes": 913932288,
+    "passed": true,
+    "same_export_for_both_kernels": true,
+    "export_sha256": "64f68a263e57d8a213086b926823284e860032a5cfa3e2dd44ba38e903c5e510",
+    "export_bytes": 941901
+  },
+  {
+    "name": "ControlBadStatement",
+    "command": [
+      "/Users/matthewho/.codex/.chatgpt-projects/g-p-6a5ad858ad18819189c51db74c9c12e9/courtade-kumar-publish/.lake/verification-433/comparator/.lake/build/bin/comparator",
+      "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/verification/comparator/ControlBadStatement.json"
+    ],
+    "exit_code": 1,
+    "expected_exit_code": 1,
+    "seconds": 4.01468287500029,
+    "log_sha256": "33ab35f1b9d58db66d6b7a04b6aedef360b2ae5921294c9b9feb62061bbdef7a",
+    "stopped": null,
+    "maximum_resident_bytes": 913932288,
+    "passed": true
+  },
+  {
+    "name": "ControlBadAxiom",
+    "command": [
+      "/Users/matthewho/.codex/.chatgpt-projects/g-p-6a5ad858ad18819189c51db74c9c12e9/courtade-kumar-publish/.lake/verification-433/comparator/.lake/build/bin/comparator",
+      "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/verification/comparator/ControlBadAxiom.json"
+    ],
+    "exit_code": 1,
+    "expected_exit_code": 1,
+    "seconds": 4.015370792010799,
+    "log_sha256": "6405c53a71e5ca80351e9a3dba1136e7b871dcbdcf99010f39052f3671663c4c",
+    "stopped": null,
+    "maximum_resident_bytes": 917962752,
+    "passed": true
+  },
+  {
+    "name": "reinhardt",
+    "command": [
+      "/Users/matthewho/.codex/.chatgpt-projects/g-p-6a5ad858ad18819189c51db74c9c12e9/courtade-kumar-publish/.lake/verification-433/comparator/.lake/build/bin/comparator",
+      "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/verification/comparator/config.json"
+    ],
+    "exit_code": 1,
+    "expected_exit_code": 0,
+    "seconds": 6.017198999994434,
+    "log_sha256": "02b9a15fb752c99e16111f76174972f07a575dc6a5fe05e51334689910a87e18",
+    "stopped": null,
+    "maximum_resident_bytes": 694157312,
+    "passed": false
+  }
+]

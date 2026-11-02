@@ -1,0 +1,762 @@
+Certificate.lean: exit 0
+.lake/scratch/FinalAxiomAudit.lean: exit 0
+{
+  "certificate_on_region_verified": true,
+  "original_matrix_ode_cost_theorem_verified": true,
+  "conditional_density_theorem_verified": true,
+  "new_geometric_confinement_deductions_verified": true,
+  "compact_domain_cost_theorem_verified": true,
+  "compact_domain_coordinate_equivalence_verified": true,
+  "original_packing_density_definitions_used": true,
+  "lattice_density_comparison_verified": true,
+  "hexagon_packing_construction_verified": true,
+  "compact_exclusion_from_area_estimate_verified": true,
+  "simplex_control_reconstruction_from_curvature_verified": true,
+  "conditional_convex_body_packing_theorem_verified": true,
+  "published_geometry_components_verified": true,
+  "full_hales_vajjha_area_estimate_verified": true,
+  "area_estimate_from_critical_hexagon_family_verified": true,
+  "boundary_integral_area_identity_verified": true,
+  "area_identity_from_frame_boundary_verified": true,
+  "supporting_hexagons_from_convex_boundary_verified": true,
+  "strict_interior_stars_from_convex_boundary_verified": true,
+  "curvature_from_convex_boundary_verified": true,
+  "minimizing_hexagon_ratio_body_verified": true,
+  "normalized_minimizer_verified": true,
+  "radial_boundary_construction_verified": true,
+  "radial_boundary_lipschitz_verified": true,
+  "global_ratio_comparison_verified": true,
+  "balanced_frame_boundary_constructed": false,
+  "unconditional_packing_density_theorem_verified": false,
+  "conclusion": "8950112/10000000 < Packing.packingDensity K, under the explicit geometric data hypotheses",
+  "remaining_geometric_inputs": [
+    "Construct the balanced critical-hexagon boundary of the ratio minimizer: attainment/contact geometry, C1 and Lipschitz-tangent regularity, and an appropriate linear and time normalization giving the FrameTrajectory and FrameTrace fields. The constructed radial Lipschitz boundary does not supply these fields.",
+    "Compare the area/critical-hexagon-infimum ratio to the original packingDensity for arbitrary symmetric convex discs. Global minimization of the ratio is proved, but its full packing-density identification/comparison is not supplied by this existence argument."
+  ],
+  "derived_geometric_facts": [
+    "Every symmetric convex disc has an invertible linear image between the coordinate diamond and square, obtained by maximizing an inscribed parallelogram determinant. This normalized family is compact in the Vietoris/Hausdorff topology.",
+    "The critical hexagon area is a positive finite infimum, scales by the absolute determinant, and gives an affine invariant area ratio. A quantitative r^4 comparison proves lower semicontinuity and global minimizer existence.",
+    "Scaling the constructed ratio minimizer makes its hexagon-area infimum exactly 2*sqrt(3). It minimizes actual area among all symmetric convex discs whose enclosing hexagons have area at least that value.",
+    "The explicit gauge radial homeomorphism maps the unit circle onto the entire frontier, respects central symmetry, is injective and Lipschitz on the circle. This is a constructed radial boundary, not yet the balanced frame boundary.",
+    "If the required FrameTrace is constructed for an area-preserving linear image of the chosen minimizer, the certificate lower bound transfers to the hexagon ratios of all symmetric convex discs by the proved global minimality.",
+    "All 12 X-dependent certificate constraints from the HV compact domain.",
+    "All 6 angular-sector constraints from the original group ODE and endpoints.",
+    "The group Frobenius norm bound from a two-endpoint energy estimate.",
+    "Interior differentiability of the group path from its AC and a.e. ODE hypotheses.",
+    "The low-cost case (cost <= 3.11) implies all 19 certificate constraints.",
+    "Higher-cost paths exceed gamma directly; the final theorem has no upper-cost hypothesis.",
+    "Concrete lattice packings give area/covolume lower bounds for the original ball-limsup density.",
+    "A circumscribed symmetric hexagon supplies such a lattice; its midpoint positions give covolume 2*sqrt(3).",
+    "The scalar area estimate outside the compact domain is at least 269/300, strictly above gamma/(2*sqrt(3)); no interval grid or octagon optimum is needed.",
+    "Nonnegative curvature reconstructs simplex controls and the exact X-control equation.",
+    "The determinant tangent identity and coordinate derivatives are derived a.e. from AC regularity and determinant constraints.",
+    "HV Lemmas 5.0.4 and 5.0.5 in explicit coordinates, using actual Lebesgue triangle areas.",
+    "A competing corner-cut hexagon has area equal to its computed lattice covolume.",
+    "Actual hexagon-area minimality forces a contact point and the single-corner square-root area contribution.",
+    "The inscribed regular hexagon has area 3*sqrt(3)/2, giving the baseline lower bound for every convex body containing its six vertices.",
+    "The actual geometric triangle expression normalizes exactly to areaScore.",
+    "The full HV 5.0.6 area bound in the published strict star domain: all three corner contacts, rotations, and null-overlap area assembly are proved.",
+    "The explicit normalized hexagon and its pullback construct a lattice packing of the original body; affine invariance of arbitrary packing density is not assumed.",
+    "The normalized critical hexagon has actual Lebesgue area 2*sqrt(3), proved by linear transport to a measured corner-cut hexagon and cyclic reduction; its geometric area and lattice covolume agree.",
+    "CriticalHexagonFamily.hasAreaEstimate removes the standalone area-estimate premise from the new final density theorem.",
+    "A radial-sector Jacobian computes actual area from a convex boundary arc; convex gauge proves injectivity.",
+    "A finite boundary-arc cover fills the body up to null boundary and endpoint rays; sector areas sum without an assumed area formula.",
+    "The six frame arcs have derivatives from the existing AC/ODE data; their signed area integrands are nonnegative and sum to twice the cost.",
+    "FrameBoundary.cost_eq_area proves HV Section 3.2 from boundary coverage and nonoverlap. The new final packing theorem has no cost/area identity premise.",
+    "Convex separation and Fermat's theorem prove that oriented boundary tangents support the whole convex body.",
+    "The state matrix constructs an area-preserving inverse frame; boundary membership supplies the normalized contact points.",
+    "The tangent normal forms equal the explicit three hexagon strip forms, so convexity supplies enclosure.",
+    "Weak star conditions and determinant constraints give strictly positive angular speed. An interior equality in a star condition would force two adjacent tangents parallel, contradicting their determinant.",
+    "The interior HV area estimate extends to endpoints by continuity. The strongest final packing theorem needs no separate strict-star, supporting-frame, contact, or enclosure premises.",
+    "The signed distance from a supporting tangent has a local minimum, so its second derivative is nonnegative wherever it exists. Differentiating the actual frame velocity identifies this curvature with the matrix expression. The strongest theorem now also derives the a.e. curvature sign and reconstructs the controls from a FrameTrajectory and FrameTrace."
+  ],
+  "verified_theorems": {
+    "Certificate.NewCertificate.differential": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Certificate.NewCertificate.boundary": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Certificate.certified_control_cost": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Certificate.AdmissibleTrajectory.cost_lower_bound": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Certificate.density_bound_of_admissible_trajectory": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Certificate.certificate_region_nonempty": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Certificate.Confinement.height_bounds": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Certificate.Confinement.state_bounds": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Certificate.Confinement.energy_bound": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Certificate.Confinement.row_polar_representation": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Certificate.Confinement.row_sector": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Certificate.Confinement.RegularPath.group_bounds": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Certificate.Confinement.hasDerivAt_of_ac_continuous_rhs": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Certificate.Confinement.cuspAndWall_chart_iff": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Certificate.Confinement.hvCompact_iff_rotated": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Certificate.CompactTrajectory.certificate_region": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Certificate.CompactTrajectory.cost_lower_bound": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Certificate.density_bound_of_compact_trajectory": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Certificate.Packing.packingDensity_ge_lattice": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Certificate.Packing.Hex.disjoint_of_subset": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Certificate.Packing.packingDensity_ge_hexagon": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Certificate.Packing.Hex.det_of_midpoints": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Certificate.Packing.packingDensity_ge_normalized_area": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Certificate.Confinement.compact_of_areaScore": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Certificate.Confinement.certified_density_lt_exclusion_threshold": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Certificate.NormalizedTrajectory.cost_lower_bound": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Certificate.Curvature.controls_of_nonnegative_curvature": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Certificate.CurvatureTrajectory.determinant_tangent_ae": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Certificate.CurvatureTrajectory.matrix_ode": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Certificate.CurvatureTrajectory.cost_lower_bound": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Certificate.Packing.packing_density_bound_of_geometric_data": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Certificate.Packing.packing_density_bound_of_curvature_data": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Certificate.Packing.volume_Tri": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Certificate.Packing.volume_triangle": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Certificate.Packing.hales_vajjha_parallel_cut_area": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Certificate.Packing.cutHex_covolume": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Certificate.Packing.volume_cutHex": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Certificate.Packing.exists_cornerDistance_eq_of_area_minimal": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Certificate.Packing.hales_vajjha_corner_contribution": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Certificate.Packing.HVGeometry.midpoints": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Certificate.Packing.HVGeometry.exterior_edge_incidence": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Certificate.Packing.HVGeometry.interior_triangle_areas": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Certificate.Packing.HVGeometry.exterior_triangle_areas": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Certificate.Packing.HVGeometry.interior_area_sum": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Certificate.Packing.HVGeometry.geometric_areaScore_identity": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Certificate.Packing.HVGeometry.volume_inscribedHexagon": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Certificate.Packing.HVGeometry.baseline_area_lower_bound": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Certificate.Packing.HVGeometry.cornerRegion_inter_null": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Certificate.Packing.HVGeometry.inscribedHexagon_cornerRegion_inter_null": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Certificate.Packing.HVGeometry.vertex_mem_cornerRegion": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Certificate.Packing.HVGeometry.corner_pieces_area_lower_bound": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Certificate.Packing.HVGeometry.six_corner_area_lower_bound_of_triangle_contacts": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Certificate.Packing.HexAreaLowerBound.linear_image": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Certificate.Packing.triangleArea_linearMap": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Certificate.Packing.HVGeometry.cornerMap_det": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Certificate.Packing.HVGeometry.cornerMap_area_normalization": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Certificate.Packing.HVGeometry.first_corner_contact": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Certificate.Packing.HVGeometry.rotate_midpoints": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Certificate.Packing.HVGeometry.rotate_vertex": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Certificate.Packing.HVGeometry.rotate_sides": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Certificate.Packing.HVGeometry.second_corner_contact": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Certificate.Packing.HVGeometry.third_corner_contact": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Certificate.Packing.HVGeometry.hales_vajjha_area_bound": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Certificate.Packing.HVGeometry.normalizedHex_covolume": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Certificate.Packing.HVGeometry.volume_normalizedHex": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Certificate.Packing.HVGeometry.hexAreaLowerBound_of_normalized_minimum": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Certificate.Packing.HVGeometry.hales_vajjha_area_bound_of_minimal_hexagon": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Certificate.Packing.HVGeometry.packingDensity_ge_area_of_normalized_frame": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Certificate.Packing.CriticalHexagonFamily.hasAreaEstimate": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Certificate.Packing.packing_density_bound_of_critical_hexagon_family": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Certificate.Packing.packing_density_bound_of_curvature_critical_hexagon_family": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Certificate.Packing.radialMap_hasFDerivAt": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Certificate.Packing.det_radialDerivative": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Certificate.Packing.radialMap_injOn": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Certificate.Packing.radialSector_area": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Certificate.Packing.area_eq_sum_boundary_integrals": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Certificate.Packing.stateAction_hasDerivAt": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Certificate.Packing.root_area_integrands_nonneg": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Certificate.Packing.frame_area_integrand_sum": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Certificate.Packing.normalized_group_derivative": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Certificate.Packing.symmetricConvexDisc_zero_interior": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Certificate.Packing.FrameBoundary.cost_eq_area": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Certificate.Packing.packing_density_bound_of_boundary_critical_hexagons": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Certificate.Packing.packing_density_bound_of_curvature_boundary_critical_hexagons": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Certificate.Packing.convex_boundary_tangent_support": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Certificate.Packing.stateFrame_det": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Certificate.Packing.inverse_stateFrame_det": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Certificate.Packing.inverse_stateFrame_contact": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Certificate.Packing.root_area_integrands_pos_of_normalized": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Certificate.Packing.stateTangent_det": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Certificate.Packing.adjacent_tangent_contacts": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Certificate.Packing.tangent_side_identities": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Certificate.Packing.inHexagon_of_tangent_support": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Certificate.Packing.FrameBoundary.duration_pos": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Certificate.Packing.FrameBoundary.tangent_support": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Certificate.Packing.FrameBoundary.normalized_enclosure": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Certificate.Packing.FrameBoundary.strict_tangent_contact": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Certificate.Packing.FrameBoundary.star_pos_interior": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Certificate.Packing.FrameBoundary.criticalHexagons": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Certificate.Packing.packing_density_bound_of_frame_boundary": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Certificate.Packing.packing_density_bound_of_curvature_frame_boundary": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Certificate.Packing.FrameBoundary.area_estimate_interior": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Certificate.Packing.FrameBoundary.hasAreaEstimate_of_minimum": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Certificate.Packing.packing_density_bound_of_normalized_convex_boundary": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Certificate.Packing.packing_density_bound_of_curvature_convex_boundary": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Certificate.Packing.second_derivative_nonneg_of_local_min": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Certificate.Packing.convex_boundary_curvature_nonneg": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Certificate.FrameTrajectory.derivatives_ae": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Certificate.FrameTrajectory.group_derivative": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Certificate.Packing.frame_velocity_hasDerivAt": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Certificate.Packing.frame_signed_curvature": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Certificate.FrameTrace.curvature_nonneg_ae": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Certificate.FrameTrace.toFrameBoundary": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Certificate.Packing.packing_density_bound_of_convex_frame": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Certificate.Packing.exists_affine_normalized_disc": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Certificate.Packing.isCompact_normalizedDiscs": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Certificate.Packing.closedBall_half_subset_diamond": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Certificate.Packing.normalized_near_dilation": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Certificate.Packing.lowerSemicontinuousOn_normalized_area": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Certificate.Packing.criticalHexArea_linear_image": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Certificate.Packing.criticalHexArea_finite": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Certificate.Packing.criticalHexArea_pos": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Certificate.Packing.hexagonRatio_linear_image": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Certificate.Packing.criticalHexArea_smul": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Certificate.Packing.lowerSemicontinuousOn_hexagonRatio": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Certificate.Packing.exists_minimizing_disc": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Certificate.Packing.exists_normalized_minimizing_disc": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Certificate.Packing.normalized_minimizer_area_minimal": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Certificate.Packing.exists_reinhardt_normalized_minimizer": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Certificate.Packing.discRadialHomeomorph_sphere": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Certificate.Packing.exists_radial_boundary": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Certificate.Packing.discRadialHomeomorph_lipschitz_sphere": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Certificate.Packing.ratioMinimizingBody_properties": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Certificate.Packing.ratioMinimizingBoundary_properties": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Certificate.Packing.all_discs_ratio_bound_of_minimizer_frame": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ]
+  },
+  "original_inputs_sha256": "813f5bf7abcb6a1bcd175e2de7d26ee2fcbfd243f62a5e74482e6d64c9ea2991",
+  "geometric_provenance_sha256": "2696e637af47c1dd52c4a79e8b84b84288192660f1d5ff54be9b4b3b8d4a31cf",
+  "published_geometry_provenance_sha256": "a63760bde36909753fdcf982c1c1fc047580ff886ff2222d0f605bc70d33971a",
+  "original_packing_definition_body_sha256": "4d3b128710a93646d1974084fdffd28cde4ae45d36e7f3aa0e8822f934e4c805",
+  "exact_certificates_sha256": "8691863414e5dacb713ebae1cc8a638433e6fd6594d8a9a801414afd5d01e42c",
+  "original_input_hashes_verified": true,
+  "exact_certificate_hashes_verified": true,
+  "lean_toolchain": "leanprover/lean4:v4.33.0",
+  "lean_binary_sha256": "1b370cfcbf44e80d1b004ab1b1ab9a4c73951f9f7c242140bcff9bc577576554",
+  "lakefile_sha256": "c0aac6e8d4afcb4f1873937aadbbcc5f96693b82c7165c797c0a00e3a0b0b648",
+  "dependency_replay_requested": false,
+  "build_mode": "audit-built"
+}

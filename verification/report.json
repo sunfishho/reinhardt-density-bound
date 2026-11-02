@@ -1,0 +1,78 @@
+{
+  "result": "VERIFIED",
+  "theorem": "Certificate.Packing.reinhardt_density_lower_bound",
+  "statement": "For every symmetric convex disc K in R^2, 8950112/10000000 < packingDensity K.",
+  "full_proof_verified": true,
+  "standard_comparator_passed": true,
+  "lean_kernel_replay_passed": true,
+  "nanoda_passed": true,
+  "nanoda_checked_declarations_including_dependencies": 137417,
+  "full_run_seconds": 11028.728728082991,
+  "nanoda_seconds": 5693.225427458005,
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "definition_holes": [],
+  "exports": {
+    "Challenge": {
+      "bytes": 152056495,
+      "sha256": "d6ca5b312f6f05734e127193af523d77ef3ca05877ea1eb51d41a3b189684846",
+      "rehashed_after_completion": true,
+      "path": "comparator/recorded/20261030T092754Z/reinhardt/Challenge.ndjson"
+    },
+    "Solution": {
+      "bytes": 1124174737,
+      "sha256": "243d0e7a6e13a3c6f6c96c223321d91331c7e649e4f4d42a114a1a26f4de45dd",
+      "rehashed_after_completion": true,
+      "path": "comparator/recorded/20261030T092754Z/reinhardt/Solution.ndjson"
+    }
+  },
+  "postcheck_integrity": {
+    "artifacts_changed": [],
+    "harness_changed": [],
+    "executables_changed": []
+  },
+  "controls": [
+    {
+      "name": "ControlGood",
+      "passed": true,
+      "exit_code": 0,
+      "log": "comparator/recorded/20261030T092240Z/ControlGood/check.log"
+    },
+    {
+      "name": "ControlBadStatement",
+      "passed": true,
+      "exit_code": 1,
+      "log": "comparator/recorded/20261030T092240Z/ControlBadStatement/check.log"
+    },
+    {
+      "name": "ControlBadAxiom",
+      "passed": true,
+      "exit_code": 1,
+      "log": "comparator/recorded/20261030T092240Z/ControlBadAxiom/check.log"
+    }
+  ],
+  "checker_revisions": {
+    "comparator": "3927ad383f208ae977c340a91c48ac9b497d2097",
+    "exporter": "15f6055e299ad5b89345e533cc2192f4cc00f659",
+    "nanoda": "3a2407216ee84a75f9e1aead6803d0578be06ae7",
+    "mathlib": "db584cd6d46c92f209a44c0f1c829460d327499d"
+  },
+  "checker_executable_sha256": {
+    "lean": "1b370cfcbf44e80d1b004ab1b1ab9a4c73951f9f7c242140bcff9bc577576554",
+    "comparator": "fe1222e25fc301dc51ec3f9964a59ab557ea4f9ae6bb758842d70dbb341a5d08",
+    "exporter": "7d12f30ebc3ca8ed960b5d751407b0c17e1f58b23b605edd6c1029a3d718d2ad",
+    "nanoda": "318e2be8fcb550b85a25f8bece6227167a3126c3e432cd6bf23ad0de9ecca44d",
+    "landrun": "167507c89d8b3c7667ad78b50df7b19f89883751a01efd1457404fa34a994e8b"
+  },
+  "isolation": "upstream fake-landrun; no Linux sandbox",
+  "nanoda_adjustments": "two workers; 512 MiB worker stacks; success logging; axiom pretty-printing disabled",
+  "proof_checking_rules_modified": false,
+  "reference_review": "reference-review.json",
+  "receipt_directory": "comparator/recorded/20261030T092754Z",
+  "recorded_at_utc": "2026-10-30T12:33:17.847757+00:00",
+  "scope_note": "Checks the universal density bound strictly greater than 0.8950112, not the stronger smoothed-octagon Reinhardt conjecture. This is proof-object verification against an independent reference, not a clean rebuild of all source files.",
+  "prior_attempt_note": "The control receipt directory also records an initial full-target setup failure caused by an unused unavailable reference import. The final full run referenced here succeeded after that import was removed."
+}

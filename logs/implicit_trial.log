@@ -1,0 +1,8 @@
+'Certificate.Packing.criticalMidpointConstraints_next' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.contDiffAt_criticalMidpointConstraints' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.criticalMidpointConstraints_partial' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.criticalMidpointLocalNext_self' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.contDiffAt_criticalMidpointLocalNext' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.criticalMidpointLocalNext_constraints' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.criticalMidpointLocalNext_unique' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.criticalMidpointLocalNext_agrees' depends on axioms: [propext, Classical.choice, Quot.sound]

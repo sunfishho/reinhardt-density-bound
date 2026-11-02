@@ -1,0 +1,13 @@
+{
+  "baseline": "verification_before_midpoint_order.json",
+  "checked_prior_nonroot_modules": 1237,
+  "mismatches": [],
+  "verified_results": 320,
+  "new_results": 33,
+  "removed_results": [],
+  "unexpected_axioms": {},
+  "local_modules": 1243,
+  "production_sources": 1517,
+  "published_provenance_current": true,
+  "passed": true
+}

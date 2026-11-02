@@ -1,0 +1,18 @@
+Certificate/MinimizerGaugeDifferentiability.lean:158:10: warning: This simp argument is unused:
+  minimizerRadialFoot
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [minimizerRadialVelocity, Function.comp_def, add_comm]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+Certificate/MinimizerGaugeDifferentiability.lean:157:93: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+'Certificate.Packing.hasFDerivAt_of_continuous_support' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.hasFDerivAt_minimizerGauge' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.contDiffOn_minimizerGauge' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.contDiffOn_minimizerRadialFoot' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.minimizerRadialFoot_eq_boundary' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.hasDerivAt_minimizerRadialFoot_comp' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.minimizerRadialVelocity_det' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.minimizerRadialVelocity_ne_zero' depends on axioms: [propext, Classical.choice, Quot.sound]

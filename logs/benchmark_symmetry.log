@@ -1,0 +1,2 @@
+'Certificate.BenchmarkLite.symmetric_A' depends on axioms: [propext, Quot.sound]
+'Certificate.BenchmarkLite.symmetric_B' depends on axioms: [propext, Quot.sound]

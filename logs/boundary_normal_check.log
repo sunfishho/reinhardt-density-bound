@@ -1,0 +1,37 @@
+Certificate/MinimizerBoundaryNormalContinuity.lean:22:39: error: Application type mismatch: The argument
+  p.property.left.left.right.left
+has type
+  Encloses ratioMinimizingBody (↑p).1
+but is expected to have type
+  ratioMinimizingBody ⊆ Hex.set ?m.17
+in the application
+  critical_contact_of_sideNormal p.property.left.left.right.left
+'Certificate.Packing.criticalFirstSupportProjection_surjective' depends on axioms: [propext,
+ sorryAx,
+ Classical.choice,
+ Quot.sound]
+'Certificate.Packing.minimizerBoundaryNormal_support' depends on axioms: [propext,
+ sorryAx,
+ Classical.choice,
+ Quot.sound]
+'Certificate.Packing.continuous_minimizerBoundaryNormal' depends on axioms: [propext,
+ sorryAx,
+ Classical.choice,
+ Quot.sound]
+'Certificate.Packing.minimizerBoundaryNormal_eq_midpointNormal' depends on axioms: [propext,
+ sorryAx,
+ Classical.choice,
+ Quot.sound]
+'Certificate.Packing.continuous_minimizerBoundaryTangent' depends on axioms: [propext,
+ sorryAx,
+ Classical.choice,
+ Quot.sound]
+'Certificate.Packing.minimizerBoundaryTangent_det' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]
+'Certificate.Packing.minimizerBoundaryTangent_ne_zero' depends on axioms: [propext,
+ sorryAx,
+ Classical.choice,
+ Quot.sound]
+'Certificate.Packing.minimizerBoundaryTangent_support' depends on axioms: [propext,
+ sorryAx,
+ Classical.choice,
+ Quot.sound]

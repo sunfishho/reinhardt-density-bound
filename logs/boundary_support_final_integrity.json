@@ -1,0 +1,14 @@
+[
+  {
+    "baseline": "verification_before_support_face_contact.json",
+    "checked_prior_nonroot_modules": 1220,
+    "mismatches": [],
+    "passed": true
+  },
+  {
+    "baseline": "verification_support_face_checkpoint.json",
+    "checked_prior_nonroot_modules": 1224,
+    "mismatches": [],
+    "passed": true
+  }
+]

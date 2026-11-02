@@ -1,0 +1,14 @@
+# Rebuildable compiled outputs and machine-local caches
+.lake/
+*.olean
+*.olean.*
+*.ilean
+*.ilean.*
+__pycache__/
+*.py[cod]
+.DS_Store
+*.lock
+# Large exported proof objects are identified by hashes in the receipts.
+*.ndjson
+# Compressed compiled-object cache archives
+*.olean*.gz

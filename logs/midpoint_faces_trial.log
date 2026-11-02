@@ -1,0 +1,80 @@
+Certificate/CriticalMidpointSupportFace.lean:97:2: error: linarith failed to find a contradiction
+u : E
+hu : u ∈ ratioMinimizingBody
+ψ : E →ₗ[ℝ] ℝ
+hψ : NormalizedSupportAt ratioMinimizingBody u ψ
+χ : E →ₗ[ℝ] ℝ
+ε : ℕ → ℝ := fun n => 1 / (↑n + 1)
+hε : ∀ (n : ℕ), 0 < ε n
+hεlim : Tendsto ε atTop (𝓝 0)
+p : ℕ → E
+hp : ∀ (n : ℕ), p n ∈ criticalMidpointSet
+hmax : ∀ (n : ℕ), ∀ y ∈ ratioMinimizingBody, (ψ + ε n • χ) y ≤ (ψ + ε n • χ) (p n)
+q : E
+hq : q ∈ criticalMidpointSet
+f : ℕ → ℕ
+hf : StrictMono f
+ht : Tendsto (p ∘ f) atTop (𝓝 q)
+hpK : ∀ (n : ℕ), p n ∈ ratioMinimizingBody
+hqK : q ∈ ratioMinimizingBody
+htilt : ∀ (n : ℕ), ∀ x ∈ ratioMinimizingBody, ψ x + ε n * χ x ≤ ψ (p n) + ε n * χ (p n)
+hψlim : Tendsto (⇑ψ ∘ p ∘ f) atTop (𝓝 (ψ q))
+hχlim : Tendsto (⇑χ ∘ p ∘ f) atTop (𝓝 (χ q))
+helim : Tendsto (ε ∘ f) atTop (𝓝 0)
+hlim : 1 ≤ ψ q
+x : E
+hx : x ∈ ratioMinimizingBody
+hface : ψ x = 1
+n : ℕ
+hh : 1 + ε (f n) * χ x ≤ ψ (p (f n)) + ε (f n) * χ (p (f n))
+hb : ψ (p (f n)) ≤ 1
+he : 0 < ε (f n)
+a✝ : (⇑χ ∘ p ∘ f) n < χ x
+⊢ False
+failed
+Certificate/CriticalMidpointSupportFace.lean:147:8: error: ring failed, ring expressions not equal
+u : E
+hu : u ∈ ratioMinimizingBody
+ψ : E →ₗ[ℝ] ℝ
+hψ : NormalizedSupportAt ratioMinimizingBody u ψ
+H : Hex
+hH : ratioMinimizingBody ⊆ H.set
+harea : volume H.set = criticalHexArea ratioMinimizingBody
+i : Fin 6
+hi : ψ (H.midpoint i) = 1
+p : ↑criticalMidpointSet := ⋯
+hpψ : NormalizedSupportAt ratioMinimizingBody (↑p) ψ
+χ : E →ₗ[ℝ] ℝ := ⋯
+b : E
+hb : b ∈ criticalMidpointSet
+hbψ : ψ b = 1
+hmax : ∀ x ∈ ratioMinimizingBody, ψ x = 1 → χ x ≤ χ b
+a : E
+ha : a ∈ criticalMidpointSet
+haψ : ψ a = 1
+hnegmax : ∀ x ∈ ratioMinimizingBody, ψ x = 1 → (-χ) x ≤ (-χ) a
+hmin : ∀ x ∈ ratioMinimizingBody, ψ x = 1 → χ a ≤ χ x
+haK : a ∈ ratioMinimizingBody
+hbK : b ∈ ratioMinimizingBody
+hdec : ∀ (x : E), ψ x = 1 → x = ↑p + χ x • criticalMidpointTangent p
+x : E
+hx : x ∈ ratioMinimizingBody
+hxψ : ψ x = 1
+s t : ℝ
+hs : 0 ≤ s
+ht : 0 ≤ t
+hst : s + t = 1
+he : s * χ a + t * χ b = χ x
+⊢ s * χ a + t * χ b = s * χ (↑p + χ a • criticalMidpointTangent p) + t * χ (↑p + χ b • criticalMidpointTangent p)
+'Certificate.Packing.minimizer_support_maximum_at_critical_midpoint' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Certificate.Packing.minimizer_support_maximum_at_midpoint' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.criticalMidpoint_support_face_max' depends on axioms: [propext,
+ sorryAx,
+ Classical.choice,
+ Quot.sound]
+'Certificate.Packing.criticalMidpoint_support_face_decomposition' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Certificate.Packing.minimizer_support_face_segment' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]

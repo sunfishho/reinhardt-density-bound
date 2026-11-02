@@ -1,0 +1,20 @@
+{
+  "schema": 1,
+  "pid": 73785,
+  "source": "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/Chunked/Benchmarks/H104LeafDecide.lean",
+  "output": "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/Chunked/Benchmarks/H104LeafDecide.olean",
+  "cache_hit": false,
+  "priority": "normal",
+  "dedup_wait_seconds": 0.00014879199443385005,
+  "queue_seconds": 55.93424904096173,
+  "compile_seconds": 2.392283709021285,
+  "cache_validation_seconds": 0.20678370801033452,
+  "exit_code": 0,
+  "timed_out": false,
+  "provenance_incomplete": [
+    "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/FastExpansion.lean",
+    "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/Generated/H1_0B000Data.lean"
+  ],
+  "wall_seconds": 58.53810549998889,
+  "overhead_seconds": 0.2114239580114372
+}

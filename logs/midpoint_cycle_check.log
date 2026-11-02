@@ -1,0 +1,38 @@
+Certificate/CriticalMidpointCycle.lean:20:31: warning: Unused tactic linter: `module` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+Certificate/CriticalMidpointCycle.lean:22:31: warning: Unused tactic linter: `module` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+Certificate/CriticalMidpointCycle.lean:26:31: warning: Unused tactic linter: `module` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+Certificate/CriticalMidpointCycle.lean:20:31: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+Certificate/CriticalMidpointCycle.lean:22:31: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+Certificate/CriticalMidpointCycle.lean:26:31: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+Certificate/CriticalMidpointCycle.lean:18:27: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+Certificate/CriticalMidpointCycle.lean:24:27: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+'Certificate.Packing.criticalMidpointNext_side' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.criticalMidpointNext_balance' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.criticalMidpointNext_third' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.criticalMidpointNext_sixth' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.criticalMidpointHomeomorph' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.criticalMidpointNext_fixed_det' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.criticalMidpointNext_ne' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.continuous_criticalMidpointConfiguration' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Certificate.Packing.criticalMidpointConfiguration_of_hexagon' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Certificate.Packing.criticalMidpointConfiguration_mem' depends on axioms: [propext, Classical.choice, Quot.sound]

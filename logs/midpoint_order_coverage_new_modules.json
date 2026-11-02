@@ -1,0 +1,65 @@
+[
+  {
+    "source": "Certificate/CriticalMidpointSectors.lean",
+    "source_sha256": "ffd5d202bc512a774eb3cf0cc761e69b5e07045acdab8dc3de4ba05ecabe5334",
+    "named_audits": [
+      "critical_hex_sectors_step",
+      "minimizer_boundary_cone_triangle",
+      "minimizer_boundary_cone_strict_triangle",
+      "minimizer_boundary_in_critical_hex_sectors"
+    ]
+  },
+  {
+    "source": "Certificate/CriticalMidpointOrder.lean",
+    "source_sha256": "aadebb3e8e5a6232ea7d1aeb4cb808f83f912e5ef6097d9da485a3b1e15f7973",
+    "named_audits": [
+      "det2_two_combinations",
+      "criticalMidpointNext_det_pos",
+      "inCriticalMidpointSector_iff_det_pos",
+      "criticalMidpointNext_triangle_order",
+      "criticalMidpointNext_preserves_sector",
+      "criticalMidpointNext_iterate_preserves_sector",
+      "criticalMidpoint_eq_of_pos_smul",
+      "criticalMidpointNext_preserves_det_pos",
+      "criticalMidpointNext_det_pos_iff"
+    ]
+  },
+  {
+    "source": "Certificate/CriticalMidpointArcGaps.lean",
+    "source_sha256": "24e36fd1e5b559582bb1f7222bf2819a4e08f223bbd37144d5432fd60aac69b8",
+    "named_audits": [
+      "criticalMidpoint_flat_segment_support",
+      "minimizer_boundary_angular_mem_openSegment",
+      "criticalMidpoint_flat_gap_arc_empty",
+      "criticalMidpoint_empty_arc_support",
+      "criticalMidpointNext_preserves_empty_arc",
+      "criticalMidpoint_empty_arc_gradient_eq"
+    ]
+  },
+  {
+    "source": "Certificate/CriticalMidpointCoverage.lean",
+    "source_sha256": "33d0d9ecebad290c7b10ed360a9905341c5c7873d90f9b7271c86bb3a0935a55",
+    "named_audits": [
+      "Hex.first_midpoint_eq_of_normals",
+      "criticalMidpoint_eq_of_three_normals",
+      "criticalMidpoint_no_empty_positive_arc",
+      "criticalMidpoint_flat_gap_impossible",
+      "criticalMidpointSet_eq_frontier_minimizer",
+      "exists_unique_critical_hexagon_at_frontier"
+    ]
+  },
+  {
+    "source": "Certificate/MinimizerBoundarySuccessor.lean",
+    "source_sha256": "4951f1f62c97eace5b47301d2cafa0f8b2d69f75bbf75dc9dff8f1ee51d65c72",
+    "named_audits": [
+      "minimizerBoundarySuccessor",
+      "minimizerBoundarySuccessor_balance",
+      "minimizerBoundarySuccessor_sixth",
+      "minimizerBoundarySuccessor_fixed_det",
+      "minimizerBoundarySuccessor_det_pos_iff",
+      "contDiffAt_minimizerBoundarySuccessor_comp",
+      "minimizerBoundarySuccessor_regular_curve",
+      "minimizerRadialFoot_mem_criticalMidpointSet"
+    ]
+  }
+]

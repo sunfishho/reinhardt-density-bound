@@ -1,0 +1,12 @@
+{
+  "verified_count": 75,
+  "required_count": 75,
+  "source_sha256": "9f59d3e01fa1786f53f8d07e4d664f7d5df453d73eade4b2f562edcc2906e7b9",
+  "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "hypothesis": "The 19 primitive region constraints are nonnegative and x7^2 = 3.",
+  "full_density_theorem_verified": false
+}

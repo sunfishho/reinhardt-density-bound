@@ -1,0 +1,7 @@
+{
+  "lean_files_scanned": 1506,
+  "scan_method": "Tokens outside nested block comments, line comments, and string literals",
+  "unfinished_or_trust_bypass_tokens": [],
+  "passed": true,
+  "source_manifest_sha256": "6ed368919a53f5b08f939283c201e583dec2e67c3296e319221e39364aa85f85"
+}

@@ -1,0 +1,556 @@
+LEAN_BUILD {"argv": ["-o", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/DiagonalCheck.olean", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/DiagonalCheck.lean"], "cache_argv": ["-o", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/DiagonalCheck.olean", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/DiagonalCheck.lean"], "cache_hit": true, "cache_validation_seconds": 0.0008215000270865858, "compile_seconds": 0.0, "dedup_wait_seconds": 5.1125010941177607e-05, "exit_code": 0, "output": "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/DiagonalCheck.olean", "overhead_seconds": 0.0010482919751666486, "pid": 74355, "priority": "interactive", "profile_requested": false, "queue_seconds": 0.0, "schema": 1, "source": "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/DiagonalCheck.lean", "timed_out": false, "wall_seconds": 0.0010994169861078262}
+'Certificate.posSemidef_of_row_dominance' depends on axioms: [propext, Classical.choice, Quot.sound]
+LEAN_BUILD {"argv": ["-o", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/MatrixPositivity.olean", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/MatrixPositivity.lean"], "cache_argv": ["-o", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/MatrixPositivity.olean", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/MatrixPositivity.lean"], "cache_hit": true, "cache_validation_seconds": 0.0014892920153215528, "compile_seconds": 0.0, "dedup_wait_seconds": 3.7999998312443495e-05, "exit_code": 0, "output": "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/MatrixPositivity.olean", "overhead_seconds": 0.001690416014753282, "pid": 74355, "priority": "interactive", "profile_requested": false, "queue_seconds": 0.0, "schema": 1, "source": "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/MatrixPositivity.lean", "timed_out": false, "wall_seconds": 0.0017284160130657256}
+'Certificate.sqrt_three_enclosure' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.gram_plus_residual_posSemidef' depends on axioms: [propext, Classical.choice, Quot.sound]
+LEAN_BUILD {"argv": ["-o", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/IntervalSoundness.olean", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/IntervalSoundness.lean"], "cache_argv": ["-o", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/IntervalSoundness.olean", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/IntervalSoundness.lean"], "cache_hit": true, "cache_validation_seconds": 0.002861417015083134, "compile_seconds": 0.0, "dedup_wait_seconds": 3.2791984267532825e-05, "exit_code": 0, "output": "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/IntervalSoundness.olean", "overhead_seconds": 0.003064375021494925, "pid": 74355, "priority": "interactive", "profile_requested": false, "queue_seconds": 0.0, "schema": 1, "source": "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/IntervalSoundness.lean", "timed_out": false, "wall_seconds": 0.003097167005762458}
+'Certificate.gram_certificate_sound' depends on axioms: [propext, Classical.choice, Quot.sound]
+LEAN_BUILD {"argv": ["-o", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/GramSoundness.olean", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/GramSoundness.lean"], "cache_argv": ["-o", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/GramSoundness.olean", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/GramSoundness.lean"], "cache_hit": true, "cache_validation_seconds": 0.0032155829831026495, "compile_seconds": 0.0, "dedup_wait_seconds": 3.5415985621511936e-05, "exit_code": 0, "output": "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/GramSoundness.olean", "overhead_seconds": 0.0034184170071966946, "pid": 74355, "priority": "interactive", "profile_requested": false, "queue_seconds": 0.0, "schema": 1, "source": "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/GramSoundness.lean", "timed_out": false, "wall_seconds": 0.0034538329928182065}
+'Certificate.dot_eq_sum_get' depends on axioms: [propext, Classical.choice, Quot.sound]
+LEAN_BUILD {"argv": ["-o", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/ListDotSoundness.olean", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/ListDotSoundness.lean"], "cache_argv": ["-o", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/ListDotSoundness.olean", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/ListDotSoundness.lean"], "cache_hit": true, "cache_validation_seconds": 0.005588374973740429, "compile_seconds": 0.0, "dedup_wait_seconds": 3.3791002351790667e-05, "exit_code": 0, "output": "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/ListDotSoundness.olean", "overhead_seconds": 0.005784291948657483, "pid": 74355, "priority": "interactive", "profile_requested": false, "queue_seconds": 0.0, "schema": 1, "source": "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/ListDotSoundness.lean", "timed_out": false, "wall_seconds": 0.0058180829510092735}
+'Certificate.GramData.sound' depends on axioms: [propext, Classical.choice, Quot.sound]
+LEAN_BUILD {"argv": ["-o", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/FastGram.olean", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/FastGram.lean"], "cache_argv": ["-o", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/FastGram.olean", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/FastGram.lean"], "cache_hit": true, "cache_validation_seconds": 0.0057909159804694355, "compile_seconds": 0.0, "dedup_wait_seconds": 3.266602288931608e-05, "exit_code": 0, "output": "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/FastGram.olean", "overhead_seconds": 0.005998541950248182, "pid": 74355, "priority": "interactive", "profile_requested": false, "queue_seconds": 0.0, "schema": 1, "source": "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/FastGram.lean", "timed_out": false, "wall_seconds": 0.006031207973137498}
+'Certificate.Sparse.eval_merge' depends on axioms: [propext]
+'Certificate.Sparse.eval_mul' depends on axioms: [propext, Quot.sound]
+'Certificate.Sparse.eval_eq_zero_of_check' depends on axioms: [propext]
+'Certificate.Sparse.eval_normalize' depends on axioms: [propext, Quot.sound]
+'Certificate.Sparse.eq_of_check' depends on axioms: [propext, Quot.sound]
+LEAN_BUILD {"argv": ["-o", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/SparsePolynomial.olean", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/SparsePolynomial.lean"], "cache_argv": ["-o", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/SparsePolynomial.olean", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/SparsePolynomial.lean"], "cache_hit": true, "cache_validation_seconds": 0.002206415985710919, "compile_seconds": 0.0, "dedup_wait_seconds": 4.183303099125624e-05, "exit_code": 0, "output": "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/SparsePolynomial.olean", "overhead_seconds": 0.002425541984848678, "pid": 74355, "priority": "interactive", "profile_requested": false, "queue_seconds": 0.0, "schema": 1, "source": "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/SparsePolynomial.lean", "timed_out": false, "wall_seconds": 0.0024673750158399343}
+'Certificate.Sparse.eval_gramPolynomial_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+LEAN_BUILD {"argv": ["-o", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/SOSPolynomial.olean", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/SOSPolynomial.lean"], "cache_argv": ["-o", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/SOSPolynomial.olean", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/SOSPolynomial.lean"], "cache_hit": true, "cache_validation_seconds": 0.008865166979376227, "compile_seconds": 0.0, "dedup_wait_seconds": 3.2542040571570396e-05, "exit_code": 0, "output": "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/SOSPolynomial.olean", "overhead_seconds": 0.009070832922589034, "pid": 74355, "priority": "interactive", "profile_requested": false, "queue_seconds": 0.0, "schema": 1, "source": "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/SOSPolynomial.lean", "timed_out": false, "wall_seconds": 0.009103374963160604}
+'Certificate.Sparse.eval_fastGramPolynomial_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+LEAN_BUILD {"argv": ["-o", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/FastExpansion.olean", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/FastExpansion.lean"], "cache_argv": ["-o", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/FastExpansion.olean", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/FastExpansion.lean"], "cache_hit": false, "cache_validation_seconds": 0.02904495899565518, "compile_seconds": 1.7799099999829195, "dedup_wait_seconds": 5.3791969548910856e-05, "exit_code": 0, "output": "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/FastExpansion.olean", "overhead_seconds": 0.02993683301610872, "pid": 74355, "priority": "interactive", "profile_requested": false, "queue_seconds": 0.0003844170132651925, "schema": 1, "source": "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/FastExpansion.lean", "timed_out": false, "wall_seconds": 1.8102850419818424}
+lean_cached: replaying a cached successful build; profiling timings below describe that earlier build, not this invocation.
+import took 4.11s
+'Certificate.Sparse.gram_expansion_of_tree' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Sparse.gram_tree_witness_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+cumulative profiling times:
+	.olean serialization 36.9ms
+	attribute application 0.0308ms
+	blocked (unaccounted) 7.76ms
+	congr simp thm 0.886ms
+	elaboration 24ms
+	fix level params 0.121ms
+	import 4.11s
+	initialization 198ms
+	instantiate metavars 0.196ms
+	interpretation 371ms
+	let-to-have transformation 0.178ms
+	linting 3.52ms
+	module linting 0.000667ms
+	overlappingInstancesLinter 13ms
+	parsing 1.56ms
+	process pre-definitions 3.09ms
+	share common exprs 0.419ms
+	simp 13.3ms
+	tactic execution 13.5ms
+	tacticAnalysis 10.1ms
+	type checking 2.91ms
+	typeclass inference 7.25ms
+LEAN_BUILD {"argv": ["-o", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/ChunkedExpansion.olean", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/ChunkedExpansion.lean"], "cache_argv": ["-o", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/ChunkedExpansion.olean", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/ChunkedExpansion.lean"], "cache_hit": true, "cache_validation_seconds": 0.009679957991465926, "cached_build_compile_seconds": 4.760888416029047, "compile_seconds": 0.0, "dedup_wait_seconds": 3.908301005139947e-05, "exit_code": 0, "output": "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/ChunkedExpansion.olean", "overhead_seconds": 0.009914875030517578, "pid": 74355, "priority": "interactive", "profile_requested": false, "queue_seconds": 0.0, "replayed_profile_output": true, "schema": 1, "source": "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/ChunkedExpansion.lean", "timed_out": false, "wall_seconds": 0.009953958040568978}
+LEAN_BUILD {"argv": ["-o", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/Generated/H1_0B000Data.olean", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/Generated/H1_0B000Data.lean"], "cache_argv": ["-o", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/Generated/H1_0B000Data.olean", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/Generated/H1_0B000Data.lean"], "cache_hit": false, "cache_validation_seconds": 0.021571625024080276, "compile_seconds": 4.469902582990471, "dedup_wait_seconds": 5.425000563263893e-05, "exit_code": 0, "output": "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/Generated/H1_0B000Data.olean", "overhead_seconds": 0.024316750990692526, "pid": 74355, "priority": "interactive", "profile_requested": false, "queue_seconds": 0.00021308299619704485, "schema": 1, "source": "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/Generated/H1_0B000Data.lean", "timed_out": false, "wall_seconds": 4.4944866669829935}
+LEAN_BUILD {"argv": ["-o", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/SOS/H1_0B000Data.olean", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/SOS/H1_0B000Data.lean"], "cache_argv": ["-o", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/SOS/H1_0B000Data.olean", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/SOS/H1_0B000Data.lean"], "cache_hit": true, "cache_validation_seconds": 0.015731749997939914, "compile_seconds": 0.0, "dedup_wait_seconds": 3.7958030588924885e-05, "exit_code": 0, "output": "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/SOS/H1_0B000Data.olean", "overhead_seconds": 0.015964458929374814, "pid": 74355, "priority": "interactive", "profile_requested": false, "queue_seconds": 0.0, "schema": 1, "source": "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/SOS/H1_0B000Data.lean", "timed_out": false, "wall_seconds": 0.01600241695996374}
+lean_cached: replaying a cached successful build; profiling timings below describe that earlier build, not this invocation.
+import took 8.42s
+.olean serialization took 457ms
+type checking took 619ms
+'Certificate.Chunked.H1_0B000.Leaf000.evaluation' depends on axioms: [propext]
+type checking took 631ms
+'Certificate.Chunked.H1_0B000.Leaf001.evaluation' depends on axioms: [propext]
+type checking took 585ms
+'Certificate.Chunked.H1_0B000.Leaf002.evaluation' depends on axioms: [propext]
+type checking took 566ms
+'Certificate.Chunked.H1_0B000.Leaf003.evaluation' depends on axioms: [propext]
+type checking took 568ms
+'Certificate.Chunked.H1_0B000.Leaf004.evaluation' depends on axioms: [propext]
+type checking took 573ms
+'Certificate.Chunked.H1_0B000.Leaf005.evaluation' depends on axioms: [propext]
+type checking took 587ms
+'Certificate.Chunked.H1_0B000.Leaf006.evaluation' depends on axioms: [propext]
+type checking took 582ms
+'Certificate.Chunked.H1_0B000.Leaf007.evaluation' depends on axioms: [propext]
+type checking took 594ms
+'Certificate.Chunked.H1_0B000.Leaf008.evaluation' depends on axioms: [propext]
+type checking took 609ms
+'Certificate.Chunked.H1_0B000.Leaf009.evaluation' depends on axioms: [propext]
+type checking took 612ms
+'Certificate.Chunked.H1_0B000.Leaf010.evaluation' depends on axioms: [propext]
+type checking took 635ms
+'Certificate.Chunked.H1_0B000.Leaf011.evaluation' depends on axioms: [propext]
+type checking took 618ms
+'Certificate.Chunked.H1_0B000.Leaf012.evaluation' depends on axioms: [propext]
+type checking took 595ms
+'Certificate.Chunked.H1_0B000.Leaf013.evaluation' depends on axioms: [propext]
+type checking took 600ms
+'Certificate.Chunked.H1_0B000.Leaf014.evaluation' depends on axioms: [propext]
+type checking took 631ms
+'Certificate.Chunked.H1_0B000.Leaf015.evaluation' depends on axioms: [propext]
+type checking took 625ms
+'Certificate.Chunked.H1_0B000.Leaf016.evaluation' depends on axioms: [propext]
+type checking took 621ms
+'Certificate.Chunked.H1_0B000.Leaf017.evaluation' depends on axioms: [propext]
+type checking took 611ms
+'Certificate.Chunked.H1_0B000.Leaf018.evaluation' depends on axioms: [propext]
+type checking took 603ms
+'Certificate.Chunked.H1_0B000.Leaf019.evaluation' depends on axioms: [propext]
+type checking took 617ms
+'Certificate.Chunked.H1_0B000.Leaf020.evaluation' depends on axioms: [propext]
+type checking took 642ms
+'Certificate.Chunked.H1_0B000.Leaf021.evaluation' depends on axioms: [propext]
+type checking took 620ms
+'Certificate.Chunked.H1_0B000.Leaf022.evaluation' depends on axioms: [propext]
+type checking took 607ms
+'Certificate.Chunked.H1_0B000.Leaf023.evaluation' depends on axioms: [propext]
+type checking took 628ms
+'Certificate.Chunked.H1_0B000.Leaf024.evaluation' depends on axioms: [propext]
+type checking took 629ms
+'Certificate.Chunked.H1_0B000.Leaf025.evaluation' depends on axioms: [propext]
+type checking took 639ms
+'Certificate.Chunked.H1_0B000.Leaf026.evaluation' depends on axioms: [propext]
+type checking took 628ms
+'Certificate.Chunked.H1_0B000.Leaf027.evaluation' depends on axioms: [propext]
+type checking took 622ms
+'Certificate.Chunked.H1_0B000.Leaf028.evaluation' depends on axioms: [propext]
+type checking took 636ms
+'Certificate.Chunked.H1_0B000.Leaf029.evaluation' depends on axioms: [propext]
+type checking took 686ms
+'Certificate.Chunked.H1_0B000.Leaf030.evaluation' depends on axioms: [propext]
+type checking took 646ms
+'Certificate.Chunked.H1_0B000.Leaf031.evaluation' depends on axioms: [propext]
+type checking took 639ms
+'Certificate.Chunked.H1_0B000.Leaf032.evaluation' depends on axioms: [propext]
+type checking took 631ms
+'Certificate.Chunked.H1_0B000.Leaf033.evaluation' depends on axioms: [propext]
+type checking took 625ms
+'Certificate.Chunked.H1_0B000.Leaf034.evaluation' depends on axioms: [propext]
+type checking took 627ms
+'Certificate.Chunked.H1_0B000.Leaf035.evaluation' depends on axioms: [propext]
+type checking took 667ms
+'Certificate.Chunked.H1_0B000.Leaf036.evaluation' depends on axioms: [propext]
+type checking took 668ms
+'Certificate.Chunked.H1_0B000.Leaf037.evaluation' depends on axioms: [propext]
+type checking took 648ms
+'Certificate.Chunked.H1_0B000.Leaf038.evaluation' depends on axioms: [propext]
+type checking took 646ms
+'Certificate.Chunked.H1_0B000.Leaf039.evaluation' depends on axioms: [propext]
+type checking took 646ms
+'Certificate.Chunked.H1_0B000.Leaf040.evaluation' depends on axioms: [propext]
+type checking took 682ms
+'Certificate.Chunked.H1_0B000.Leaf041.evaluation' depends on axioms: [propext]
+type checking took 659ms
+'Certificate.Chunked.H1_0B000.Leaf042.evaluation' depends on axioms: [propext]
+type checking took 654ms
+'Certificate.Chunked.H1_0B000.Leaf043.evaluation' depends on axioms: [propext]
+type checking took 674ms
+'Certificate.Chunked.H1_0B000.Leaf044.evaluation' depends on axioms: [propext]
+type checking took 862ms
+'Certificate.Chunked.H1_0B000.Leaf045.evaluation' depends on axioms: [propext]
+type checking took 714ms
+'Certificate.Chunked.H1_0B000.Leaf046.evaluation' depends on axioms: [propext]
+type checking took 709ms
+'Certificate.Chunked.H1_0B000.Leaf047.evaluation' depends on axioms: [propext]
+type checking took 676ms
+'Certificate.Chunked.H1_0B000.Leaf048.evaluation' depends on axioms: [propext]
+type checking took 681ms
+'Certificate.Chunked.H1_0B000.Leaf049.evaluation' depends on axioms: [propext]
+type checking took 705ms
+'Certificate.Chunked.H1_0B000.Leaf050.evaluation' depends on axioms: [propext]
+type checking took 724ms
+'Certificate.Chunked.H1_0B000.Leaf051.evaluation' depends on axioms: [propext]
+type checking took 709ms
+'Certificate.Chunked.H1_0B000.Leaf052.evaluation' depends on axioms: [propext]
+type checking took 692ms
+'Certificate.Chunked.H1_0B000.Leaf053.evaluation' depends on axioms: [propext]
+type checking took 716ms
+'Certificate.Chunked.H1_0B000.Leaf054.evaluation' depends on axioms: [propext]
+type checking took 740ms
+'Certificate.Chunked.H1_0B000.Leaf055.evaluation' depends on axioms: [propext]
+type checking took 706ms
+'Certificate.Chunked.H1_0B000.Leaf056.evaluation' depends on axioms: [propext]
+type checking took 705ms
+'Certificate.Chunked.H1_0B000.Leaf057.evaluation' depends on axioms: [propext]
+type checking took 729ms
+'Certificate.Chunked.H1_0B000.Leaf058.evaluation' depends on axioms: [propext]
+type checking took 737ms
+'Certificate.Chunked.H1_0B000.Leaf059.evaluation' depends on axioms: [propext]
+type checking took 756ms
+'Certificate.Chunked.H1_0B000.Leaf060.evaluation' depends on axioms: [propext]
+type checking took 750ms
+'Certificate.Chunked.H1_0B000.Leaf061.evaluation' depends on axioms: [propext]
+type checking took 734ms
+'Certificate.Chunked.H1_0B000.Leaf062.evaluation' depends on axioms: [propext]
+type checking took 749ms
+'Certificate.Chunked.H1_0B000.Leaf063.evaluation' depends on axioms: [propext]
+type checking took 786ms
+'Certificate.Chunked.H1_0B000.Leaf064.evaluation' depends on axioms: [propext]
+type checking took 860ms
+'Certificate.Chunked.H1_0B000.Leaf065.evaluation' depends on axioms: [propext]
+type checking took 755ms
+'Certificate.Chunked.H1_0B000.Leaf066.evaluation' depends on axioms: [propext]
+type checking took 758ms
+'Certificate.Chunked.H1_0B000.Leaf067.evaluation' depends on axioms: [propext]
+type checking took 807ms
+'Certificate.Chunked.H1_0B000.Leaf068.evaluation' depends on axioms: [propext]
+type checking took 772ms
+'Certificate.Chunked.H1_0B000.Leaf069.evaluation' depends on axioms: [propext]
+type checking took 778ms
+'Certificate.Chunked.H1_0B000.Leaf070.evaluation' depends on axioms: [propext]
+type checking took 787ms
+'Certificate.Chunked.H1_0B000.Leaf071.evaluation' depends on axioms: [propext]
+type checking took 817ms
+'Certificate.Chunked.H1_0B000.Leaf072.evaluation' depends on axioms: [propext]
+type checking took 807ms
+'Certificate.Chunked.H1_0B000.Leaf073.evaluation' depends on axioms: [propext]
+type checking took 808ms
+'Certificate.Chunked.H1_0B000.Leaf074.evaluation' depends on axioms: [propext]
+type checking took 811ms
+'Certificate.Chunked.H1_0B000.Leaf075.evaluation' depends on axioms: [propext]
+type checking took 831ms
+'Certificate.Chunked.H1_0B000.Leaf076.evaluation' depends on axioms: [propext]
+type checking took 834ms
+'Certificate.Chunked.H1_0B000.Leaf077.evaluation' depends on axioms: [propext]
+type checking took 823ms
+'Certificate.Chunked.H1_0B000.Leaf078.evaluation' depends on axioms: [propext]
+type checking took 837ms
+'Certificate.Chunked.H1_0B000.Leaf079.evaluation' depends on axioms: [propext]
+type checking took 855ms
+'Certificate.Chunked.H1_0B000.Leaf080.evaluation' depends on axioms: [propext]
+type checking took 863ms
+'Certificate.Chunked.H1_0B000.Leaf081.evaluation' depends on axioms: [propext]
+type checking took 847ms
+'Certificate.Chunked.H1_0B000.Leaf082.evaluation' depends on axioms: [propext]
+type checking took 851ms
+'Certificate.Chunked.H1_0B000.Leaf083.evaluation' depends on axioms: [propext]
+type checking took 899ms
+'Certificate.Chunked.H1_0B000.Leaf084.evaluation' depends on axioms: [propext]
+type checking took 885ms
+'Certificate.Chunked.H1_0B000.Leaf085.evaluation' depends on axioms: [propext]
+type checking took 893ms
+'Certificate.Chunked.H1_0B000.Leaf086.evaluation' depends on axioms: [propext]
+type checking took 885ms
+'Certificate.Chunked.H1_0B000.Leaf087.evaluation' depends on axioms: [propext]
+type checking took 936ms
+'Certificate.Chunked.H1_0B000.Leaf088.evaluation' depends on axioms: [propext]
+type checking took 906ms
+'Certificate.Chunked.H1_0B000.Leaf089.evaluation' depends on axioms: [propext]
+type checking took 902ms
+'Certificate.Chunked.H1_0B000.Leaf090.evaluation' depends on axioms: [propext]
+type checking took 919ms
+'Certificate.Chunked.H1_0B000.Leaf091.evaluation' depends on axioms: [propext]
+type checking took 962ms
+'Certificate.Chunked.H1_0B000.Leaf092.evaluation' depends on axioms: [propext]
+type checking took 932ms
+'Certificate.Chunked.H1_0B000.Leaf093.evaluation' depends on axioms: [propext]
+type checking took 944ms
+'Certificate.Chunked.H1_0B000.Leaf094.evaluation' depends on axioms: [propext]
+type checking took 963ms
+'Certificate.Chunked.H1_0B000.Leaf095.evaluation' depends on axioms: [propext]
+type checking took 962ms
+'Certificate.Chunked.H1_0B000.Leaf096.evaluation' depends on axioms: [propext]
+type checking took 981ms
+'Certificate.Chunked.H1_0B000.Leaf097.evaluation' depends on axioms: [propext]
+type checking took 967ms
+'Certificate.Chunked.H1_0B000.Leaf098.evaluation' depends on axioms: [propext]
+type checking took 1.03s
+'Certificate.Chunked.H1_0B000.Leaf099.evaluation' depends on axioms: [propext]
+type checking took 982ms
+'Certificate.Chunked.H1_0B000.Leaf100.evaluation' depends on axioms: [propext]
+type checking took 987ms
+'Certificate.Chunked.H1_0B000.Leaf101.evaluation' depends on axioms: [propext]
+type checking took 1.03s
+'Certificate.Chunked.H1_0B000.Leaf102.evaluation' depends on axioms: [propext]
+type checking took 1.03s
+'Certificate.Chunked.H1_0B000.Leaf103.evaluation' depends on axioms: [propext]
+type checking took 149ms
+'Certificate.Chunked.H1_0B000.Node000.evaluation' depends on axioms: [propext]
+type checking took 144ms
+'Certificate.Chunked.H1_0B000.Node001.evaluation' depends on axioms: [propext]
+type checking took 148ms
+'Certificate.Chunked.H1_0B000.Node002.evaluation' depends on axioms: [propext]
+type checking took 207ms
+'Certificate.Chunked.H1_0B000.Node003.evaluation' depends on axioms: [propext]
+type checking took 181ms
+'Certificate.Chunked.H1_0B000.Node004.evaluation' depends on axioms: [propext]
+type checking took 148ms
+'Certificate.Chunked.H1_0B000.Node005.evaluation' depends on axioms: [propext]
+type checking took 146ms
+'Certificate.Chunked.H1_0B000.Node006.evaluation' depends on axioms: [propext]
+type checking took 151ms
+'Certificate.Chunked.H1_0B000.Node007.evaluation' depends on axioms: [propext]
+type checking took 149ms
+'Certificate.Chunked.H1_0B000.Node008.evaluation' depends on axioms: [propext]
+type checking took 142ms
+'Certificate.Chunked.H1_0B000.Node009.evaluation' depends on axioms: [propext]
+type checking took 148ms
+'Certificate.Chunked.H1_0B000.Node010.evaluation' depends on axioms: [propext]
+type checking took 143ms
+'Certificate.Chunked.H1_0B000.Node011.evaluation' depends on axioms: [propext]
+type checking took 166ms
+'Certificate.Chunked.H1_0B000.Node012.evaluation' depends on axioms: [propext]
+type checking took 140ms
+'Certificate.Chunked.H1_0B000.Node013.evaluation' depends on axioms: [propext]
+type checking took 172ms
+'Certificate.Chunked.H1_0B000.Node014.evaluation' depends on axioms: [propext]
+type checking took 152ms
+'Certificate.Chunked.H1_0B000.Node015.evaluation' depends on axioms: [propext]
+type checking took 144ms
+'Certificate.Chunked.H1_0B000.Node016.evaluation' depends on axioms: [propext]
+type checking took 151ms
+'Certificate.Chunked.H1_0B000.Node017.evaluation' depends on axioms: [propext]
+type checking took 146ms
+'Certificate.Chunked.H1_0B000.Node018.evaluation' depends on axioms: [propext]
+type checking took 145ms
+'Certificate.Chunked.H1_0B000.Node019.evaluation' depends on axioms: [propext]
+type checking took 144ms
+'Certificate.Chunked.H1_0B000.Node020.evaluation' depends on axioms: [propext]
+type checking took 143ms
+'Certificate.Chunked.H1_0B000.Node021.evaluation' depends on axioms: [propext]
+type checking took 165ms
+'Certificate.Chunked.H1_0B000.Node022.evaluation' depends on axioms: [propext]
+type checking took 146ms
+'Certificate.Chunked.H1_0B000.Node023.evaluation' depends on axioms: [propext]
+cumulative profiling times:
+	.olean serialization 457ms
+	attribute application 2.65ms
+	compilation (IR) 2.47ms
+	compilation (LCNF base) 23.1ms
+	compilation (LCNF impure) 9.78ms
+	compilation (LCNF mono) 13.1ms
+	elaboration 12s
+	fix level params 10.6ms
+	import 8.42s
+	initialization 13.9ms
+	instantiate metavars 75.3ms
+	interpretation 7.31s
+	let-to-have transformation 153ms
+	linting 475ms
+	module linting 0.000292ms
+	overlappingInstancesLinter 162ms
+	parsing 841ms
+	process pre-definitions 247ms
+	share common exprs 140ms
+	tactic execution 55.5ms
+	tacticAnalysis 1.85s
+	type checking 81s
+	typeclass inference 2.08s
+LEAN_BUILD {"argv": ["-o", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/Chunked/H1_0B000/Chunk000.olean", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/Chunked/H1_0B000/Chunk000.lean"], "cache_argv": ["-o", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/Chunked/H1_0B000/Chunk000.olean", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/Chunked/H1_0B000/Chunk000.lean"], "cache_hit": true, "cache_validation_seconds": 0.020696041989140213, "cached_build_compile_seconds": 113.82195433299057, "compile_seconds": 0.0, "dedup_wait_seconds": 4.1791005060076714e-05, "exit_code": 0, "output": "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/Chunked/H1_0B000/Chunk000.olean", "overhead_seconds": 0.020956875989213586, "pid": 74355, "priority": "interactive", "profile_requested": false, "queue_seconds": 0.0, "replayed_profile_output": true, "schema": 1, "source": "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/Chunked/H1_0B000/Chunk000.lean", "timed_out": false, "wall_seconds": 0.020998666994273663}
+lean_cached: replaying a cached successful build; profiling timings below describe that earlier build, not this invocation.
+import took 1.22s
+.olean serialization took 1.38s
+type checking took 176ms
+'Certificate.Chunked.H1_0B000.Node024.evaluation' depends on axioms: [propext]
+type checking took 143ms
+'Certificate.Chunked.H1_0B000.Node025.evaluation' depends on axioms: [propext]
+type checking took 167ms
+'Certificate.Chunked.H1_0B000.Node026.evaluation' depends on axioms: [propext]
+type checking took 151ms
+'Certificate.Chunked.H1_0B000.Node027.evaluation' depends on axioms: [propext]
+type checking took 151ms
+'Certificate.Chunked.H1_0B000.Node028.evaluation' depends on axioms: [propext]
+type checking took 152ms
+'Certificate.Chunked.H1_0B000.Node029.evaluation' depends on axioms: [propext]
+type checking took 149ms
+'Certificate.Chunked.H1_0B000.Node030.evaluation' depends on axioms: [propext]
+type checking took 141ms
+'Certificate.Chunked.H1_0B000.Node031.evaluation' depends on axioms: [propext]
+type checking took 171ms
+'Certificate.Chunked.H1_0B000.Node032.evaluation' depends on axioms: [propext]
+type checking took 146ms
+'Certificate.Chunked.H1_0B000.Node033.evaluation' depends on axioms: [propext]
+type checking took 191ms
+'Certificate.Chunked.H1_0B000.Node034.evaluation' depends on axioms: [propext]
+type checking took 148ms
+'Certificate.Chunked.H1_0B000.Node035.evaluation' depends on axioms: [propext]
+type checking took 144ms
+'Certificate.Chunked.H1_0B000.Node036.evaluation' depends on axioms: [propext]
+type checking took 153ms
+'Certificate.Chunked.H1_0B000.Node037.evaluation' depends on axioms: [propext]
+type checking took 144ms
+'Certificate.Chunked.H1_0B000.Node038.evaluation' depends on axioms: [propext]
+type checking took 170ms
+'Certificate.Chunked.H1_0B000.Node039.evaluation' depends on axioms: [propext]
+type checking took 146ms
+'Certificate.Chunked.H1_0B000.Node040.evaluation' depends on axioms: [propext]
+type checking took 178ms
+'Certificate.Chunked.H1_0B000.Node041.evaluation' depends on axioms: [propext]
+type checking took 148ms
+'Certificate.Chunked.H1_0B000.Node042.evaluation' depends on axioms: [propext]
+type checking took 147ms
+'Certificate.Chunked.H1_0B000.Node043.evaluation' depends on axioms: [propext]
+type checking took 156ms
+'Certificate.Chunked.H1_0B000.Node044.evaluation' depends on axioms: [propext]
+type checking took 148ms
+'Certificate.Chunked.H1_0B000.Node045.evaluation' depends on axioms: [propext]
+type checking took 147ms
+'Certificate.Chunked.H1_0B000.Node046.evaluation' depends on axioms: [propext]
+type checking took 174ms
+'Certificate.Chunked.H1_0B000.Node047.evaluation' depends on axioms: [propext]
+type checking took 193ms
+'Certificate.Chunked.H1_0B000.Node048.evaluation' depends on axioms: [propext]
+type checking took 147ms
+'Certificate.Chunked.H1_0B000.Node049.evaluation' depends on axioms: [propext]
+type checking took 150ms
+'Certificate.Chunked.H1_0B000.Node050.evaluation' depends on axioms: [propext]
+type checking took 151ms
+'Certificate.Chunked.H1_0B000.Node051.evaluation' depends on axioms: [propext]
+type checking took 247ms
+'Certificate.Chunked.H1_0B000.Node052.evaluation' depends on axioms: [propext]
+type checking took 247ms
+'Certificate.Chunked.H1_0B000.Node053.evaluation' depends on axioms: [propext]
+type checking took 285ms
+'Certificate.Chunked.H1_0B000.Node054.evaluation' depends on axioms: [propext]
+type checking took 316ms
+'Certificate.Chunked.H1_0B000.Node055.evaluation' depends on axioms: [propext]
+type checking took 251ms
+'Certificate.Chunked.H1_0B000.Node056.evaluation' depends on axioms: [propext]
+type checking took 243ms
+'Certificate.Chunked.H1_0B000.Node057.evaluation' depends on axioms: [propext]
+type checking took 300ms
+'Certificate.Chunked.H1_0B000.Node058.evaluation' depends on axioms: [propext]
+type checking took 298ms
+'Certificate.Chunked.H1_0B000.Node059.evaluation' depends on axioms: [propext]
+type checking took 354ms
+'Certificate.Chunked.H1_0B000.Node060.evaluation' depends on axioms: [propext]
+type checking took 233ms
+'Certificate.Chunked.H1_0B000.Node061.evaluation' depends on axioms: [propext]
+type checking took 233ms
+'Certificate.Chunked.H1_0B000.Node062.evaluation' depends on axioms: [propext]
+type checking took 330ms
+'Certificate.Chunked.H1_0B000.Node063.evaluation' depends on axioms: [propext]
+type checking took 356ms
+'Certificate.Chunked.H1_0B000.Node064.evaluation' depends on axioms: [propext]
+type checking took 351ms
+'Certificate.Chunked.H1_0B000.Node065.evaluation' depends on axioms: [propext]
+type checking took 246ms
+'Certificate.Chunked.H1_0B000.Node066.evaluation' depends on axioms: [propext]
+type checking took 247ms
+'Certificate.Chunked.H1_0B000.Node067.evaluation' depends on axioms: [propext]
+type checking took 314ms
+'Certificate.Chunked.H1_0B000.Node068.evaluation' depends on axioms: [propext]
+type checking took 307ms
+'Certificate.Chunked.H1_0B000.Node069.evaluation' depends on axioms: [propext]
+type checking took 365ms
+'Certificate.Chunked.H1_0B000.Node070.evaluation' depends on axioms: [propext]
+type checking took 302ms
+'Certificate.Chunked.H1_0B000.Node071.evaluation' depends on axioms: [propext]
+type checking took 311ms
+'Certificate.Chunked.H1_0B000.Node072.evaluation' depends on axioms: [propext]
+type checking took 304ms
+'Certificate.Chunked.H1_0B000.Node073.evaluation' depends on axioms: [propext]
+type checking took 246ms
+'Certificate.Chunked.H1_0B000.Node074.evaluation' depends on axioms: [propext]
+type checking took 298ms
+'Certificate.Chunked.H1_0B000.Node075.evaluation' depends on axioms: [propext]
+type checking took 338ms
+'Certificate.Chunked.H1_0B000.Node076.evaluation' depends on axioms: [propext]
+type checking took 295ms
+'Certificate.Chunked.H1_0B000.Node077.evaluation' depends on axioms: [propext]
+type checking took 350ms
+'Certificate.Chunked.H1_0B000.Node078.evaluation' depends on axioms: [propext]
+type checking took 507ms
+'Certificate.Chunked.H1_0B000.Node079.evaluation' depends on axioms: [propext]
+type checking took 504ms
+'Certificate.Chunked.H1_0B000.Node080.evaluation' depends on axioms: [propext]
+type checking took 635ms
+'Certificate.Chunked.H1_0B000.Node081.evaluation' depends on axioms: [propext]
+type checking took 547ms
+'Certificate.Chunked.H1_0B000.Node082.evaluation' depends on axioms: [propext]
+type checking took 444ms
+'Certificate.Chunked.H1_0B000.Node083.evaluation' depends on axioms: [propext]
+type checking took 720ms
+'Certificate.Chunked.H1_0B000.Node084.evaluation' depends on axioms: [propext]
+type checking took 504ms
+'Certificate.Chunked.H1_0B000.Node085.evaluation' depends on axioms: [propext]
+type checking took 599ms
+'Certificate.Chunked.H1_0B000.Node086.evaluation' depends on axioms: [propext]
+type checking took 696ms
+'Certificate.Chunked.H1_0B000.Node087.evaluation' depends on axioms: [propext]
+type checking took 599ms
+'Certificate.Chunked.H1_0B000.Node088.evaluation' depends on axioms: [propext]
+type checking took 630ms
+'Certificate.Chunked.H1_0B000.Node089.evaluation' depends on axioms: [propext]
+type checking took 696ms
+'Certificate.Chunked.H1_0B000.Node090.evaluation' depends on axioms: [propext]
+type checking took 816ms
+'Certificate.Chunked.H1_0B000.Node091.evaluation' depends on axioms: [propext]
+type checking took 958ms
+'Certificate.Chunked.H1_0B000.Node092.evaluation' depends on axioms: [propext]
+type checking took 1.07s
+'Certificate.Chunked.H1_0B000.Node093.evaluation' depends on axioms: [propext]
+type checking took 1.29s
+'Certificate.Chunked.H1_0B000.Node094.evaluation' depends on axioms: [propext]
+type checking took 1.37s
+'Certificate.Chunked.H1_0B000.Node095.evaluation' depends on axioms: [propext]
+type checking took 1.37s
+'Certificate.Chunked.H1_0B000.Node096.evaluation' depends on axioms: [propext]
+type checking took 1.32s
+'Certificate.Chunked.H1_0B000.Node097.evaluation' depends on axioms: [propext]
+type checking took 2.41s
+'Certificate.Chunked.H1_0B000.Node098.evaluation' depends on axioms: [propext]
+type checking took 2.54s
+'Certificate.Chunked.H1_0B000.Node099.evaluation' depends on axioms: [propext]
+type checking took 3.43s
+'Certificate.Chunked.H1_0B000.Node100.evaluation' depends on axioms: [propext]
+type checking took 3.19s
+'Certificate.Chunked.H1_0B000.Node101.evaluation' depends on axioms: [propext]
+type checking took 5.09s
+'Certificate.Chunked.H1_0B000.Node102.evaluation' depends on axioms: [propext]
+elaboration took 140ms
+cumulative profiling times:
+	.olean serialization 1.38s
+	attribute application 3.55ms
+	compilation (IR) 1.59ms
+	compilation (LCNF base) 14.9ms
+	compilation (LCNF impure) 6.86ms
+	compilation (LCNF mono) 8.03ms
+	elaboration 24.6s
+	fix level params 19.4ms
+	import 1.22s
+	initialization 14ms
+	instantiate metavars 150ms
+	interpretation 11s
+	let-to-have transformation 355ms
+	linting 866ms
+	module linting 0.0005ms
+	overlappingInstancesLinter 194ms
+	parsing 1.63s
+	process pre-definitions 424ms
+	share common exprs 276ms
+	tactic execution 12.4ms
+	tacticAnalysis 3.33s
+	type checking 44.5s
+	typeclass inference 3.56s
+LEAN_BUILD {"argv": ["-o", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/Chunked/H1_0B000/Chunk001.olean", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/Chunked/H1_0B000/Chunk001.lean"], "cache_argv": ["-o", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/Chunked/H1_0B000/Chunk001.olean", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/Chunked/H1_0B000/Chunk001.lean"], "cache_hit": true, "cache_validation_seconds": 0.02998320898041129, "cached_build_compile_seconds": 93.16749033296946, "compile_seconds": 0.0, "dedup_wait_seconds": 4.15419926866889e-05, "exit_code": 0, "output": "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/Chunked/H1_0B000/Chunk001.olean", "overhead_seconds": 0.030250957992393523, "pid": 74355, "priority": "interactive", "profile_requested": false, "queue_seconds": 0.0, "replayed_profile_output": true, "schema": 1, "source": "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/Chunked/H1_0B000/Chunk001.lean", "timed_out": false, "wall_seconds": 0.030292499985080212}
+'Certificate.Sparse.eq_of_checkMerged' depends on axioms: [propext, Quot.sound]
+'Certificate.Sparse.eval_mulMerged' depends on axioms: [propext, Quot.sound]
+LEAN_BUILD {"argv": ["-o", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/MergeArithmetic.olean", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/MergeArithmetic.lean"], "cache_argv": ["-o", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/MergeArithmetic.olean", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/MergeArithmetic.lean"], "cache_hit": true, "cache_validation_seconds": 0.003310333995614201, "compile_seconds": 0.0, "dedup_wait_seconds": 3.866699989885092e-05, "exit_code": 0, "output": "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/MergeArithmetic.olean", "overhead_seconds": 0.00353262503631413, "pid": 74355, "priority": "interactive", "profile_requested": false, "queue_seconds": 0.0, "schema": 1, "source": "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/MergeArithmetic.lean", "timed_out": false, "wall_seconds": 0.0035712920362129807}
+lean_cached: replaying a cached successful build; profiling timings below describe that earlier build, not this invocation.
+import took 1.01s
+type checking took 3.46s
+'Certificate.Chunked.H1_0B000.gram_evaluation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Chunked.H1_0B000.gram_nonnegative' depends on axioms: [propext, Classical.choice, Quot.sound]
+cumulative profiling times:
+	.olean serialization 25.9ms
+	attribute application 0.0133ms
+	elaboration 3.36ms
+	fix level params 0.0221ms
+	import 1.01s
+	initialization 13.8ms
+	instantiate metavars 0.0148ms
+	interpretation 275ms
+	let-to-have transformation 0.00942ms
+	linting 0.86ms
+	module linting 0.000458ms
+	overlappingInstancesLinter 2.62ms
+	parsing 0.601ms
+	process pre-definitions 0.183ms
+	share common exprs 0.0676ms
+	tactic execution 1.19ms
+	tacticAnalysis 3.65ms
+	type checking 3.47s
+	typeclass inference 1.43ms
+LEAN_BUILD {"argv": ["-o", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/Chunked/H1_0B000/Proof.olean", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/Chunked/H1_0B000/Proof.lean"], "cache_argv": ["-o", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/Chunked/H1_0B000/Proof.olean", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/Chunked/H1_0B000/Proof.lean"], "cache_hit": true, "cache_validation_seconds": 0.02972079097526148, "cached_build_compile_seconds": 4.841759666975122, "compile_seconds": 0.0, "dedup_wait_seconds": 3.904203185811639e-05, "exit_code": 0, "output": "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/Chunked/H1_0B000/Proof.olean", "overhead_seconds": 0.029963332985062152, "pid": 74355, "priority": "interactive", "profile_requested": false, "queue_seconds": 0.0, "replayed_profile_output": true, "schema": 1, "source": "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/Chunked/H1_0B000/Proof.lean", "timed_out": false, "wall_seconds": 0.03000237501692027}
+'Certificate.Sparse.eval_mulShort' depends on axioms: [propext, Quot.sound]
+LEAN_BUILD {"argv": ["-o", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/ShortMultiplication.olean", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/ShortMultiplication.lean"], "cache_argv": ["-o", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/ShortMultiplication.olean", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/ShortMultiplication.lean"], "cache_hit": true, "cache_validation_seconds": 0.003765041008591652, "compile_seconds": 0.0, "dedup_wait_seconds": 3.5333039704710245e-05, "exit_code": 0, "output": "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/ShortMultiplication.olean", "overhead_seconds": 0.010270791943185031, "pid": 74355, "priority": "interactive", "profile_requested": false, "queue_seconds": 0.0, "schema": 1, "source": "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/ShortMultiplication.lean", "timed_out": false, "wall_seconds": 0.010306124982889742}
+'Certificate.SOS.H1_0B000.weighted_nonnegative' depends on axioms: [propext, Classical.choice, Quot.sound]
+LEAN_BUILD {"argv": ["-o", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/SOS/H1_0B000Proof.olean", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/SOS/H1_0B000Proof.lean"], "cache_argv": ["-o", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/SOS/H1_0B000Proof.olean", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/SOS/H1_0B000Proof.lean"], "cache_hit": false, "cache_validation_seconds": 0.09556654095649719, "compile_seconds": 5.424865250010043, "dedup_wait_seconds": 5.849997978657484e-05, "exit_code": 0, "output": "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/SOS/H1_0B000Proof.olean", "overhead_seconds": 0.0966758340364322, "pid": 74355, "priority": "interactive", "profile_requested": false, "queue_seconds": 0.00022933294530957937, "schema": 1, "source": "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/SOS/H1_0B000Proof.lean", "timed_out": false, "wall_seconds": 5.521828916971572}

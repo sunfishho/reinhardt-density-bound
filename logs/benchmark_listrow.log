@@ -1,0 +1,4 @@
+'Certificate.BenchmarkLite.list_first_row' depends on axioms: [propext]
+real 4.02
+user 1.31
+sys 0.76

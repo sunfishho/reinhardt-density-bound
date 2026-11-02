@@ -1,0 +1,42 @@
+{
+  "state_stars": {
+    "compile_seconds": 48.96,
+    "wall_seconds": 64.28
+  },
+  "fundamental_angle": {
+    "compile_seconds": 53.66,
+    "wall_seconds": 68.53
+  },
+  "endpoint_velocities": {
+    "compile_seconds": 89.92,
+    "wall_seconds": 152.3
+  },
+  "initial_frame": {
+    "compile_seconds": 45.19,
+    "wall_seconds": 59.59
+  },
+  "terminal_state": {
+    "compile_seconds": 35.77,
+    "wall_seconds": 73.66
+  },
+  "fundamental_arc": {
+    "compile_seconds": 35.26,
+    "wall_seconds": 82.02
+  },
+  "critical_partition": {
+    "compile_seconds": 51.31,
+    "wall_seconds": 64.96
+  },
+  "sector_separation": {
+    "compile_seconds": 40.78,
+    "wall_seconds": 53.77
+  },
+  "frame_trace": {
+    "compile_seconds": 30.34,
+    "wall_seconds": 44.78
+  },
+  "final_density": {
+    "compile_seconds": 67.08,
+    "wall_seconds": 84.09
+  }
+}

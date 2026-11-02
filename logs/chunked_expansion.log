@@ -1,0 +1,27 @@
+import took 4.11s
+'Certificate.Sparse.gram_expansion_of_tree' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Sparse.gram_tree_witness_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+cumulative profiling times:
+	.olean serialization 36.9ms
+	attribute application 0.0308ms
+	blocked (unaccounted) 7.76ms
+	congr simp thm 0.886ms
+	elaboration 24ms
+	fix level params 0.121ms
+	import 4.11s
+	initialization 198ms
+	instantiate metavars 0.196ms
+	interpretation 371ms
+	let-to-have transformation 0.178ms
+	linting 3.52ms
+	module linting 0.000667ms
+	overlappingInstancesLinter 13ms
+	parsing 1.56ms
+	process pre-definitions 3.09ms
+	share common exprs 0.419ms
+	simp 13.3ms
+	tactic execution 13.5ms
+	tacticAnalysis 10.1ms
+	type checking 2.91ms
+	typeclass inference 7.25ms
+LEAN_BUILD {"cache_hit": false, "cache_validation_seconds": 0.0392029580543749, "compile_seconds": 4.760888416029047, "dedup_wait_seconds": 0.00016208295710384846, "exit_code": 0, "output": "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/ChunkedExpansion.olean", "overhead_seconds": 0.04079479299252853, "pid": 72533, "priority": "interactive", "provenance_incomplete": ["/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/FastExpansion.lean", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/FastGram.lean", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/GramSoundness.lean", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/IntervalSoundness.lean", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/ListDotSoundness.lean", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/MatrixPositivity.lean", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/SOSPolynomial.lean", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/SparsePolynomial.lean"], "queue_seconds": 0.0003040420124307275, "schema": 1, "source": "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/ChunkedExpansion.lean", "timed_out": false, "wall_seconds": 4.80214933399111}

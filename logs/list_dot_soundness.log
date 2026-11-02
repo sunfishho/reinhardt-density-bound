@@ -1,0 +1,1 @@
+'Certificate.dot_eq_sum_get' depends on axioms: [propext, Classical.choice, Quot.sound]

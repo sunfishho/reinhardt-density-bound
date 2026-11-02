@@ -1,0 +1,35 @@
+{
+  "lean": "/Users/matthewho/.elan/toolchains/leanprover--lean4---v4.33.0/bin/lean",
+  "comparator": "/Users/matthewho/.codex/.chatgpt-projects/g-p-6a5ad858ad18819189c51db74c9c12e9/courtade-kumar-publish/.lake/verification-433/comparator/.lake/build/bin/comparator",
+  "exporter": "/Users/matthewho/.codex/.chatgpt-projects/g-p-6a5ad858ad18819189c51db74c9c12e9/courtade-kumar-publish/.lake/verification-433/comparator/.lake/packages/lean4export/.lake/build/bin/lean4export",
+  "nanoda": "/Users/matthewho/.codex/.chatgpt-projects/g-p-6a5ad858ad18819189c51db74c9c12e9/courtade-kumar-publish/.lake/verification-433/nanoda/target/release/nanoda_bin",
+  "landrun": "/Users/matthewho/.codex/.chatgpt-projects/g-p-6a5ad858ad18819189c51db74c9c12e9/courtade-kumar-publish/.lake/verification-433/comparator/scripts/fake-landrun.sh",
+  "challenge_paths": [
+    "/Users/matthewho/.codex/.chatgpt-projects/g-p-6a5ad858ad18819189c51db74c9c12e9/courtade-kumar-publish/.lake/packages/LeanSearchClient/.lake/build/lib/lean",
+    "/Users/matthewho/.codex/.chatgpt-projects/g-p-6a5ad858ad18819189c51db74c9c12e9/courtade-kumar-publish/.lake/packages/Qq/.lake/build/lib/lean",
+    "/Users/matthewho/.codex/.chatgpt-projects/g-p-6a5ad858ad18819189c51db74c9c12e9/courtade-kumar-publish/.lake/packages/aesop/.lake/build/lib/lean",
+    "/Users/matthewho/.codex/.chatgpt-projects/g-p-6a5ad858ad18819189c51db74c9c12e9/courtade-kumar-publish/.lake/packages/batteries/.lake/build/lib/lean",
+    "/Users/matthewho/.codex/.chatgpt-projects/g-p-6a5ad858ad18819189c51db74c9c12e9/courtade-kumar-publish/.lake/packages/importGraph/.lake/build/lib/lean",
+    "/Users/matthewho/.codex/.chatgpt-projects/g-p-6a5ad858ad18819189c51db74c9c12e9/courtade-kumar-publish/.lake/packages/mathlib/.lake/build/lib/lean",
+    "/Users/matthewho/.codex/.chatgpt-projects/g-p-6a5ad858ad18819189c51db74c9c12e9/courtade-kumar-publish/.lake/packages/plausible/.lake/build/lib/lean",
+    "/Users/matthewho/.codex/.chatgpt-projects/g-p-6a5ad858ad18819189c51db74c9c12e9/courtade-kumar-publish/.lake/packages/proofwidgets/.lake/build/lib/lean"
+  ],
+  "solution_paths": [
+    "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate",
+    "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/.lake/build/lib/lean",
+    "/Users/matthewho/.codex/.chatgpt-projects/g-p-6a5ad858ad18819189c51db74c9c12e9/courtade-kumar-publish/.lake/packages/LeanSearchClient/.lake/build/lib/lean",
+    "/Users/matthewho/.codex/.chatgpt-projects/g-p-6a5ad858ad18819189c51db74c9c12e9/courtade-kumar-publish/.lake/packages/Qq/.lake/build/lib/lean",
+    "/Users/matthewho/.codex/.chatgpt-projects/g-p-6a5ad858ad18819189c51db74c9c12e9/courtade-kumar-publish/.lake/packages/aesop/.lake/build/lib/lean",
+    "/Users/matthewho/.codex/.chatgpt-projects/g-p-6a5ad858ad18819189c51db74c9c12e9/courtade-kumar-publish/.lake/packages/batteries/.lake/build/lib/lean",
+    "/Users/matthewho/.codex/.chatgpt-projects/g-p-6a5ad858ad18819189c51db74c9c12e9/courtade-kumar-publish/.lake/packages/importGraph/.lake/build/lib/lean",
+    "/Users/matthewho/.codex/.chatgpt-projects/g-p-6a5ad858ad18819189c51db74c9c12e9/courtade-kumar-publish/.lake/packages/mathlib/.lake/build/lib/lean",
+    "/Users/matthewho/.codex/.chatgpt-projects/g-p-6a5ad858ad18819189c51db74c9c12e9/courtade-kumar-publish/.lake/packages/plausible/.lake/build/lib/lean",
+    "/Users/matthewho/.codex/.chatgpt-projects/g-p-6a5ad858ad18819189c51db74c9c12e9/courtade-kumar-publish/.lake/packages/proofwidgets/.lake/build/lib/lean"
+  ],
+  "components": {
+    "comparator": "/Users/matthewho/.codex/.chatgpt-projects/g-p-6a5ad858ad18819189c51db74c9c12e9/courtade-kumar-publish/.lake/verification-433/comparator",
+    "exporter": "/Users/matthewho/.codex/.chatgpt-projects/g-p-6a5ad858ad18819189c51db74c9c12e9/courtade-kumar-publish/.lake/verification-433/comparator/.lake/packages/lean4export",
+    "nanoda": "/Users/matthewho/.codex/.chatgpt-projects/g-p-6a5ad858ad18819189c51db74c9c12e9/courtade-kumar-publish/.lake/verification-433/nanoda",
+    "mathlib": "/Users/matthewho/.codex/.chatgpt-projects/g-p-6a5ad858ad18819189c51db74c9c12e9/courtade-kumar-publish/.lake/packages/mathlib"
+  }
+}

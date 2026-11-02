@@ -1,0 +1,16 @@
+{
+  "schema": 1,
+  "pid": 72502,
+  "source": "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/DiagonalCheck.lean",
+  "output": "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/DiagonalCheck.olean",
+  "cache_hit": true,
+  "priority": "interactive",
+  "dedup_wait_seconds": 5.358300404623151e-05,
+  "queue_seconds": 0.0,
+  "compile_seconds": 0.0,
+  "cache_validation_seconds": 0.0009551249677315354,
+  "exit_code": 0,
+  "timed_out": false,
+  "wall_seconds": 0.0012462500017136335,
+  "overhead_seconds": 0.001192666997667402
+}

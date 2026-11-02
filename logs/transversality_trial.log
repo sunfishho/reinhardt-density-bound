@@ -1,0 +1,5 @@
+'Certificate.Packing.minimizerGaugeGradient_eq_sideNormal' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.criticalMidpointNext_transverse' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.criticalMidpointPartial_det_ne_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.hasFDerivAt_criticalMidpointConstraints' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.criticalMidpointPartial_isInvertible' depends on axioms: [propext, Classical.choice, Quot.sound]

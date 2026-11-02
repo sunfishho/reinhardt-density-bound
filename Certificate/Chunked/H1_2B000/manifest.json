@@ -1,0 +1,1081 @@
+{
+  "identity": "H1_2",
+  "block": 0,
+  "size": 104,
+  "generator": "scripts/emit_chunked_sos.py",
+  "root_node": "Node102",
+  "matrix_sha256": "dd472faf60f232e4a8c53b5d5875039867a2a9cff6ea5f8acbf6958ac49fd05c",
+  "polynomial_sha256": "76909e13672eb015451cbdf694dc09ebf1c9f63cdfcdc66ab514c8dc5817336d",
+  "checks_per_module": 128,
+  "sources": [
+    {
+      "module": "Certificate.Chunked.H1_2B000.Chunk000",
+      "dependencies": [
+        "Certificate.ChunkedExpansion",
+        "Certificate.SOS.H1_2B000Data"
+      ],
+      "checks": [
+        {
+          "name": "Leaf000",
+          "kind": "row",
+          "terms": 208
+        },
+        {
+          "name": "Leaf001",
+          "kind": "row",
+          "terms": 208
+        },
+        {
+          "name": "Leaf002",
+          "kind": "row",
+          "terms": 208
+        },
+        {
+          "name": "Leaf003",
+          "kind": "row",
+          "terms": 208
+        },
+        {
+          "name": "Leaf004",
+          "kind": "row",
+          "terms": 208
+        },
+        {
+          "name": "Leaf005",
+          "kind": "row",
+          "terms": 208
+        },
+        {
+          "name": "Leaf006",
+          "kind": "row",
+          "terms": 208
+        },
+        {
+          "name": "Leaf007",
+          "kind": "row",
+          "terms": 208
+        },
+        {
+          "name": "Leaf008",
+          "kind": "row",
+          "terms": 208
+        },
+        {
+          "name": "Leaf009",
+          "kind": "row",
+          "terms": 208
+        },
+        {
+          "name": "Leaf010",
+          "kind": "row",
+          "terms": 208
+        },
+        {
+          "name": "Leaf011",
+          "kind": "row",
+          "terms": 208
+        },
+        {
+          "name": "Leaf012",
+          "kind": "row",
+          "terms": 208
+        },
+        {
+          "name": "Leaf013",
+          "kind": "row",
+          "terms": 208
+        },
+        {
+          "name": "Leaf014",
+          "kind": "row",
+          "terms": 208
+        },
+        {
+          "name": "Leaf015",
+          "kind": "row",
+          "terms": 208
+        },
+        {
+          "name": "Leaf016",
+          "kind": "row",
+          "terms": 208
+        },
+        {
+          "name": "Leaf017",
+          "kind": "row",
+          "terms": 208
+        },
+        {
+          "name": "Leaf018",
+          "kind": "row",
+          "terms": 208
+        },
+        {
+          "name": "Leaf019",
+          "kind": "row",
+          "terms": 208
+        },
+        {
+          "name": "Leaf020",
+          "kind": "row",
+          "terms": 208
+        },
+        {
+          "name": "Leaf021",
+          "kind": "row",
+          "terms": 208
+        },
+        {
+          "name": "Leaf022",
+          "kind": "row",
+          "terms": 208
+        },
+        {
+          "name": "Leaf023",
+          "kind": "row",
+          "terms": 208
+        },
+        {
+          "name": "Leaf024",
+          "kind": "row",
+          "terms": 208
+        },
+        {
+          "name": "Leaf025",
+          "kind": "row",
+          "terms": 208
+        },
+        {
+          "name": "Leaf026",
+          "kind": "row",
+          "terms": 208
+        },
+        {
+          "name": "Leaf027",
+          "kind": "row",
+          "terms": 208
+        },
+        {
+          "name": "Leaf028",
+          "kind": "row",
+          "terms": 208
+        },
+        {
+          "name": "Leaf029",
+          "kind": "row",
+          "terms": 208
+        },
+        {
+          "name": "Leaf030",
+          "kind": "row",
+          "terms": 208
+        },
+        {
+          "name": "Leaf031",
+          "kind": "row",
+          "terms": 208
+        },
+        {
+          "name": "Leaf032",
+          "kind": "row",
+          "terms": 208
+        },
+        {
+          "name": "Leaf033",
+          "kind": "row",
+          "terms": 208
+        },
+        {
+          "name": "Leaf034",
+          "kind": "row",
+          "terms": 208
+        },
+        {
+          "name": "Leaf035",
+          "kind": "row",
+          "terms": 208
+        },
+        {
+          "name": "Leaf036",
+          "kind": "row",
+          "terms": 208
+        },
+        {
+          "name": "Leaf037",
+          "kind": "row",
+          "terms": 208
+        },
+        {
+          "name": "Leaf038",
+          "kind": "row",
+          "terms": 208
+        },
+        {
+          "name": "Leaf039",
+          "kind": "row",
+          "terms": 208
+        },
+        {
+          "name": "Leaf040",
+          "kind": "row",
+          "terms": 208
+        },
+        {
+          "name": "Leaf041",
+          "kind": "row",
+          "terms": 208
+        },
+        {
+          "name": "Leaf042",
+          "kind": "row",
+          "terms": 208
+        },
+        {
+          "name": "Leaf043",
+          "kind": "row",
+          "terms": 208
+        },
+        {
+          "name": "Leaf044",
+          "kind": "row",
+          "terms": 208
+        },
+        {
+          "name": "Leaf045",
+          "kind": "row",
+          "terms": 208
+        },
+        {
+          "name": "Leaf046",
+          "kind": "row",
+          "terms": 208
+        },
+        {
+          "name": "Leaf047",
+          "kind": "row",
+          "terms": 208
+        },
+        {
+          "name": "Leaf048",
+          "kind": "row",
+          "terms": 208
+        },
+        {
+          "name": "Leaf049",
+          "kind": "row",
+          "terms": 208
+        },
+        {
+          "name": "Leaf050",
+          "kind": "row",
+          "terms": 208
+        },
+        {
+          "name": "Leaf051",
+          "kind": "row",
+          "terms": 208
+        },
+        {
+          "name": "Leaf052",
+          "kind": "row",
+          "terms": 208
+        },
+        {
+          "name": "Leaf053",
+          "kind": "row",
+          "terms": 208
+        },
+        {
+          "name": "Leaf054",
+          "kind": "row",
+          "terms": 208
+        },
+        {
+          "name": "Leaf055",
+          "kind": "row",
+          "terms": 208
+        },
+        {
+          "name": "Leaf056",
+          "kind": "row",
+          "terms": 208
+        },
+        {
+          "name": "Leaf057",
+          "kind": "row",
+          "terms": 208
+        },
+        {
+          "name": "Leaf058",
+          "kind": "row",
+          "terms": 208
+        },
+        {
+          "name": "Leaf059",
+          "kind": "row",
+          "terms": 208
+        },
+        {
+          "name": "Leaf060",
+          "kind": "row",
+          "terms": 208
+        },
+        {
+          "name": "Leaf061",
+          "kind": "row",
+          "terms": 208
+        },
+        {
+          "name": "Leaf062",
+          "kind": "row",
+          "terms": 208
+        },
+        {
+          "name": "Leaf063",
+          "kind": "row",
+          "terms": 208
+        },
+        {
+          "name": "Leaf064",
+          "kind": "row",
+          "terms": 208
+        },
+        {
+          "name": "Leaf065",
+          "kind": "row",
+          "terms": 208
+        },
+        {
+          "name": "Leaf066",
+          "kind": "row",
+          "terms": 208
+        },
+        {
+          "name": "Leaf067",
+          "kind": "row",
+          "terms": 208
+        },
+        {
+          "name": "Leaf068",
+          "kind": "row",
+          "terms": 208
+        },
+        {
+          "name": "Leaf069",
+          "kind": "row",
+          "terms": 208
+        },
+        {
+          "name": "Leaf070",
+          "kind": "row",
+          "terms": 208
+        },
+        {
+          "name": "Leaf071",
+          "kind": "row",
+          "terms": 208
+        },
+        {
+          "name": "Leaf072",
+          "kind": "row",
+          "terms": 208
+        },
+        {
+          "name": "Leaf073",
+          "kind": "row",
+          "terms": 208
+        },
+        {
+          "name": "Leaf074",
+          "kind": "row",
+          "terms": 208
+        },
+        {
+          "name": "Leaf075",
+          "kind": "row",
+          "terms": 208
+        },
+        {
+          "name": "Leaf076",
+          "kind": "row",
+          "terms": 208
+        },
+        {
+          "name": "Leaf077",
+          "kind": "row",
+          "terms": 208
+        },
+        {
+          "name": "Leaf078",
+          "kind": "row",
+          "terms": 208
+        },
+        {
+          "name": "Leaf079",
+          "kind": "row",
+          "terms": 208
+        },
+        {
+          "name": "Leaf080",
+          "kind": "row",
+          "terms": 208
+        },
+        {
+          "name": "Leaf081",
+          "kind": "row",
+          "terms": 208
+        },
+        {
+          "name": "Leaf082",
+          "kind": "row",
+          "terms": 208
+        },
+        {
+          "name": "Leaf083",
+          "kind": "row",
+          "terms": 208
+        },
+        {
+          "name": "Leaf084",
+          "kind": "row",
+          "terms": 208
+        },
+        {
+          "name": "Leaf085",
+          "kind": "row",
+          "terms": 208
+        },
+        {
+          "name": "Leaf086",
+          "kind": "row",
+          "terms": 208
+        },
+        {
+          "name": "Leaf087",
+          "kind": "row",
+          "terms": 208
+        },
+        {
+          "name": "Leaf088",
+          "kind": "row",
+          "terms": 208
+        },
+        {
+          "name": "Leaf089",
+          "kind": "row",
+          "terms": 208
+        },
+        {
+          "name": "Leaf090",
+          "kind": "row",
+          "terms": 208
+        },
+        {
+          "name": "Leaf091",
+          "kind": "row",
+          "terms": 208
+        },
+        {
+          "name": "Leaf092",
+          "kind": "row",
+          "terms": 208
+        },
+        {
+          "name": "Leaf093",
+          "kind": "row",
+          "terms": 208
+        },
+        {
+          "name": "Leaf094",
+          "kind": "row",
+          "terms": 208
+        },
+        {
+          "name": "Leaf095",
+          "kind": "row",
+          "terms": 208
+        },
+        {
+          "name": "Leaf096",
+          "kind": "row",
+          "terms": 208
+        },
+        {
+          "name": "Leaf097",
+          "kind": "row",
+          "terms": 208
+        },
+        {
+          "name": "Leaf098",
+          "kind": "row",
+          "terms": 208
+        },
+        {
+          "name": "Leaf099",
+          "kind": "row",
+          "terms": 208
+        },
+        {
+          "name": "Leaf100",
+          "kind": "row",
+          "terms": 208
+        },
+        {
+          "name": "Leaf101",
+          "kind": "row",
+          "terms": 208
+        },
+        {
+          "name": "Leaf102",
+          "kind": "row",
+          "terms": 208
+        },
+        {
+          "name": "Leaf103",
+          "kind": "row",
+          "terms": 208
+        },
+        {
+          "name": "Node000",
+          "kind": "merge",
+          "terms": 362
+        },
+        {
+          "name": "Node001",
+          "kind": "merge",
+          "terms": 348
+        },
+        {
+          "name": "Node002",
+          "kind": "merge",
+          "terms": 362
+        },
+        {
+          "name": "Node003",
+          "kind": "merge",
+          "terms": 362
+        },
+        {
+          "name": "Node004",
+          "kind": "merge",
+          "terms": 362
+        },
+        {
+          "name": "Node005",
+          "kind": "merge",
+          "terms": 348
+        },
+        {
+          "name": "Node006",
+          "kind": "merge",
+          "terms": 362
+        },
+        {
+          "name": "Node007",
+          "kind": "merge",
+          "terms": 348
+        },
+        {
+          "name": "Node008",
+          "kind": "merge",
+          "terms": 362
+        },
+        {
+          "name": "Node009",
+          "kind": "merge",
+          "terms": 362
+        },
+        {
+          "name": "Node010",
+          "kind": "merge",
+          "terms": 362
+        },
+        {
+          "name": "Node011",
+          "kind": "merge",
+          "terms": 348
+        },
+        {
+          "name": "Node012",
+          "kind": "merge",
+          "terms": 404
+        },
+        {
+          "name": "Node013",
+          "kind": "merge",
+          "terms": 348
+        },
+        {
+          "name": "Node014",
+          "kind": "merge",
+          "terms": 404
+        },
+        {
+          "name": "Node015",
+          "kind": "merge",
+          "terms": 362
+        },
+        {
+          "name": "Node016",
+          "kind": "merge",
+          "terms": 362
+        },
+        {
+          "name": "Node017",
+          "kind": "merge",
+          "terms": 362
+        },
+        {
+          "name": "Node018",
+          "kind": "merge",
+          "terms": 348
+        },
+        {
+          "name": "Node019",
+          "kind": "merge",
+          "terms": 362
+        },
+        {
+          "name": "Node020",
+          "kind": "merge",
+          "terms": 348
+        },
+        {
+          "name": "Node021",
+          "kind": "merge",
+          "terms": 348
+        },
+        {
+          "name": "Node022",
+          "kind": "merge",
+          "terms": 402
+        },
+        {
+          "name": "Node023",
+          "kind": "merge",
+          "terms": 348
+        }
+      ],
+      "source_sha256": "f17af268bbf15142567edfd4b68b37f806abee860a7c16404b5687ce75a92822"
+    },
+    {
+      "module": "Certificate.Chunked.H1_2B000.Chunk001",
+      "dependencies": [
+        "Certificate.Chunked.H1_2B000.Chunk000"
+      ],
+      "checks": [
+        {
+          "name": "Node024",
+          "kind": "merge",
+          "terms": 402
+        },
+        {
+          "name": "Node025",
+          "kind": "merge",
+          "terms": 362
+        },
+        {
+          "name": "Node026",
+          "kind": "merge",
+          "terms": 362
+        },
+        {
+          "name": "Node027",
+          "kind": "merge",
+          "terms": 348
+        },
+        {
+          "name": "Node028",
+          "kind": "merge",
+          "terms": 362
+        },
+        {
+          "name": "Node029",
+          "kind": "merge",
+          "terms": 362
+        },
+        {
+          "name": "Node030",
+          "kind": "merge",
+          "terms": 362
+        },
+        {
+          "name": "Node031",
+          "kind": "merge",
+          "terms": 348
+        },
+        {
+          "name": "Node032",
+          "kind": "merge",
+          "terms": 404
+        },
+        {
+          "name": "Node033",
+          "kind": "merge",
+          "terms": 348
+        },
+        {
+          "name": "Node034",
+          "kind": "merge",
+          "terms": 404
+        },
+        {
+          "name": "Node035",
+          "kind": "merge",
+          "terms": 362
+        },
+        {
+          "name": "Node036",
+          "kind": "merge",
+          "terms": 362
+        },
+        {
+          "name": "Node037",
+          "kind": "merge",
+          "terms": 362
+        },
+        {
+          "name": "Node038",
+          "kind": "merge",
+          "terms": 348
+        },
+        {
+          "name": "Node039",
+          "kind": "merge",
+          "terms": 404
+        },
+        {
+          "name": "Node040",
+          "kind": "merge",
+          "terms": 348
+        },
+        {
+          "name": "Node041",
+          "kind": "merge",
+          "terms": 404
+        },
+        {
+          "name": "Node042",
+          "kind": "merge",
+          "terms": 362
+        },
+        {
+          "name": "Node043",
+          "kind": "merge",
+          "terms": 362
+        },
+        {
+          "name": "Node044",
+          "kind": "merge",
+          "terms": 362
+        },
+        {
+          "name": "Node045",
+          "kind": "merge",
+          "terms": 362
+        },
+        {
+          "name": "Node046",
+          "kind": "merge",
+          "terms": 348
+        },
+        {
+          "name": "Node047",
+          "kind": "merge",
+          "terms": 402
+        },
+        {
+          "name": "Node048",
+          "kind": "merge",
+          "terms": 414
+        },
+        {
+          "name": "Node049",
+          "kind": "merge",
+          "terms": 362
+        },
+        {
+          "name": "Node050",
+          "kind": "merge",
+          "terms": 362
+        },
+        {
+          "name": "Node051",
+          "kind": "merge",
+          "terms": 362
+        },
+        {
+          "name": "Node052",
+          "kind": "merge",
+          "terms": 522
+        },
+        {
+          "name": "Node053",
+          "kind": "merge",
+          "terms": 556
+        },
+        {
+          "name": "Node054",
+          "kind": "merge",
+          "terms": 522
+        },
+        {
+          "name": "Node055",
+          "kind": "merge",
+          "terms": 666
+        },
+        {
+          "name": "Node056",
+          "kind": "merge",
+          "terms": 556
+        },
+        {
+          "name": "Node057",
+          "kind": "merge",
+          "terms": 522
+        },
+        {
+          "name": "Node058",
+          "kind": "merge",
+          "terms": 640
+        },
+        {
+          "name": "Node059",
+          "kind": "merge",
+          "terms": 616
+        },
+        {
+          "name": "Node060",
+          "kind": "merge",
+          "terms": 716
+        },
+        {
+          "name": "Node061",
+          "kind": "merge",
+          "terms": 522
+        },
+        {
+          "name": "Node062",
+          "kind": "merge",
+          "terms": 486
+        },
+        {
+          "name": "Node063",
+          "kind": "merge",
+          "terms": 608
+        },
+        {
+          "name": "Node064",
+          "kind": "merge",
+          "terms": 602
+        },
+        {
+          "name": "Node065",
+          "kind": "merge",
+          "terms": 702
+        },
+        {
+          "name": "Node066",
+          "kind": "merge",
+          "terms": 556
+        },
+        {
+          "name": "Node067",
+          "kind": "merge",
+          "terms": 522
+        },
+        {
+          "name": "Node068",
+          "kind": "merge",
+          "terms": 640
+        },
+        {
+          "name": "Node069",
+          "kind": "merge",
+          "terms": 616
+        },
+        {
+          "name": "Node070",
+          "kind": "merge",
+          "terms": 716
+        },
+        {
+          "name": "Node071",
+          "kind": "merge",
+          "terms": 636
+        },
+        {
+          "name": "Node072",
+          "kind": "merge",
+          "terms": 616
+        },
+        {
+          "name": "Node073",
+          "kind": "merge",
+          "terms": 602
+        },
+        {
+          "name": "Node074",
+          "kind": "merge",
+          "terms": 556
+        },
+        {
+          "name": "Node075",
+          "kind": "merge",
+          "terms": 602
+        },
+        {
+          "name": "Node076",
+          "kind": "merge",
+          "terms": 656
+        },
+        {
+          "name": "Node077",
+          "kind": "merge",
+          "terms": 602
+        },
+        {
+          "name": "Node078",
+          "kind": "merge",
+          "terms": 640
+        },
+        {
+          "name": "Node079",
+          "kind": "merge",
+          "terms": 870
+        },
+        {
+          "name": "Node080",
+          "kind": "merge",
+          "terms": 908
+        },
+        {
+          "name": "Node081",
+          "kind": "merge",
+          "terms": 992
+        },
+        {
+          "name": "Node082",
+          "kind": "merge",
+          "terms": 952
+        },
+        {
+          "name": "Node083",
+          "kind": "merge",
+          "terms": 832
+        },
+        {
+          "name": "Node084",
+          "kind": "merge",
+          "terms": 1110
+        },
+        {
+          "name": "Node085",
+          "kind": "merge",
+          "terms": 908
+        },
+        {
+          "name": "Node086",
+          "kind": "merge",
+          "terms": 992
+        },
+        {
+          "name": "Node087",
+          "kind": "merge",
+          "terms": 1078
+        },
+        {
+          "name": "Node088",
+          "kind": "merge",
+          "terms": 968
+        },
+        {
+          "name": "Node089",
+          "kind": "merge",
+          "terms": 992
+        },
+        {
+          "name": "Node090",
+          "kind": "merge",
+          "terms": 1056
+        },
+        {
+          "name": "Node091",
+          "kind": "merge",
+          "terms": 1192
+        },
+        {
+          "name": "Node092",
+          "kind": "merge",
+          "terms": 1322
+        },
+        {
+          "name": "Node093",
+          "kind": "merge",
+          "terms": 1502
+        },
+        {
+          "name": "Node094",
+          "kind": "merge",
+          "terms": 1594
+        },
+        {
+          "name": "Node095",
+          "kind": "merge",
+          "terms": 1682
+        },
+        {
+          "name": "Node096",
+          "kind": "merge",
+          "terms": 1668
+        },
+        {
+          "name": "Node097",
+          "kind": "merge",
+          "terms": 1502
+        },
+        {
+          "name": "Node098",
+          "kind": "merge",
+          "terms": 2244
+        },
+        {
+          "name": "Node099",
+          "kind": "merge",
+          "terms": 2382
+        },
+        {
+          "name": "Node100",
+          "kind": "merge",
+          "terms": 2694
+        },
+        {
+          "name": "Node101",
+          "kind": "merge",
+          "terms": 2626
+        },
+        {
+          "name": "Node102",
+          "kind": "merge",
+          "terms": 3156
+        }
+      ],
+      "source_sha256": "6257f73332da54135e62aebcaaeaee1b63e947a9a03ee5d1f8a108cba6625983"
+    },
+    {
+      "module": "Certificate.Chunked.H1_2B000.Proof",
+      "dependencies": [
+        "Certificate.Chunked.H1_2B000.Chunk001",
+        "Certificate.MergeArithmetic"
+      ],
+      "checks": [
+        {
+          "name": "Proof",
+          "kind": "final",
+          "terms": 3156
+        }
+      ],
+      "source_sha256": "7c95e07a0c5d925122d2eb6291f71ae630f88ca036f469f154a868eb7ee7380e"
+    }
+  ]
+}

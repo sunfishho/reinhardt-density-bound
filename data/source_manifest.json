@@ -1,0 +1,52 @@
+[
+  {
+    "path": "m12lib.py",
+    "sha256": "4c72bb96066738b71fba29078090b8967299858081bdf8832877cab2780e173c",
+    "bytes": 8286
+  },
+  {
+    "path": "02_verify_exact.py",
+    "sha256": "aac0a32e0a0ed0d51c17205b480453b09eebe66dba25889e7b006a3f71e1779c",
+    "bytes": 6384
+  },
+  {
+    "path": "targets_recomputed.json",
+    "sha256": "3f67c2a6b6013e70096e1636307a66d7ce03c0fb761e73e7c73e2966d46bd2e8",
+    "bytes": 171191
+  },
+  {
+    "path": "m12_problem.py",
+    "sha256": "fa67efdbf304255b3ca0f45da1353c7bf3b50dfc5f15e22d2b2d239622a0a29b",
+    "bytes": 5608
+  },
+  {
+    "path": "01_targets.py",
+    "sha256": "0f94bbb591dec26072c6531dd8fa090b0159e756d5600092687444fd56739e6e",
+    "bytes": 5214
+  },
+  {
+    "path": "certs/d4csdp_e7_meta.json",
+    "sha256": "cadf1083fb45b97689fbcf88ae6ebdf49d8f9588b524eab23a16078cd2ddca47",
+    "bytes": 12256
+  },
+  {
+    "path": "certs/d4csdp_e7_H1_0.npz",
+    "sha256": "7490b830df8d7cb7f483dfd1314e4bbc60d3d10a27e29ed5b4904fa7d0d8b40a",
+    "bytes": 821877
+  },
+  {
+    "path": "certs/d4csdp_e7_H1_1.npz",
+    "sha256": "1313f2a4721867e6327406c779023ab8f15fc6b7442fdd251920efbcb68d0358",
+    "bytes": 821271
+  },
+  {
+    "path": "certs/d4csdp_e7_H1_2.npz",
+    "sha256": "9fd86eed2730a23745556a6510da2f90c0da2989629b180ebccc3265a381dede",
+    "bytes": 821246
+  },
+  {
+    "path": "certs/d4csdp_e7_H2.npz",
+    "sha256": "00b59a71409822ae2e224b016875cf767b4dd309fd796f62eba1907b2cc5650d",
+    "bytes": 19124
+  }
+]

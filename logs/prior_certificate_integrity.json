@@ -1,0 +1,7 @@
+{
+  "previously_verified_modules_checked": 1136,
+  "differences": [],
+  "prior_verification_report": "logs/final/verification_before_geometric_bridge.json",
+  "prior_verification_report_sha256": "028551526454c99fa8e355c384569044fb17ffba81886953dd1b4206719bc845",
+  "excluded_source": "Certificate.lean (root import changed to the extended theorem)"
+}

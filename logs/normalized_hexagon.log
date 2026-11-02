@@ -1,0 +1,12 @@
+Certificate/NormalizedHexagon.lean:24:37: warning: This simp argument is unused:
+  s0
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [sideA, sideB, sideC, p0, p1, p2, s1, s2, pt]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+'Certificate.Packing.HVGeometry.normalizedHex_covolume' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.Packing.HVGeometry.packingDensity_ge_area_of_normalized_frame' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+LEAN_BUILD {"argv": ["-M", "8192", "-o", "Certificate/NormalizedHexagon.olean", "Certificate/NormalizedHexagon.lean"], "cache_argv": ["-o", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/NormalizedHexagon.olean", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/NormalizedHexagon.lean"], "cache_hit": false, "cache_validation_seconds": 0.6549125410383567, "compile_seconds": 22.66997229203116, "dedup_wait_seconds": 0.0002073750365525484, "exit_code": 0, "output": "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/NormalizedHexagon.olean", "overhead_seconds": 0.6586993738892488, "pid": 98091, "priority": "interactive", "profile_requested": false, "provenance_incomplete": ["/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/GeometricCoordinates.lean", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/NumericBound.lean", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/Problem.lean"], "queue_seconds": 0.0007025840459391475, "schema": 1, "source": "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/NormalizedHexagon.lean", "timed_out": false, "wall_seconds": 23.329581625002902}

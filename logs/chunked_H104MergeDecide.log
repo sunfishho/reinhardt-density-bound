@@ -1,0 +1,24 @@
+import took 1.04s
+type checking took 4.82s
+'Certificate.Chunked.Benchmarks.H104MergeDecide.check' does not depend on any axioms
+cumulative profiling times:
+	.olean serialization 26.7ms
+	attribute application 0.00588ms
+	elaboration 1.07ms
+	fix level params 0.00367ms
+	import 1.04s
+	initialization 13.8ms
+	instantiate metavars 0.00454ms
+	interpretation 267ms
+	let-to-have transformation 0.00346ms
+	linting 0.431ms
+	module linting 0.000458ms
+	overlappingInstancesLinter 2.24ms
+	parsing 0.163ms
+	process pre-definitions 0.0517ms
+	share common exprs 0.00829ms
+	tactic execution 0.18ms
+	tacticAnalysis 3.01ms
+	type checking 4.82s
+	typeclass inference 0.418ms
+LEAN_BUILD {"cache_hit": false, "cache_validation_seconds": 0.12311487598344684, "compile_seconds": 6.2140411250293255, "dedup_wait_seconds": 0.00010349997319281101, "exit_code": 0, "output": "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/Chunked/Benchmarks/H104MergeDecide.olean", "overhead_seconds": 0.12440383300418034, "pid": 73895, "priority": "normal", "provenance_incomplete": ["/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/FastExpansion.lean", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/Generated/H1_0B000Data.lean"], "queue_seconds": 6.688626499962993, "schema": 1, "source": "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/Chunked/Benchmarks/H104MergeDecide.lean", "timed_out": false, "wall_seconds": 13.027174957969692}

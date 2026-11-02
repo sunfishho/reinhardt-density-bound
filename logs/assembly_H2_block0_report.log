@@ -1,0 +1,1 @@
+{"module": "Certificate.Assembly.H2B000", "theorem": "Certificate.Assembly.H2B000.nonnegative", "source_sha256": "2e4c21a6e3f4dd764967ea3224339b664ecc96b21529c42293e468977c72bb88", "imports_sha256": "16cd8eb73ace64d7e2cdded654042a345b0ac609c5a3030a8b6312e84a1da95c", "verified": true, "axioms": ["Classical.choice", "Quot.sound", "propext"], "seconds": 2610.140786709031}

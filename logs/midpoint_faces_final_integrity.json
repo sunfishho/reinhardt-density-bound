@@ -1,0 +1,12 @@
+{
+  "baseline": "verification_before_midpoint_faces.json",
+  "checked_prior_nonroot_modules": 1235,
+  "mismatches": [],
+  "verified_results": 287,
+  "new_results": 12,
+  "removed_results": [],
+  "unexpected_axioms": {},
+  "local_modules": 1238,
+  "production_sources": 1512,
+  "passed": true
+}

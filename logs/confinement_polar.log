@@ -1,0 +1,15 @@
+Certificate/ConfinementPolar.lean:110:74: warning: This simp argument is unused:
+  zero_sub
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [htheta0, hu0, hz0, Real.cos_zero, Real.sin_zero, mul_one, mul_zero, sub_zero, zero_add] at ha hb
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+Certificate/ConfinementPolar.lean:95:85: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+Certificate/ConfinementPolar.lean:102:85: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+'Certificate.Confinement.row_polar_representation' depends on axioms: [propext, Classical.choice, Quot.sound]
+LEAN_BUILD {"argv": ["-M", "8192", "-o", "Certificate/ConfinementPolar.olean", "Certificate/ConfinementPolar.lean"], "cache_argv": ["-o", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/ConfinementPolar.olean", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/ConfinementPolar.lean"], "cache_hit": false, "cache_validation_seconds": 0.030552375072147697, "compile_seconds": 2.0767692089430057, "dedup_wait_seconds": 5.800003418698907e-05, "exit_code": 0, "output": "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/ConfinementPolar.olean", "overhead_seconds": 0.03174654097529128, "pid": 91335, "priority": "interactive", "profile_requested": false, "queue_seconds": 0.0002906250301748514, "schema": 1, "source": "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/ConfinementPolar.lean", "timed_out": false, "wall_seconds": 2.1088643749826588}

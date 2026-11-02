@@ -1,0 +1,2 @@
+'Certificate.original_controlField' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Certificate.rotateState_X' depends on axioms: [propext, Classical.choice, Quot.sound]

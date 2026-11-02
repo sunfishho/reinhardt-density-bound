@@ -1,0 +1,18 @@
+{
+  "reference_body_matches_original_benchmark": true,
+  "body_sha256": "4d3b128710a93646d1974084fdffd28cde4ae45d36e7f3aa0e8822f934e4c805",
+  "original_benchmark": "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/028_reinhardt.lean",
+  "challenge": "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/verification/comparator/Challenge.lean",
+  "challenge_sha256": "0e9d610ef46c44d1d9bb7a0c1be75ff45187ac9043d8cb80240c473c816b8df5",
+  "imports": [
+    "import Mathlib.MeasureTheory.Measure.Haar.InnerProductSpace",
+    "import Mathlib.MeasureTheory.Measure.Lebesgue.EqHaar"
+  ],
+  "reference_proof_placeholder_count": 1,
+  "permitted_solution_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "definition_holes": []
+}

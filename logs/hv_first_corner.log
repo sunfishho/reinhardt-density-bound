@@ -1,0 +1,55 @@
+Certificate/HVFirstCorner.lean:68:55: error: Tactic `rewrite` failed: Did not find an occurrence of the pattern
+  triangle (↑L s0) (↑L (p0 u v w)) (↑L s1)
+in the target expression
+  x ∈ triangle (L s0) (L (p0 u v w)) (L s1)
+
+case pos.refine_1
+K : Set E
+hcomp : IsCompact K
+hconv : Convex ℝ K
+hsym : IsSymmetricSet K
+u v w : ℝ
+hu : 0 < u
+hv : 0 < v
+hw : 0 < w
+he2 : u * v + v * w + w * u = 1
+hside : ∀ x ∈ K, |(sideA u v w) x| ≤ 1 ∧ |(sideC u v w) x| ≤ 1
+h0 : s0 ∈ K
+h1 : s1 ∈ K
+hmin : HexAreaLowerBound K (2 * √3)
+hprod : 0 < u * w
+hsqrt : 0 < √(u * w)
+hsqrt2 : √(u * w) ^ 2 = u * w
+hactive : 4 * v ^ 2 ≤ u * w
+L : E ≃ₗ[ℝ] E := cornerEquiv u v w hu hv hw he2
+d : ℝ := w / (v + w)
+e : ℝ := u / (u + v)
+t : ℝ := 2 * v / √(u * w)
+hd : 0 < d
+he : 0 < e
+hd1 : d ≤ 1
+he1 : e ≤ 1
+ht : 0 ≤ t
+ht1 : t ≤ 1
+hL0 : L s0 = point (1 - d) (-1)
+hL1 : L s1 = point 1 (-1 + e)
+hLp : L (p0 u v w) = point 1 (-1)
+hvol : |LinearMap.det ↑L| * (2 * √3) = 4 - t ^ 2 * d * e
+hminL : HexAreaLowerBound (⇑L '' K) (4 - t ^ 2 * d * e)
+hsqL : ∀ x ∈ ⇑L '' K, |x.ofLp 0| ≤ 1 ∧ |x.ofLp 1| ≤ 1
+x : E
+hcorner : x ∈ triangle (L s0) (L (p0 u v w)) (L s1)
+hlevel : cornerDistance d e x = t
+htri :
+  point (1 - d) (-1) +ᵥ Tri (point 1 (-1 + e) - point (1 - d) (-1)) (x - point (1 - d) (-1)) ⊆
+    ⇑L.toContinuousLinearEquiv '' K
+harea : triangleArea (point (1 - d) (-1)) (point 1 (-1 + e)) x = d * e / 2 - √(t ^ 2 * d * e / 2 * (d * e / 2))
+r : E
+hrK : r ∈ K
+hr : L r = x
+⊢ r ∈ triangle s0 (p0 u v w) s1
+'Certificate.Packing.HVGeometry.first_corner_contact' depends on axioms: [propext,
+ sorryAx,
+ Classical.choice,
+ Quot.sound]
+LEAN_BUILD {"argv": ["-M", "8192", "-o", "Certificate/HVFirstCorner.olean", "Certificate/HVFirstCorner.lean"], "cache_argv": ["-o", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/HVFirstCorner.olean", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/HVFirstCorner.lean"], "cache_hit": false, "cache_validation_seconds": 0.3938140830141492, "compile_seconds": 23.083734125015326, "dedup_wait_seconds": 0.00012483401224017143, "exit_code": 1, "output": "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/HVFirstCorner.olean", "overhead_seconds": 0.3958490409422666, "pid": 97833, "priority": "interactive", "profile_requested": false, "provenance_incomplete": ["/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/GeometricCoordinates.lean", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/NumericBound.lean", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/Problem.lean"], "queue_seconds": 0.0005053330096416175, "schema": 1, "source": "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/HVFirstCorner.lean", "timed_out": false, "wall_seconds": 23.480213332979474}

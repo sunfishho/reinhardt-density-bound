@@ -1,0 +1,84 @@
+{
+  "modules": 10,
+  "all_passed": true,
+  "compile_seconds": 14.377419209049549,
+  "queue_seconds": 577.860649916227,
+  "stages": [
+    {
+      "source": "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/DiagonalCheck.lean",
+      "compile_seconds": 0.3037064999807626,
+      "cache_hit": false,
+      "provenance_incomplete": []
+    },
+    {
+      "source": "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/MatrixPositivity.lean",
+      "compile_seconds": 1.4190952500212006,
+      "cache_hit": false,
+      "provenance_incomplete": []
+    },
+    {
+      "source": "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/IntervalSoundness.lean",
+      "compile_seconds": 1.3921136250137351,
+      "cache_hit": false,
+      "provenance_incomplete": []
+    },
+    {
+      "source": "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/GramSoundness.lean",
+      "compile_seconds": 2.239556874963455,
+      "cache_hit": false,
+      "provenance_incomplete": []
+    },
+    {
+      "source": "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/ListDotSoundness.lean",
+      "compile_seconds": 1.428659500030335,
+      "cache_hit": false,
+      "provenance_incomplete": []
+    },
+    {
+      "source": "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/FastGram.lean",
+      "compile_seconds": 1.4446060420013964,
+      "cache_hit": false,
+      "provenance_incomplete": []
+    },
+    {
+      "source": "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/Generated/H1_0B001Data.lean",
+      "compile_seconds": 2.1248090000008233,
+      "cache_hit": false,
+      "provenance_incomplete": []
+    },
+    {
+      "source": "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/SparsePolynomial.lean",
+      "compile_seconds": 0.9410371250123717,
+      "cache_hit": false,
+      "provenance_incomplete": []
+    },
+    {
+      "source": "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/SOSPolynomial.lean",
+      "compile_seconds": 1.467842500016559,
+      "cache_hit": false,
+      "provenance_incomplete": []
+    },
+    {
+      "source": "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/SOS/H1_0B001Data.lean",
+      "compile_seconds": 1.6159927920089103,
+      "cache_hit": false,
+      "provenance_incomplete": []
+    }
+  ],
+  "reuse": {
+    "schema": 1,
+    "pid": 73953,
+    "source": "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/SOS/H1_0B001Data.lean",
+    "output": "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/SOS/H1_0B001Data.olean",
+    "cache_hit": true,
+    "priority": "interactive",
+    "dedup_wait_seconds": 7.241597631946206e-05,
+    "queue_seconds": 0.0,
+    "compile_seconds": 0.0,
+    "cache_validation_seconds": 0.015628082968760282,
+    "exit_code": 0,
+    "timed_out": false,
+    "wall_seconds": 0.015993542037904263,
+    "overhead_seconds": 0.0159211260615848
+  }
+}

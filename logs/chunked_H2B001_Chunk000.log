@@ -1,0 +1,33 @@
+import took 1.28s
+'Certificate.Chunked.H2B001.Leaf000.evaluation' depends on axioms: [propext]
+'Certificate.Chunked.H2B001.Leaf001.evaluation' depends on axioms: [propext]
+'Certificate.Chunked.H2B001.Leaf002.evaluation' depends on axioms: [propext]
+'Certificate.Chunked.H2B001.Leaf003.evaluation' depends on axioms: [propext]
+'Certificate.Chunked.H2B001.Node000.evaluation' depends on axioms: [propext]
+'Certificate.Chunked.H2B001.Node001.evaluation' depends on axioms: [propext]
+'Certificate.Chunked.H2B001.Node002.evaluation' depends on axioms: [propext]
+cumulative profiling times:
+	.olean serialization 52.3ms
+	attribute application 0.0612ms
+	compilation (IR) 0.596ms
+	compilation (LCNF base) 5.93ms
+	compilation (LCNF impure) 2.36ms
+	compilation (LCNF mono) 2.65ms
+	elaboration 47.2ms
+	fix level params 0.111ms
+	import 1.28s
+	initialization 13.6ms
+	instantiate metavars 0.211ms
+	interpretation 394ms
+	let-to-have transformation 0.0553ms
+	linting 4.84ms
+	module linting 0.000459ms
+	overlappingInstancesLinter 13.9ms
+	parsing 4.68ms
+	process pre-definitions 9.02ms
+	share common exprs 0.636ms
+	tactic execution 4.1ms
+	tacticAnalysis 22.5ms
+	type checking 42.2ms
+	typeclass inference 31.6ms
+LEAN_BUILD {"cache_hit": false, "cache_validation_seconds": 0.03646391601068899, "compile_seconds": 1.862699999997858, "dedup_wait_seconds": 6.695801857858896e-05, "exit_code": 0, "output": "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/Chunked/H2B001/Chunk000.olean", "overhead_seconds": 0.03750891698291525, "pid": 72682, "priority": "interactive", "provenance_incomplete": ["/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/FastExpansion.lean", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/FastGram.lean", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/Generated/H2B001Data.lean", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/GramSoundness.lean", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/IntervalSoundness.lean", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/ListDotSoundness.lean", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/MatrixPositivity.lean", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/SOSPolynomial.lean", "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/SparsePolynomial.lean"], "queue_seconds": 0.00027487496845424175, "schema": 1, "source": "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/Certificate/Chunked/H2B001/Chunk000.lean", "timed_out": false, "wall_seconds": 1.900550749967806}

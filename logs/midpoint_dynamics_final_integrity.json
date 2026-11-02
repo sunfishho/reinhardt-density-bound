@@ -1,0 +1,13 @@
+{
+  "baseline": "verification_before_midpoint_dynamics.json",
+  "checked_prior_nonroot_modules": 1227,
+  "mismatches": [],
+  "verified_results": 242,
+  "new_results": 31,
+  "removed_results": [],
+  "unexpected_axioms": {},
+  "local_modules": 1232,
+  "production_sources": 1506,
+  "source_scan_current": true,
+  "passed": true
+}

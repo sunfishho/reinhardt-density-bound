@@ -1,0 +1,37 @@
+[
+  {
+    "variant": "OriginalGram",
+    "source": "Certificate/Benchmarks/H1_0B000OriginalGram.lean",
+    "theorem": "Certificate.Benchmarks.H1_0B000OriginalGram.checked"
+  },
+  {
+    "variant": "RowMergeGram",
+    "source": "Certificate/Benchmarks/H1_0B000RowMergeGram.lean",
+    "theorem": "Certificate.Benchmarks.H1_0B000RowMergeGram.checked"
+  },
+  {
+    "variant": "DirectMergeGram",
+    "source": "Certificate/Benchmarks/H1_0B000DirectMergeGram.lean",
+    "theorem": "Certificate.Benchmarks.H1_0B000DirectMergeGram.checked"
+  },
+  {
+    "variant": "SparseDirectGram",
+    "source": "Certificate/Benchmarks/H1_0B000SparseDirectGram.lean",
+    "theorem": "Certificate.Benchmarks.H1_0B000SparseDirectGram.checked"
+  },
+  {
+    "variant": "OriginalWeighted",
+    "source": "Certificate/Benchmarks/H1_0B000OriginalWeighted.lean",
+    "theorem": "Certificate.Benchmarks.H1_0B000OriginalWeighted.checked"
+  },
+  {
+    "variant": "DirectMergeWeighted",
+    "source": "Certificate/Benchmarks/H1_0B000DirectMergeWeighted.lean",
+    "theorem": "Certificate.Benchmarks.H1_0B000DirectMergeWeighted.checked"
+  },
+  {
+    "variant": "ShortWeighted",
+    "source": "Certificate/Benchmarks/H1_0B000ShortWeighted.lean",
+    "theorem": "Certificate.Benchmarks.H1_0B000ShortWeighted.checked"
+  }
+]

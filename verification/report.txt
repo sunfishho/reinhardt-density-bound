@@ -1,0 +1,49 @@
+Reinhardt packing-density bound: VERIFIED
+
+Standard upstream Comparator and Nanoda both accepted
+  Certificate.Packing.reinhardt_density_lower_bound
+
+Statement
+  Every origin-symmetric convex compact set in the Euclidean plane with
+  nonempty interior has packing density strictly greater than
+  8950112 / 10000000 = 0.8950112.
+
+Verification results
+  PASS: Independent reference statement and recursive definitions matched.
+  PASS: No definition holes; only propext, Quot.sound, Classical.choice allowed.
+  PASS: Nanoda checked 137,417 declarations, including dependencies.
+  PASS: Lean's kernel replay accepted the exported proof.
+  PASS: Standard Comparator exited successfully: "Your solution is okay!"
+  PASS: Both kernels received identical solution-export bytes.
+  PASS: Final source/artifact, harness, and executable integrity checks.
+  PASS: Good control accepted; altered statement and forbidden axiom rejected.
+
+Timing
+  Full successful run: 11028.729 seconds (3 h 3 min 49 s).
+  Nanoda: 5693.225 seconds (1 h 34 min 53 s).
+  Individual Lean replay wall time was not separately instrumented.
+
+Export
+  Solution: 1,124,174,737 bytes.
+  SHA-256: 243d0e7a6e13a3c6f6c96c223321d91331c7e649e4f4d42a114a1a26f4de45dd
+  Saved challenge and solution exports were independently rehashed after completion.
+
+Implementation and scope
+  Standard upstream Comparator executable; checking modules unchanged.
+  Nanoda used two workers and an existing 512 MiB worker-stack adjustment.
+  Proof-checking rules and strict axiom policy were unchanged.
+  This ran on macOS using upstream fake-landrun, without Linux sandbox isolation.
+  The reference imports only Mathlib; its six packing definitions match the
+  original benchmark byte-for-byte. Its single sorry is a reference-statement
+  placeholder, never an allowed solution axiom.
+  This verifies the improved 0.8950112 bound, not the stronger conjecture
+  identifying the smoothed octagon as the optimal body. It checks proof objects
+  and dependencies, rather than performing a clean rebuild of every source file.
+
+Evidence (paths relative to this verification directory)
+  Machine-readable report: report.json
+  Complete receipts: comparator/recorded/20261030T092754Z/
+  Final status: comparator/recorded/20261030T092754Z/status.json
+  Checker output: comparator/recorded/20261030T092754Z/reinhardt/check.log
+  Independent reference: comparator/Challenge.lean
+  Reproduction instructions: README.txt

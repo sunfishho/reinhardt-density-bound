@@ -1,0 +1,58 @@
+ContinuousLinearMap.smulRight.{u_4, u_6, u_9, u_10} {M₁ : Type u_4} [TopologicalSpace M₁] [AddCommMonoid M₁]
+  {M₂ : Type u_6} [TopologicalSpace M₂] [AddCommMonoid M₂] {R : Type u_9} {S : Type u_10} [Semiring R] [Semiring S]
+  [Module R M₁] [Module R M₂] [Module R S] [Module S M₂] [IsScalarTower R S M₂] [TopologicalSpace S]
+  [ContinuousSMul S M₂] (c : M₁ →L[R] S) (f : M₂) : M₁ →L[R] M₂
+.lake/scratch/RadialProbe.lean:8:7: error(lean.unknownIdentifier): Unknown constant `HasFDerivAt.smul`
+.lake/scratch/RadialProbe.lean:9:7: error(lean.unknownIdentifier): Unknown identifier `HasDerivAt.comp_hasFDerivAt`
+MeasureTheory.MeasurePreserving.setIntegral_preimage_emb.{u_1, u_3, u_5} {X : Type u_1} {E : Type u_3}
+  {mX : MeasurableSpace X} [NormedAddCommGroup E] [NormedSpace ℝ E] {μ : Measure X} {Y : Type u_5}
+  {x✝ : MeasurableSpace Y} {f : X → Y} {ν : Measure Y} (h₁ : MeasurePreserving f μ ν) (h₂ : MeasurableEmbedding f)
+  (g : Y → E) (s : Set Y) : ∫ (x : X) in f ⁻¹' s, g (f x) ∂μ = ∫ (y : Y) in s, g y ∂ν
+.lake/scratch/RadialProbe.lean:11:7: error(lean.unknownIdentifier): Unknown constant `MeasureTheory.MeasurePreserving.setIntegral_preimage`
+MeasureTheory.MeasurePreserving.integral_comp.{u_1, u_5, u_6} {α : Type u_1} {G : Type u_5} [NormedAddCommGroup G]
+  [NormedSpace ℝ G] {m : MeasurableSpace α} {μ : Measure α} {β : Type u_6} {x✝ : MeasurableSpace β} {f : α → β}
+  {ν : Measure β} (h₁ : MeasurePreserving f μ ν) (h₂ : MeasurableEmbedding f) (g : β → G) :
+  ∫ (x : α), g (f x) ∂μ = ∫ (y : β), g y ∂ν
+.lake/scratch/RadialProbe.lean:13:7: error(lean.unknownIdentifier): Unknown constant `MeasurableEquiv.integral_comp`
+.lake/scratch/RadialProbe.lean:14:7: error(lean.unknownIdentifier): Unknown constant `MeasureTheory.MeasurePreserving.integral_comp_emb`
+.lake/scratch/RadialProbe.lean:15:7: error(lean.unknownIdentifier): Unknown constant `ContinuousLinearMap.hasFDerivAt`
+LinearMap.toContinuousLinearMap.{u, v, x} {𝕜 : Type u} [hnorm : NontriviallyNormedField 𝕜] {E : Type v} [AddCommGroup E]
+  [Module 𝕜 E] [TopologicalSpace E] [IsTopologicalAddGroup E] [ContinuousSMul 𝕜 E] {F' : Type x} [AddCommGroup F']
+  [Module 𝕜 F'] [TopologicalSpace F'] [IsTopologicalAddGroup F'] [ContinuousSMul 𝕜 F'] [CompleteSpace 𝕜] [T2Space E]
+  [FiniteDimensional 𝕜 E] : (E →ₗ[𝕜] F') ≃ₗ[𝕜] E →L[𝕜] F'
+MeasureTheory.setIntegral_prod_mul.{u_1, u_2, u_5} {α : Type u_1} {β : Type u_2} [MeasurableSpace α] [MeasurableSpace β]
+  {μ : Measure α} {ν : Measure β} [SFinite ν] [SFinite μ] {L : Type u_5} [RCLike L] (f : α → L) (g : β → L) (s : Set α)
+  (t : Set β) : ∫ (z : α × β) in s ×ˢ t, f z.1 * g z.2 ∂μ.prod ν = (∫ (x : α) in s, f x ∂μ) * ∫ (y : β) in t, g y ∂ν
+.lake/scratch/RadialProbe.lean:18:7: error(lean.unknownIdentifier): Unknown identifier `integral_Ioo_eq_integral_Ioc`
+intervalIntegral.integral_of_le.{u_5} {E : Type u_5} [NormedAddCommGroup E] [NormedSpace ℝ E] {a b : ℝ} {f : ℝ → E}
+  {μ : Measure ℝ} (h : a ≤ b) : ∫ (x : ℝ) in a..b, f x ∂μ = ∫ (x : ℝ) in Ioc a b, f x ∂μ
+.lake/scratch/RadialProbe.lean:20:7: error(lean.unknownIdentifier): Unknown constant `intervalIntegral.integral_id`
+MeasureTheory.measurable_image_of_fderivWithin.{u_1} {E : Type u_1} [NormedAddCommGroup E] [NormedSpace ℝ E]
+  [FiniteDimensional ℝ E] {s : Set E} {f : E → E} {f' : E → E →L[ℝ] E} [MeasurableSpace E] [BorelSpace E]
+  (hs : MeasurableSet s) (hf' : ∀ x ∈ s, HasFDerivWithinAt f (f' x) s x) (hf : InjOn f s) : MeasurableSet (f '' s)
+gauge_eq_one_iff_mem_frontier.{u_2} {E : Type u_2} [AddCommGroup E] [Module ℝ E] {s : Set E} {x : E}
+  [TopologicalSpace E] [IsTopologicalAddGroup E] [ContinuousSMul ℝ E] (hc : Convex ℝ s) (hs₀ : s ∈ nhds 0) :
+  gauge s x = 1 ↔ x ∈ frontier s
+gauge_smul_of_nonneg.{u_2, u_3} {E : Type u_2} [AddCommGroup E] [Module ℝ E] {α : Type u_3} [Field α] [LinearOrder α]
+  [IsStrictOrderedRing α] [MulActionWithZero α ℝ] [IsStrictOrderedModule α ℝ] [MulActionWithZero α E]
+  [IsScalarTower α ℝ (Set E)] {s : Set E} {a : α} (ha : 0 ≤ a) (x : E) : gauge s (a • x) = a • gauge s x
+smul_right_injective.{u_1, u_3} {R : Type u_1} (M : Type u_3) [Semiring R] [AddCommMonoid M] [Module R M] {r : R}
+  [Module.IsTorsionFree R M] [IsCancelMulZero R] (hr : r ≠ 0) : Function.Injective fun x => r • x
+.lake/scratch/RadialProbe.lean:25:7: error(lean.unknownIdentifier): Unknown identifier `smul_left_cancel₀`
+.lake/scratch/RadialProbe.lean:26:7: error(lean.unknownIdentifier): Unknown identifier `HasDerivAt.hasFDerivAt`
+ContinuousLinearMap.proj.{u_1, u_4, u_5} {R : Type u_1} [Semiring R] {ι : Type u_4} {φ : ι → Type u_5}
+  [(i : ι) → TopologicalSpace (φ i)] [(i : ι) → AddCommMonoid (φ i)] [(i : ι) → Module R (φ i)] (i : ι) :
+  ((i : ι) → φ i) →L[R] φ i
+PiLp.continuousLinearEquiv.{u_1, u_2, u_4} (p : ENNReal) (𝕜 : Type u_1) {ι : Type u_2} (β : ι → Type u_4) [Semiring 𝕜]
+  [(i : ι) → AddCommGroup (β i)] [(i : ι) → Module 𝕜 (β i)] [(i : ι) → TopologicalSpace (β i)] :
+  PiLp p β ≃L[𝕜] (i : ι) → β i
+MeasureTheory.MeasurePreserving.symm.{u_1, u_2} {α : Type u_1} {β : Type u_2} [MeasurableSpace α] [MeasurableSpace β]
+  (e : α ≃ᵐ β) {μa : Measure α} {μb : Measure β} (h : MeasurePreserving (⇑e) μa μb) : MeasurePreserving (⇑e.symm) μb μa
+MeasurableEquiv.finTwoArrow.{u_1} {α : Type u_1} [MeasurableSpace α] : (Fin 2 → α) ≃ᵐ α × α
+MeasureTheory.measure_congr.{u_1, u_3} {α : Type u_1} {F : Type u_3} [FunLike F (Set α) ENNReal] [OuterMeasureClass F α]
+  {μ : F} {s t : Set α} (H : s =ᵐ[μ] t) : μ s = μ t
+.lake/scratch/RadialProbe.lean:32:7: error(lean.unknownIdentifier): Unknown constant `MeasurableSet.measure_toReal`
+IsCompact.isVonNBounded.{u_1, u_3} (𝕜 : Type u_1) {E : Type u_3} [NormedField 𝕜] [AddCommGroup E] [Module 𝕜 E]
+  [TopologicalSpace E] [IsTopologicalAddGroup E] [ContinuousSMul 𝕜 E] {s : Set E} (hs : IsCompact s) :
+  Bornology.IsVonNBounded 𝕜 s
+LEAN_BUILD {"argv": ["-M", "8192", ".lake/scratch/RadialProbe.lean"], "cache_argv": ["/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/.lake/scratch/RadialProbe.lean"], "cache_hit": false, "cache_validation_seconds": 3.750319592654705e-07, "compile_seconds": 36.42707325000083, "dedup_wait_seconds": 0.0, "exit_code": 1, "output": null, "overhead_seconds": 0.0014301659539341927, "pid": 99123, "priority": "interactive", "profile_requested": false, "queue_seconds": 0.000512500002514571, "schema": 1, "source": "/Users/matthewho/Downloads/Stanford/ai-for-math/convex-lean-eval/convex_problems/open_problems/trajectories/reinhardt_certificate/.lake/scratch/RadialProbe.lean", "timed_out": false, "wall_seconds": 36.42901591595728}
